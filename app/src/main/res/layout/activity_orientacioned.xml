@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".erikadaniel.Orientacioned">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/namuiwanfondoed"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ORIENTACION DE LA CASA"
+                    android:layout_marginTop="180sp"
+                    android:textColor="#FAF6F6"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ya pϴtϴkatan:"
+                    android:textColor="#FAF6F6"
+                    android:textSize="24sp" />
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgpuerta"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            app:srcCompat="@drawable/puertaed" />
+
+                        <TextView
+                            android:id="@+id/txtpuerta"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="puerta"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+
+                    </TableRow>
+
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgventana"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            app:srcCompat="@drawable/ventanaed" />
+
+                        <TextView
+                            android:id="@+id/txtventana"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ventana"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgbano"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            app:srcCompat="@drawable/banoed" />
+
+                        <TextView
+                            android:id="@+id/txtbano"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Baño"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imglavadero"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            app:srcCompat="@drawable/lavaderoed" />
+
+                        <TextView
+                            android:id="@+id/txtlavadero"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lavadero"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgarriba"
+                            android:layout_width="130dp"
+                            android:layout_height="153dp"
+                            app:srcCompat="@drawable/arribaed" />
+
+                        <TextView
+                            android:id="@+id/txtarriba"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="arriba"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgabajo"
+                            android:layout_width="124dp"
+                            android:layout_height="171dp"
+                            app:srcCompat="@drawable/abajoed" />
+
+                        <TextView
+                            android:id="@+id/txtabajo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="abajo"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgderecha"
+                            android:layout_width="130dp"
+                            android:layout_height="153dp"
+                            app:srcCompat="@drawable/derechaed" />
+
+                        <TextView
+                            android:id="@+id/txtderecha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="derecha"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgizquierda"
+                            android:layout_width="124dp"
+                            android:layout_height="171dp"
+                            app:srcCompat="@drawable/izquierdaed" />
+
+                        <TextView
+                            android:id="@+id/txtizquierda"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="izquierda"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".erikadaniel.Menued"
+    android:background="@drawable/namuiwanfondoed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="802dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="27mm"
+                    android:text="NAMUIWAM"
+                    android:textColor="#FAF6F6"
+                    android:textDirection="firstStrongLtr"
+                    android:textIsSelectable="true"
+                    android:textSize="48sp"
+                    android:typeface="normal" />
+
+                <!-- <Button
+                    android:id="@+id/btningresar"
+                    android:layout_width="360dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:text="INGRESAR DATOS" />
+                -->
+                <Button
+                    android:id="@+id/btncasa"
+                    android:layout_width="360dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#00BCD4"
+                    android:text="CASA (Ya )" />v
+
+                <Button
+                    android:id="@+id/btncocina"
+                    android:layout_width="360dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#009688"
+                    android:text="Cocina (Nak chak)" />
+
+                <Button
+                    android:id="@+id/btnpatio"
+                    android:layout_width="360dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#00BCD4"
+                    android:text="patio (Yaketa)" />
+
+                <Button
+                    android:id="@+id/btnhuerta"
+                    android:layout_width="360dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#009688"
+                    android:text="huerta (Yatul)" />
+
+                <Button
+                    android:id="@+id/btnjugar"
+                    android:layout_width="360dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#00BCD4"
+                    android:text="JUGAR (Eshekamik)" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

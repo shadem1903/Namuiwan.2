@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".erikadaniel.Domesticoed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/namuiwanfondoed"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ANIMALES DOMESTICOS"
+                    android:layout_marginTop="180sp"
+                    android:textColor="#FAF6F6"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Yau Tekakuik Ushamera"
+                    android:textColor="#FAF6F6"
+                    android:textSize="24sp" />
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgcuy"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            app:srcCompat="@drawable/cuyed" />
+
+                        <TextView
+                            android:id="@+id/txcuy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cuy"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgconejo"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            android:src="@drawable/conejoed" />
+
+                        <TextView
+                            android:id="@+id/txconejo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Conejo"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imggallina"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            app:srcCompat="@drawable/gallinaed" />
+
+                        <TextView
+                            android:id="@+id/txgallina"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gallina"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgperro"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            app:srcCompat="@drawable/perroed" />
+
+                        <TextView
+                            android:id="@+id/txperro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Perro"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imggato"
+                            android:layout_width="145dp"
+                            android:layout_height="142dp"
+                            app:srcCompat="@drawable/gatoed" />
+
+                        <TextView
+                            android:id="@+id/txgato"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gato"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgcaballo"
+                            android:layout_width="131dp"
+                            android:layout_height="155dp"
+                            app:srcCompat="@drawable/caballoed" />
+
+                        <TextView
+                            android:id="@+id/txcaballo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Caballo"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgvaca"
+                            android:layout_width="124dp"
+                            android:layout_height="171dp"
+                            app:srcCompat="@drawable/vacaed" />
+
+                        <TextView
+                            android:id="@+id/txvaca"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vaca"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imgovejo"
+                            android:layout_width="124dp"
+                            android:layout_height="171dp"
+                            app:srcCompat="@drawable/ovejoed" />
+
+                        <TextView
+                            android:id="@+id/txovejo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ovejo"
+                            android:textColor="#FAF6F6"
+                            android:textSize="34sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

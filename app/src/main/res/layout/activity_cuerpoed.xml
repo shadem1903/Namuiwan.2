@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/namuiwanfondoed"
+    tools:context=".erikadaniel.Cuerpoed">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="PARTES DEL CUERPO"
+        android:textColor="#FAF6F6"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Namui asr"
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Toca el punto, para saber que parte del cuerpo es"
+        android:textAlignment="center"
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+    <ImageView
+        android:id="@+id/partecuerpo"
+        android:layout_width="409dp"
+        android:layout_height="352dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754"
+        app:srcCompat="@drawable/ninaed" />
+
+    <TextView
+        android:id="@+id/txparte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="PARTE DEL CUERPO"
+        android:textColor="#FAF6F6"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <TextView
+        android:id="@+id/txcuerpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Namui asr "
+        android:textColor="#FAF6F6"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <ImageView
+        android:id="@+id/btncabeza"
+        android:layout_width="251dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515"
+        app:srcCompat="@drawable/cabezaed" />
+
+    <ImageView
+        android:id="@+id/btnboca"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        android:backgroundTintMode="add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bocaed"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <ImageView
+        android:id="@+id/btnbrazo"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/brazosed"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <ImageView
+        android:id="@+id/btncintura"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cinturaed"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <ImageView
+        android:id="@+id/btnhombro"
+        android:layout_width="171dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/hombroed"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <ImageView
+        android:id="@+id/btnmano"
+        android:layout_width="238dp"
+        android:layout_height="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/manosed"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <ImageView
+        android:id="@+id/btnnariz"
+        android:layout_width="24dp"
+        android:layout_height="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/narized"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <ImageView
+        android:id="@+id/btnojos"
+        android:layout_width="91dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="168dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ojosed"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <ImageView
+        android:id="@+id/btnorejas"
+        android:layout_width="186dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="112dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/orejaed"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <ImageView
+        android:id="@+id/btnpierna"
+        android:layout_width="186dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="112dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/piernased"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <ImageView
+        android:id="@+id/btnpie"
+        android:layout_width="178dp"
+        android:layout_height="43dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pieed"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <ImageView
+        android:id="@+id/btnrodilla"
+        android:layout_width="188dp"
+        android:layout_height="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rodillaed"
+        tools:layout_editor_absoluteY="533dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

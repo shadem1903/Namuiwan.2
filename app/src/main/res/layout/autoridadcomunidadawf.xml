@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondococinaawf"
+    tools:context=".AlvaroW.Autoridadcomunidadawf">
+
+
+    <ImageView
+        android:id="@+id/imgbttmama"
+        android:layout_width="148dp"
+        android:layout_height="283dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        app:srcCompat="@drawable/ninamisakawf" />
+
+    <ImageView
+        android:id="@+id/imgbttntata"
+        android:layout_width="155dp"
+        android:layout_height="294dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331"
+        app:srcCompat="@drawable/ninomisakawf" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="329dp"
+        android:layout_height="47dp"
+        android:focusableInTouchMode="true"
+        android:fontFamily="monospace"
+        android:text="AUTORIDAD EN LA COMUNIDAD"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.646"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/txtmama"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:text="MAMA"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <TextView
+        android:id="@+id/txttata"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:text="TATA"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <ImageView
+        android:id="@+id/imgbas"
+        android:layout_width="57dp"
+        android:layout_height="266dp"
+        android:rotation="17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365"
+        app:srcCompat="@drawable/bastonawf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

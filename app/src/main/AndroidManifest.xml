@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.namuiwan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Namuiwan">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".yatulve.Frio"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Calido"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Trueque"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Numeros"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Verduras"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Frutas"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Herramientas"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Huerta"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.MenuHuerta"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.rompeca.Home"
+            android:exported="false"/>
+        <activity
+            android:name=".Josue.rompeca.PuzzleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Casaed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Geometricaed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Orientacioned"
+            android:exported="true" />
+        <activity
+            android:name=".erikadaniel.Cuerpoed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Familiaed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Tierraed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Salvajeed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Domesticoed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Sitioed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Huertaed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Menued"
+            android:exported="true" />
+        <activity
+            android:name=".erikadaniel.Bosqueed"
+            android:exported="true" />
+        <activity
+            android:name=".erikadaniel.Plantased"
+            android:exported="true" />
+        <activity
+            android:name=".willi_zaret.Manuales_wz"
+            android:exported="false" />
+        <activity
+            android:name=".willi_zaret.ManualesTelar_wz"
+            android:exported="false" />
+        <activity
+            android:name=".willi_zaret.Arsesania_wz"
+            android:exported="false" />
+        <activity
+            android:name=".willi_zaret.Alfareria_wz"
+            android:exported="false" />
+        <activity
+            android:name=".willi_zaret.Patio_wz"
+            android:exported="false" />
+        <activity
+            android:name=".willi_zaret.Principal_wz"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.carlos.juego"
+            android:exported="false" />
+        <activity
+            android:name=".AlvaroW.Convivenciaawf"
+            android:exported="false" />
+        <activity
+            android:name=".AlvaroW.Autoridadcomunidadawf"
+            android:exported="false" />
+        <activity
+            android:name=".AlvaroW.Saludosawf"
+            android:exported="false" />
+        <activity
+            android:name=".AlvaroW.Autoridadawf"
+            android:exported="false" />
+        <activity
+            android:name=".AlvaroW.Espiritualidadawf"
+            android:exported="false" />
+        <activity
+            android:name=".AlvaroW.Cocinaawf"
+            android:exported="false" />
+        <activity
+            android:name=".AlvaroW.Splashinicioawf"
+            android:exported="false" />
+    </application>
+
+</manifest>
