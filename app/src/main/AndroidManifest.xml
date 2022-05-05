@@ -11,13 +11,7 @@
         android:theme="@style/Theme.Namuiwan">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"/>
         <activity
             android:name=".yatulve.Frio"
             android:exported="false" />
@@ -51,6 +45,15 @@
         <activity
             android:name=".Josue.rompeca.PuzzleActivity"
             android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Inicio"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+         </activity>
         <activity
             android:name=".erikadaniel.Casaed"
             android:exported="false" />

@@ -31,7 +31,7 @@ public class Splashinicioawf extends AppCompatActivity {
 
         };
         Timer timer = new Timer();
-        timer.schedule(tarea, 4000);
+        timer.schedule(tarea, 2000);
     }
 
     private void llamar() {

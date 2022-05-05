@@ -1,18 +1,26 @@
 package com.example.namuiwan.erikadaniel;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.namuiwan.AlvaroW.Splashinicioawf;
+import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
+import com.example.namuiwan.willi_zaret.Principal_wz;
+import com.example.namuiwan.yatulve.MenuHuerta;
+
 
 public class Menued extends AppCompatActivity  implements View.OnClickListener  {
 
-    Button btncasa, btncocina, btnpatio, btnhuerta, btnjugar, btningresar;
+    ImageView btncasa, btncocina, btnhuerta, btnartesania, btnjugar;
+    MediaPlayer artesania, casa, cocina, huerta, juegos;
+
 
 
     @Override
@@ -29,10 +37,17 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
         btncocina.setOnClickListener(this);
         btnhuerta = findViewById(R.id.btnhuerta);
         btnhuerta.setOnClickListener(this);
-        btnpatio = findViewById(R.id.btnpatio);
-        btnpatio.setOnClickListener(this);
+        btnartesania = findViewById(R.id.btnartesania);
+        btnartesania.setOnClickListener(this);
         btnjugar = findViewById(R.id.btnjugar);
         btnjugar.setOnClickListener(this);
+
+        //almacenar sonidos en las variables
+        artesania = MediaPlayer.create(this,R.raw.artesaniased);
+        casa = MediaPlayer.create(this,R.raw.casaed);
+        cocina = MediaPlayer.create(this,R.raw.cocinaed);
+        huerta = MediaPlayer.create(this,R.raw.huertaed);
+        juegos = MediaPlayer.create(this,R.raw.juegosed);
 
     }
 
@@ -41,21 +56,33 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
         switch (view.getId()) {
 
             case R.id.btncasa:
-                Toast.makeText(Menued.this, "A seleccionado Casa", Toast.LENGTH_SHORT).show();
-                Intent intent2 = new Intent(Menued.this, Casaed.class);
-                startActivity(intent2);
-
+                Intent intent1 = new Intent(Menued.this, Casaed.class);
+                startActivity(intent1);
+                casa.start();
                 break;
-            case R.id.btnpatio:
-                Toast.makeText(Menued.this, "A seleccionado Patio", Toast.LENGTH_SHORT).show();
-                Intent intent3 = new Intent(Menued.this, Sitioed.class);
-                startActivity(intent3);
 
-                break;
             case R.id.btnhuerta:
-                Toast.makeText(Menued.this, "A seleccionado huerta", Toast.LENGTH_SHORT).show();
-                Intent intent4 = new Intent(Menued.this, Huertaed.class);
+                Intent intent2 = new Intent(Menued.this, MenuHuerta.class);
+                startActivity(intent2);
+                huerta.start();
+                break;
+
+            case R.id.btnartesania:
+                Intent intent3 = new Intent(Menued.this, Principal_wz.class);
+                startActivity(intent3);
+                artesania.start();
+                break;
+
+            case R.id.btncocina:
+                Intent intent4 = new Intent(Menued.this, Splashinicioawf.class);
                 startActivity(intent4);
+                cocina.start();
+                break;
+
+            case R.id.btnjugar:
+                Intent intent5 = new Intent(Menued.this, Home.class);
+                startActivity(intent5);
+                juegos.start();
 
 
 
