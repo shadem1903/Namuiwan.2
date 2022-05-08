@@ -2,6 +2,7 @@ package com.example.namuiwan.willi_zaret;
 
 import android.content.DialogInterface;
 import android.media.MediaPlayer;
+import com.example.namuiwan.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +10,6 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.namuiwan.R;
 
 public class Manuales_wz extends AppCompatActivity {
 ImageButton imgBtnJigra, imgBtnMochila,imgBtnSombrero;

@@ -54,6 +54,34 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
          </activity>
+        <!--willian y zaret-->
+
+        <activity
+            android:name=".willi_zaret.Principal_wz"
+            android:exported="false" />
+
+        <activity
+            android:name=".willi_zaret.Patio_wz"
+            android:exported="false" />
+
+        <activity
+            android:name=".willi_zaret.ManualesTelar_wz"
+            android:exported="false" />
+
+        <activity
+            android:name=".willi_zaret.Manuales_wz"
+            android:exported="false" />
+
+        <activity
+            android:name=".willi_zaret.Arsesania_wz"
+            android:exported="false" />
+
+        <activity
+            android:name=".willi_zaret.Alfareria_wz"
+            android:exported="false" />
+
+
+        <!--hasta aqui-->
         <activity
             android:name=".erikadaniel.Casaed"
             android:exported="false" />
@@ -93,24 +121,6 @@
         <activity
             android:name=".erikadaniel.Plantased"
             android:exported="true" />
-        <activity
-            android:name=".willi_zaret.Manuales_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.ManualesTelar_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Arsesania_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Alfareria_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Patio_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Principal_wz"
-            android:exported="false" />
         <activity
             android:name=".Josue.carlos.juego"
             android:exported="false" />
