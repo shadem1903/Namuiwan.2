@@ -3,12 +3,12 @@ package com.example.namuiwan.willi_zaret;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import com.example.namuiwan.R;
+
 import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.namuiwan.R;
 
 public class Principal_wz extends AppCompatActivity implements View.OnClickListener {
 ImageButton imgBtnPatio, imgBtnArtesania;
@@ -29,7 +29,7 @@ ImageButton imgBtnPatio, imgBtnArtesania;
         switch (view.getId()){
             case R.id.imgBtnPatio:
                 Toast.makeText(Principal_wz.this, "ah selecionado patio", Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(Principal_wz.this, Manuales_wz.class);
+                Intent intent = new Intent(Principal_wz.this, Patio_wz.class);
                 startActivity(intent);
                 break;
 

@@ -4,13 +4,13 @@ import android.content.DialogInterface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import com.example.namuiwan.R;
+
 import android.view.View;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.namuiwan.R;
 
 public class Manuales_wz extends AppCompatActivity {
 ImageButton imgBtnJigra, imgBtnMochila,imgBtnSombrero;

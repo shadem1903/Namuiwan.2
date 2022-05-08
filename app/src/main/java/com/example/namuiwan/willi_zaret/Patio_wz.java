@@ -4,11 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import com.example.namuiwan.R;
+
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.namuiwan.R;
 
 public class Patio_wz extends AppCompatActivity implements View.OnClickListener {
     ImageButton  imgBtnArtesania;

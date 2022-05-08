@@ -22,7 +22,6 @@ ImageButton imgBtnAlfareria,imgBtnManuales, imgBtnManualesTelar;
         imgBtnAlfareria=findViewById(R.id.imgBtnAlfareria);
         imgBtnAlfareria.setOnClickListener(this);
 
-
         imgBtnManuales=findViewById(R.id.imgBtnManuales);
         imgBtnManuales.setOnClickListener(this);
 
@@ -41,7 +40,7 @@ ImageButton imgBtnAlfareria,imgBtnManuales, imgBtnManualesTelar;
 
             case R.id.imgBtnManuales:
                 Toast.makeText(Arsesania_wz.this, "ah selecionado manuales", Toast.LENGTH_SHORT).show();
-                Intent intent2=new Intent(Arsesania_wz.this, Manuales_wz.class);
+                Intent intent2 = new Intent(Arsesania_wz.this, Manuales_wz.class);
                 startActivity(intent2);
                 break;
 

@@ -5,28 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_wz"
-    >
+    tools:context=".willi_zaret.Alfareria_wz">
+
     <ImageView
         android:id="@+id/title_view"
-        android:layout_width="98dp"
-        android:layout_height="120dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="0dp"
         android:src="@drawable/ninomwz"
         android:textColor="#fff"
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <GridLayout
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="900dp"
+        android:layout_height="200dp"
         android:layout_below="@+id/title_view"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
 
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
-        android:columnCount="2"
+        android:columnCount="3"
         android:rowCount="3">
         <!--primer contenedor con cardview-->
         <androidx.cardview.widget.CardView
@@ -49,17 +50,17 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imgBtnAnanco"
+                    android:id="@+id/imgBtnOlla"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/anaco_wz" />
+                    android:src="@drawable/olla_wz" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:text="ANACO"
+                    android:text="OLLA"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -88,16 +89,16 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imgBtnRuana"
+                    android:id="@+id/imgBtnPaila"
                     android:layout_width="120dp"
                     android:layout_height="100dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ruanawz" />
+                    android:src="@drawable/pailawz" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="RUANA"
+                    android:text="PAILA"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -108,9 +109,9 @@
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_row="1"
+            android:layout_row="0"
             android:layout_rowWeight="1"
-            android:layout_column="0"
+            android:layout_column="2"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="20dp"
@@ -125,16 +126,16 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imgBtnChumbe"
+                    android:id="@+id/imgBtnPlato"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/chumbewz" />
+                    android:src="@drawable/platowz" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CHUMBE"
+                    android:text="PlATO"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -142,41 +143,6 @@
         </androidx.cardview.widget.CardView>
 
         <!--cuarto contenedor-->
-        <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="1"
-            android:layout_rowWeight="1"
-            android:layout_column="1"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="20dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="20dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageButton
-                    android:id="@+id/imgBtnCorrea"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/correawz" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:text="CORREA"
-                    android:textAlignment="center"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
     </GridLayout>
+
 </RelativeLayout>

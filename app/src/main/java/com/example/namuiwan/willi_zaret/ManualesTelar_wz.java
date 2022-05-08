@@ -5,12 +5,12 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import com.example.namuiwan.R;
+
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.namuiwan.R;
 
 public class ManualesTelar_wz extends AppCompatActivity {
 ImageButton imgBtnruana, imgBtnChumbe, imgBtnCorrea, imgBtnAnaco;
