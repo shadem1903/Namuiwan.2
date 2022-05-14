@@ -1,17 +1,16 @@
-package com.example.namuiwan.erikadaniel;
+package com.example.namuiwan;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.namuiwan.AlvaroW.Splashinicioawf;
-import com.example.namuiwan.Josue.rompeca.Home;
-import com.example.namuiwan.R;
+import com.example.namuiwan.Josue.JuegosCJ;
+import com.example.namuiwan.erikadaniel.Casaed;
 import com.example.namuiwan.willi_zaret.Principal_wz;
 import com.example.namuiwan.yatulve.MenuHuerta;
 
@@ -80,7 +79,7 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
                 break;
 
             case R.id.btnjugar:
-                Intent intent5 = new Intent(Menued.this, Home.class);
+                Intent intent5 = new Intent(Menued.this, JuegosCJ.class);
                 startActivity(intent5);
                 juegos.start();
 

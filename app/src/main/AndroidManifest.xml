@@ -19,9 +19,6 @@
             android:name=".Josue.JuegosCJ"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".yatulve.Frio"
             android:exported="false" />
         <activity
@@ -109,7 +106,7 @@
             android:name=".erikadaniel.Sitioed"
             android:exported="false" />
         <activity
-            android:name=".erikadaniel.Menued"
+            android:name=".Menued"
             android:exported="true" />
         <activity
             android:name=".erikadaniel.Bosqueed"

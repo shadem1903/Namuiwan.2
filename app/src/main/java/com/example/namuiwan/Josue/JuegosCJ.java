@@ -30,7 +30,7 @@ public class JuegosCJ extends AppCompatActivity {
         btnAdivina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),MenuAdivina.class);
+                Intent intent = new Intent(getApplicationContext(), MenuAdivina.class);
                 startActivityForResult(intent, 0);
             }
         });
