@@ -19,6 +19,7 @@ public class JuegosCJ extends AppCompatActivity {
         setContentView(R.layout.activity_juegos_cj);
 
         btnPuzzle = findViewById(R.id.btnPuzzle);
+
         btnPuzzle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

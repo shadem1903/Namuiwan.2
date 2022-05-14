@@ -7,7 +7,6 @@
     android:background="@drawable/fondojuegosed"
     tools:context=".Josue.JuegosCJ">
 
-
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animation_view"
         android:layout_width="100dp"
@@ -17,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282"
+        app:layout_constraintVertical_bias="0.248"
         app:lottie_autoPlay="true"
         app:lottie_fileName="hello_world.json"
         app:lottie_loop="true"
