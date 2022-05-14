@@ -10,13 +10,14 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.namuiwan.AlvaroW.Splashinicioawf;
+import com.example.namuiwan.Josue.JuegosCJ;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.erikadaniel.Casaed;
 import com.example.namuiwan.willi_zaret.Principal_wz;
 import com.example.namuiwan.yatulve.MenuHuerta;
 
 public class MainActivity extends AppCompatActivity {
-    Button btnPuzzle, btncasa,btnPatio,btnAlvaro;
+    Button btnJuegos, btncasa,btnPatio,btnAlvaro;
     ImageView imgHuerta;
     MediaPlayer huerta;
 
@@ -24,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnPuzzle = findViewById(R.id.btnPuzzle);
-        btnPuzzle.setOnClickListener(new View.OnClickListener() {
+        btnJuegos = findViewById(R.id.btnJuegos);
+        btnJuegos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Home.class);
+                Intent intent = new Intent(getApplicationContext(), JuegosCJ.class);
                 startActivityForResult(intent, 0);
             }
         });

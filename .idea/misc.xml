@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/font/kidboys.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout-land/activity_casaed.xml" value="0.16225749559082892" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout-land/activity_cuerpoed.xml" value="0.16225749559082892" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout-land/activity_domesticoed.xml" value="0.16225749559082892" />
@@ -16,6 +17,7 @@
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_cuerpoed.xml" value="0.371875" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_domesticoed.xml" value="0.19166666666666668" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_familiaed.xml" value="0.5" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_tierraed.xml" value="0.19166666666666668" />
       </map>
     </option>

@@ -68,8 +68,7 @@
                             android:layout_width="297dp"
                             android:layout_height="75dp"
                             android:layout_gravity="center"
-                            android:text="FAMILIA (Yawelϴ)"
-                            android:background="@drawable/botoned"/>
+                            android:text="FAMILIA (Yawelϴ)" />
                     </TableRow>
 
                     <TableRow
@@ -93,7 +92,7 @@
                             android:layout_width="360dp"
                             android:layout_height="75dp"
                             android:layout_gravity="center"
-                            android:text="ORIENTACION DE LA CASA (Ya pϴtϴkatan)" />
+                            android:text="ORIENTACION DE LA CASA (Ya pϴtϴkatan9" />
                     </TableRow>
 
                     <TableRow
@@ -105,7 +104,7 @@
                             android:layout_width="360dp"
                             android:layout_height="75dp"
                             android:layout_gravity="center"
-                            android:text="FIGURAS GEOMETRICAS" />
+                            android:text="FGURAS GEOMETRICAS" />
                     </TableRow>
 
                     <TableRow
@@ -122,7 +121,6 @@
 
 
                 </TableLayout>
-
 
 
             </LinearLayout>
