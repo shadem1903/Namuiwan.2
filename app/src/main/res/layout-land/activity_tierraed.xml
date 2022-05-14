@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-    -<androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
     android:background="@drawable/namuiwanfondoed"
     tools:context=".erikadaniel.Tierraed"
     android:layout_height="match_parent"
