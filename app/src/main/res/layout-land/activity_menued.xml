@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".erikadaniel.Menued"
-    android:background="@drawable/portadaved">
+    android:background="@drawable/portadaedh">
 
     <ImageView
         android:id="@+id/btncasa"
@@ -18,58 +18,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.091"
-        app:srcCompat="@drawable/casaved" />
+        app:srcCompat="@drawable/casaedh" />
 
     <ImageView
         android:id="@+id/btnhuerta"
-        android:layout_width="142dp"
-        android:layout_height="140dp"
+        android:layout_width="141dp"
+        android:layout_height="80dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintHorizontal_bias="0.7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551"
-        app:srcCompat="@drawable/huertaved" />
+        app:layout_constraintVertical_bias="0.613"
+        app:srcCompat="@drawable/huertaedh" />
 
     <ImageView
         android:id="@+id/btnartesania"
-        android:layout_width="92dp"
-        android:layout_height="150dp"
+        android:layout_width="94dp"
+        android:layout_height="92dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.21"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777"
-        app:srcCompat="@drawable/artesaniaved" />
+        app:layout_constraintVertical_bias="0.761"
+        app:srcCompat="@drawable/artesaniaedh" />
 
     <ImageView
         android:id="@+id/btncocina"
-        android:layout_width="147dp"
-        android:layout_height="121dp"
+        android:layout_width="128dp"
+        android:layout_height="98dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintHorizontal_bias="0.859"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
-        app:srcCompat="@drawable/fuegoved" />
+        app:layout_constraintVertical_bias="0.361"
+        app:srcCompat="@drawable/fuegoedh" />
 
     <ImageView
         android:id="@+id/btnjugar"
-        android:layout_width="122dp"
-        android:layout_height="87dp"
+        android:layout_width="118dp"
+        android:layout_height="54dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintHorizontal_bias="0.796"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9"
-        app:srcCompat="@drawable/juegoved" />
+        app:layout_constraintVertical_bias="0.809"
+        app:srcCompat="@drawable/juegoedh" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
