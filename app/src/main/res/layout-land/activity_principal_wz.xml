@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_wz"
-    >
+    android:background="@drawable/fondopatioed">
+
 
     <ImageView
         android:id="@+id/title_view"
-        android:layout_width="98dp"
-        android:layout_height="120dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:src="@drawable/ninomwz"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/flechawz"
         android:textColor="#fff"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -24,10 +23,10 @@
         android:layout_height="200dp"
         android:layout_below="@+id/title_view"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="70dp"
 
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="105dp"
+        android:layout_marginEnd="290dp"
         android:layout_marginBottom="30dp"
         android:columnCount="2"
         android:rowCount="3">
@@ -41,7 +40,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="20dp"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="12dp">
 
             <LinearLayout
@@ -52,17 +51,17 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imgBtnArtesanias"
+                    android:id="@+id/imgBtnPatio"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/artesaniasss_wz" />
+                    android:src="@drawable/patio_wz" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:text="ARTESANIAS"
+                    android:text="PATIO"
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -71,4 +70,4 @@
 
 
     </GridLayout>
-    </RelativeLayout>
+</RelativeLayout>

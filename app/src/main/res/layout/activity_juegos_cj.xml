@@ -4,83 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/namuiwanfondo"
-    tools:context=".MainActivity">
+    android:background="@drawable/fondojuegosed"
+    tools:context=".Josue.JuegosCJ">
 
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="hello_world.json"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/puzzle"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnJuegos"
+        android:id="@+id/btnHabilidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Eshekamik"
+        android:text="habilidades"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.772"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
+        app:layout_constraintVertical_bias="0.695" />
 
     <Button
-        android:id="@+id/btnAlvaro"
+        android:id="@+id/btnAdivina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Alvaro"
+        android:text="adivina"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.847"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintVertical_bias="0.45" />
 
     <Button
-        android:id="@+id/btnPatio"
+        android:id="@+id/btnMemorie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Patio"
+        android:text="Memoria"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.644" />
-
-    <Button
-        android:id="@+id/btncasa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Casa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.855" />
-
-    <ImageView
-        android:id="@+id/imgHuerta"
-        android:layout_width="171dp"
-        android:layout_height="140dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.42"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.263"
-        app:srcCompat="@drawable/huertave" />
+        app:layout_constraintVertical_bias="0.288" />
 
     <TextView
-        android:id="@+id/txtHuerta"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ya-Tul"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
+        android:text="Juegos"
+        android:textSize="50dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
+        app:layout_constraintVertical_bias="0.064" />
 
+    <Button
+        android:id="@+id/btnPuzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="puzzle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
 </androidx.constraintlayout.widget.ConstraintLayout>

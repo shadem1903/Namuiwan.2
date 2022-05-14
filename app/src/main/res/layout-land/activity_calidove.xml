@@ -4,186 +4,189 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".yatulve.Frutas"
+    tools:context=".yatulve.Calido"
     android:background="@drawable/fondove">
 
     <TextView
+        android:id="@+id/txtPapaGuata"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mamikmera"
-        android:textColor="@android:color/white"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="FRUTAS"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="@android:color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.109" />
-
-    <TextView
-        android:id="@+id/txtFresas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fresas"
+        android:text="Papa Guata"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844" />
+        app:layout_constraintVertical_bias="0.496" />
 
     <TextView
-        android:id="@+id/txtMortino"
+        android:id="@+id/txtArracacha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mortiño"
+        android:text="Arracacha"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637" />
+        app:layout_constraintVertical_bias="0.496" />
 
     <TextView
-        android:id="@+id/txtMora"
+        android:id="@+id/txtOca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mora"
+        android:text="Oca"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintHorizontal_bias="0.658"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431" />
+        app:layout_constraintVertical_bias="0.873" />
 
     <TextView
-        android:id="@+id/txtUchuvas"
+        android:id="@+id/txtMaiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Uchuvas"
+        android:text="Maiz"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.344"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.24" />
+        app:layout_constraintVertical_bias="0.85" />
 
     <ImageView
-        android:id="@+id/imgFresas"
-        android:layout_width="140dp"
-        android:layout_height="110dp"
+        android:id="@+id/imageView34"
+        android:layout_width="75dp"
+        android:layout_height="46dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.774"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.893"
-        app:srcCompat="@drawable/fresasve" />
-
-    <ImageView
-        android:id="@+id/imgMora"
-        android:layout_width="127dp"
-        android:layout_height="124dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431"
-        app:srcCompat="@drawable/morave" />
-
-    <ImageView
-        android:id="@+id/imgMortino"
-        android:layout_width="139dp"
-        android:layout_height="92dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.198"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657"
-        app:srcCompat="@drawable/mortinove" />
-
-    <ImageView
-        android:id="@+id/imgUchuvas"
-        android:layout_width="168dp"
-        android:layout_height="132dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.189"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188"
-        app:srcCompat="@drawable/uchuvave" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="73dp"
-        android:layout_height="49dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.857"
+        app:layout_constraintVertical_bias="0.49"
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="73dp"
-        android:layout_height="49dp"
+        android:id="@+id/imageView35"
+        android:layout_width="68dp"
+        android:layout_height="44dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431"
+        app:layout_constraintVertical_bias="0.896"
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="73dp"
-        android:layout_height="49dp"
-        android:rotationY="180"
+        android:id="@+id/imageView32"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:rotation="182"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintHorizontal_bias="0.241"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.233"
+        app:layout_constraintVertical_bias="0.493"
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="73dp"
-        android:layout_height="49dp"
-        android:rotationY="180"
+        android:id="@+id/imageView33"
+        android:layout_width="67dp"
+        android:layout_height="47dp"
+        android:rotation="182"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.001"
+        app:layout_constraintStart_toEndOf="@+id/imgMaiz"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863"
+        app:srcCompat="@drawable/flechave" />
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alimentos Calientes"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleCalido"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/titleCalido"
+        android:layout_width="532dp"
+        android:layout_height="68dp"
+        android:text="Pachik Mamikmera"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643"
-        app:srcCompat="@drawable/flechave" />
+        app:layout_constraintVertical_bias="0.046" />
+
+    <ImageView
+        android:id="@+id/imgArracacha"
+        android:layout_width="115dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489"
+        app:srcCompat="@drawable/arracachave" />
+
+    <ImageView
+        android:id="@+id/imgMaiz"
+        android:layout_width="85dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/maizve" />
+
+    <ImageView
+        android:id="@+id/imgOca"
+        android:layout_width="119dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922"
+        app:srcCompat="@drawable/ocave" />
+
+    <ImageView
+        android:id="@+id/imgPapaGuata"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/papaguatave" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

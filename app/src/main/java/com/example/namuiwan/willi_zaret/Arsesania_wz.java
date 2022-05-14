@@ -5,10 +5,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
+import com.example.namuiwan.R;
+
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.namuiwan.R;
 
 public class Arsesania_wz extends AppCompatActivity implements View.OnClickListener {
 ImageButton imgBtnAlfareria,imgBtnManuales, imgBtnManualesTelar;
@@ -21,7 +21,6 @@ ImageButton imgBtnAlfareria,imgBtnManuales, imgBtnManualesTelar;
     public void references(){
         imgBtnAlfareria=findViewById(R.id.imgBtnAlfareria);
         imgBtnAlfareria.setOnClickListener(this);
-
 
         imgBtnManuales=findViewById(R.id.imgBtnManuales);
         imgBtnManuales.setOnClickListener(this);
@@ -41,7 +40,7 @@ ImageButton imgBtnAlfareria,imgBtnManuales, imgBtnManualesTelar;
 
             case R.id.imgBtnManuales:
                 Toast.makeText(Arsesania_wz.this, "ah selecionado manuales", Toast.LENGTH_SHORT).show();
-                Intent intent2=new Intent(Arsesania_wz.this, Manuales_wz.class);
+                Intent intent2 = new Intent(Arsesania_wz.this, Manuales_wz.class);
                 startActivity(intent2);
                 break;
 
