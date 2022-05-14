@@ -20,7 +20,6 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_domesticoed);
-
         referenciar();
     }
 
