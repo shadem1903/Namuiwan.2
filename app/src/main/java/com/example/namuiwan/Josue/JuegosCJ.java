@@ -26,6 +26,14 @@ public class JuegosCJ extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
+        btnAdivina = findViewById(R.id.btnAdivina);
+        btnAdivina.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),MenuAdivina.class);
+                startActivityForResult(intent, 0);
+            }
+        });
 
     }
 }

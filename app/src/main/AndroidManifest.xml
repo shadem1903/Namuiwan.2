@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Namuiwan">
         <activity
+            android:name=".Josue.carlos.Adivina"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.MenuAdivina"
+            android:exported="false" />
+        <activity
             android:name=".Josue.JuegosCJ"
             android:exported="false" />
         <activity

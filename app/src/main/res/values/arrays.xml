@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>CELULAR</item>
+        <item>SILLA</item>
+        <item>MESA</item>
+        <item>NEVERA</item>
+        <item>LADRILLO</item>
+        <item>COBIJA</item>
+        <item>CORTINA</item>
+        <item>PUERTA</item>
+        <item>VENTANA</item>
+        <item>GUANTES</item>
+        <item>BALON</item>
+        <item>BICICLETA</item>
+    </string-array>
+    <string-array name="fruit">
+        <item>MANZANA</item>
+        <item>PERA</item>
+        <item>UVA</item>
+        <item>MANDARINA</item>
+        <item>PAPAYA</item>
+        <item>SANDIA</item>
+        <item>FRESA</item>
+        <item>CEREZA</item>
+        <item>MANGO</item>
+        <item>COCO</item>
+        <item>NARANJA</item>
+        <item>PIÑA</item>
+    </string-array>
+    <string-array name="animals">
+        <item>PERRO</item>
+        <item>GATO</item>
+        <item>CONEJO</item>
+        <item>OSO</item>
+        <item>PUMA</item>
+        <item>VACA</item>
+        <item>CABALLO</item>
+        <item>CERDO</item>
+        <item>DUQUE</item>
+        <item>GALLINA</item>
+        <item>BURRO</item>
+        <item>MULA</item>
+    </string-array>
+</resources>
