@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
 
 public class JuegosCJ extends AppCompatActivity {
     Button btnPuzzle,btnMemorie,btnAdivina,btnHabilidades;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,7 @@ public class JuegosCJ extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
+
 
     }
 }

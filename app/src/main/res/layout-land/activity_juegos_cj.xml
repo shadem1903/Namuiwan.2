@@ -10,17 +10,17 @@
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/puzzle"
 
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.332"
+        app:layout_constraintVertical_bias="0.657"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/dinojo" />
+        app:lottie_rawRes="@raw/animationjo1" />
 
     <Button
         android:id="@+id/btnHabilidades"
@@ -29,10 +29,10 @@
         android:text="habilidades"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.633"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793" />
+        app:layout_constraintVertical_bias="0.685" />
 
     <Button
         android:id="@+id/btnAdivina"
@@ -41,10 +41,10 @@
         android:text="adivina"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91" />
+        app:layout_constraintVertical_bias="0.666" />
 
     <Button
         android:id="@+id/btnMemorie"
@@ -53,24 +53,24 @@
         android:text="Memoria"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.91" />
+        app:layout_constraintVertical_bias="0.363" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Juegos"
-        android:textSize="50dp"
         android:textColor="@color/black"
+        android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <Button
         android:id="@+id/btnPuzzle"
@@ -79,8 +79,8 @@
         android:text="puzzle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793" />
+        app:layout_constraintVertical_bias="0.363" />
 </androidx.constraintlayout.widget.ConstraintLayout>
