@@ -10,28 +10,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:orientation="horizontal">
 
-        <ScrollView
+        <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_gravity="center"
+            android:gravity="center">
 
-            <LinearLayout
+            <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="180sp"
                     android:text="CASA"
-                    android:textColor="#FAF6F6"
+                    android:textColor="@color/black"
                     android:textSize="48sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <TextView
                     android:id="@+id/textView3"
@@ -39,93 +44,100 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Ya"
-                    android:textColor="#FAF6F6"
+                    android:textColor="@color/black"
                     android:textSize="24sp" />
+            </TableRow>
 
-                <TableLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btntierra"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/tierra" />
+            </TableRow>
 
-                        <Button
-                            android:id="@+id/btntierra"
-                            android:layout_width="360dp"
-                            android:layout_height="75dp"
-                            android:layout_gravity="center"
-                            android:text="TIERRA (Pirϴ)" />
-                    </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btnfamilia"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/familia" />
+            </TableRow>
 
-                        <Button
-                            android:id="@+id/btnfamilia"
-                            android:layout_width="297dp"
-                            android:layout_height="75dp"
-                            android:layout_gravity="center"
-                            android:text="FAMILIA (Yawelϴ)" />
-                    </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btncuerpo"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/partes" />
+            </TableRow>
 
-                        <Button
-                            android:id="@+id/btncuerpo"
-                            android:layout_width="360dp"
-                            android:layout_height="75dp"
-                            android:layout_gravity="center"
-                            android:text="PARTES DEL CUERPO (Namui asr)" />
-                    </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btnorientacion"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/orientacion" />
+            </TableRow>
 
-                        <Button
-                            android:id="@+id/btnorientacion"
-                            android:layout_width="360dp"
-                            android:layout_height="75dp"
-                            android:layout_gravity="center"
-                            android:text="ORIENTACION DE LA CASA (Ya pϴtϴkatan9" />
-                    </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btngeometrica"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="centerCrop"
+                    android:text="FGURAS GEOMETRICAS"
+                    app:srcCompat="@drawable/figuras" />
+            </TableRow>
 
-                        <Button
-                            android:id="@+id/btngeometrica"
-                            android:layout_width="360dp"
-                            android:layout_height="75dp"
-                            android:layout_gravity="center"
-                            android:text="FGURAS GEOMETRICAS" />
-                    </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                <ImageButton
+                    android:id="@+id/btndomestico"
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#00FFFFFF"
+                    android:scaleType="centerCrop"
+                    android:text="ANIMALES (Ushamera)"
+                    app:srcCompat="@drawable/animales" />
+            </TableRow>
 
-                        <Button
-                            android:id="@+id/btndomestico"
-                            android:layout_width="360dp"
-                            android:layout_height="75dp"
-                            android:layout_gravity="center"
-                            android:text="ANIMALES (Ushamera)" />
-                    </TableRow>
-
-
-                </TableLayout>
-
-
-            </LinearLayout>
-        </ScrollView>
-
+        </TableLayout>
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
