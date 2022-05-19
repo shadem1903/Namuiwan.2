@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Namuiwan">
         <activity
+            android:name=".ArrastrarySoltar"
+            android:exported="false" />
+        <activity
             android:name=".Josue.carlos.Adivina"
             android:exported="false" />
         <activity
