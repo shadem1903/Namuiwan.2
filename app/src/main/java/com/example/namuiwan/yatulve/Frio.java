@@ -12,7 +12,6 @@ import com.example.namuiwan.R;
 
 public class Frio extends AppCompatActivity implements View.OnClickListener {
     ImageView imgUlluco,imgPapaColorada,imgPapaAmarilla,imgRepollo;
-    TextView txtUlluco,txtPapaColorada, txtPapaAmarilla, txtRepollo;
     MediaPlayer ulluco,papacolorada,papaamarilla,repollo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,10 +28,6 @@ public class Frio extends AppCompatActivity implements View.OnClickListener {
         imgPapaAmarilla.setOnClickListener(this);
         imgRepollo    = findViewById(R.id.imgRepollo);
         imgRepollo.setOnClickListener(this);
-        txtUlluco   = findViewById(R.id.txtUlluco);
-        txtPapaColorada = findViewById(R.id.txtPapaColorada);
-        txtPapaAmarilla   = findViewById(R.id.txtPapaAmarilla);
-        txtRepollo = findViewById(R.id.txtRepollo);
         //almacena sonido en la variable gallina
         ulluco    = MediaPlayer.create(this,R.raw.lau);
         papacolorada  = MediaPlayer.create(this,R.raw.pikoye);
@@ -44,19 +39,15 @@ public class Frio extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgUlluco:
-                txtUlluco.setText("Lau");
                 ulluco.start();
                 break;
             case R.id.imgPapaColorada:
-                txtPapaColorada.setText("Pikϴye");
                 papacolorada.start();
                 break;
             case R.id.imgPapaAmarilla:
-                txtPapaAmarilla.setText("Maiye");
                 papaamarilla.start();
                 break;
             case R.id.imgRepollo:
-                txtRepollo.setText("Tulurmϴn");
                 repollo.start();
                 break;
         }
