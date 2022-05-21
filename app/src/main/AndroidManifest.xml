@@ -25,9 +25,6 @@
             android:name=".Josue.ArrastrarFiguras.ArrastrarySoltar"
             android:exported="false" />
         <activity
-            android:name=".ArrastrarySoltar"
-            android:exported="false" />
-        <activity
             android:name=".Josue.carlos.Adivina"
             android:exported="false" />
         <activity
