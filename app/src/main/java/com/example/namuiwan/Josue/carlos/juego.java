@@ -123,7 +123,7 @@ public class juego extends Activity {
                 R.drawable.la6,
                 R.drawable.la7
         };
-        fondo = R.drawable.fondo;
+        fondo = R.drawable.fondove;
     }
 
     private ArrayList<Integer> barajar(int longitud){

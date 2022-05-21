@@ -64,7 +64,6 @@ public class ImageAdapter extends BaseAdapter {
                         bitmap = getPicFromAsset(imageView, files[position]);
                         return null;
                     }
-
                     @Override
                     protected void onPostExecute(Void aVoid) {
                         super.onPostExecute(aVoid);

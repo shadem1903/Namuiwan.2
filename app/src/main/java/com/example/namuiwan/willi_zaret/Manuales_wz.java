@@ -2,6 +2,7 @@ package com.example.namuiwan.willi_zaret;
 
 import android.content.DialogInterface;
 import android.media.MediaPlayer;
+import com.example.namuiwan.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import com.example.namuiwan.R;

@@ -7,6 +7,8 @@ import android.widget.ImageButton;
 import com.example.namuiwan.R;
 
 import android.widget.Toast;
+import com.example.namuiwan.R;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 

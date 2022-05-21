@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".erikadaniel.Tierraed"
-    android:background="@drawable/namuiwanfondoed">
+    android:background="@drawable/fondocasaed">
 
 
     <Button

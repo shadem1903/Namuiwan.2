@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +13,7 @@ import com.example.namuiwan.R;
 
 public class Casaed extends AppCompatActivity implements View.OnClickListener {
 
-    Button btntierra, btnfamilia, btncuerpo, btnorientacion, btngeometrica, btndomestico;
+    ImageView btntierra, btnfamilia, btncuerpo, btnorientacion, btngeometrica, btndomestico;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

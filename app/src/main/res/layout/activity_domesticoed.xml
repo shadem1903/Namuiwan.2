@@ -4,211 +4,220 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".erikadaniel.Domesticoed">
+    tools:context=".erikadaniel.Domesticoed"
+    android:background="@drawable/granjaedv">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/namuiwanfondoed"
-        android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imgcuy"
+        android:layout_width="93dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933"
+        app:srcCompat="@drawable/cuyedg" />
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imgconejo"
+        android:layout_width="87dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959"
+        app:srcCompat="@drawable/conejoedg" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imggallina"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839"
+        app:srcCompat="@drawable/gallinaedg" />
 
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="ANIMALES DOMESTICOS"
-                    android:layout_marginTop="180sp"
-                    android:textColor="#FAF6F6"
-                    android:textSize="34sp" />
+    <ImageView
+        android:id="@+id/imgperro"
+        android:layout_width="128dp"
+        android:layout_height="117dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68"
+        app:srcCompat="@drawable/perroedg" />
 
-                <TextView
-                    android:id="@+id/textView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Yau Tekakuik Ushamera"
-                    android:textColor="#FAF6F6"
-                    android:textSize="24sp" />
+    <ImageView
+        android:id="@+id/imggato"
+        android:layout_width="109dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662"
+        app:srcCompat="@drawable/gatoedg" />
 
-                <TableLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/imgcaballo"
+        android:layout_width="128dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297"
+        app:srcCompat="@drawable/caballoedg" />
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgvaca"
+        android:layout_width="115dp"
+        android:layout_height="127dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309"
+        app:srcCompat="@drawable/vacaedg" />
 
-                        <ImageView
-                            android:id="@+id/imgcuy"
-                            android:layout_width="145dp"
-                            android:layout_height="142dp"
-                            app:srcCompat="@drawable/cuyed" />
+    <ImageView
+        android:id="@+id/imgovejo"
+        android:layout_width="110dp"
+        android:layout_height="137dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456"
+        app:srcCompat="@drawable/ovejoedg" />
 
-                        <TextView
-                            android:id="@+id/txcuy"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Cuy"
-                            android:textColor="#FAF6F6"
-                            android:textSize="34sp" />
 
-                    </TableRow>
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgbtnconejo"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/btnconejo"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        android:visibility="invisible"/>
 
-                        <ImageView
-                            android:id="@+id/imgconejo"
-                            android:layout_width="145dp"
-                            android:layout_height="142dp"
-                            android:src="@drawable/conejoed" />
+    <ImageView
+        android:id="@+id/imgbtncuy"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/btncuy"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        android:visibility="invisible"/>
 
-                        <TextView
-                            android:id="@+id/txconejo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Conejo"
-                            android:textColor="#FAF6F6"
-                            android:textSize="34sp" />
+    <ImageView
+        android:id="@+id/imgbtngallina"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/btngallina"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        android:visibility="invisible"/>
 
-                    </TableRow>
+    <ImageView
+        android:id="@+id/imgbtngato"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/btngato"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        android:visibility="invisible"/>
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgbtnovejo"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/btnovejo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        android:visibility="invisible"/>
 
-                        <ImageView
-                            android:id="@+id/imggallina"
-                            android:layout_width="145dp"
-                            android:layout_height="142dp"
-                            app:srcCompat="@drawable/gallinaed" />
+    <ImageView
+        android:id="@+id/imgbtnperro"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        app:srcCompat="@drawable/btnperro"
+        android:visibility="invisible"/>
 
-                        <TextView
-                            android:id="@+id/txgallina"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Gallina"
-                            android:textColor="#FAF6F6"
-                            android:textSize="34sp" />
+    <ImageView
+        android:id="@+id/imgbtnvaca"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        app:srcCompat="@drawable/btnvaca"
+        android:visibility="invisible"/>
 
-                    </TableRow>
+    <ImageView
+        android:id="@+id/imgbtncaballo"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
+        app:srcCompat="@drawable/btncaballo"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        android:visibility="invisible"/>
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imgperro"
-                            android:layout_width="145dp"
-                            android:layout_height="142dp"
-                            app:srcCompat="@drawable/perroed" />
-
-                        <TextView
-                            android:id="@+id/txperro"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Perro"
-                            android:textColor="#FAF6F6"
-                            android:textSize="34sp" />
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imggato"
-                            android:layout_width="145dp"
-                            android:layout_height="142dp"
-                            app:srcCompat="@drawable/gatoed" />
-
-                        <TextView
-                            android:id="@+id/txgato"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Gato"
-                            android:textColor="#FAF6F6"
-                            android:textSize="34sp" />
-
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imgcaballo"
-                            android:layout_width="131dp"
-                            android:layout_height="155dp"
-                            app:srcCompat="@drawable/caballoed" />
-
-                        <TextView
-                            android:id="@+id/txcaballo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Caballo"
-                            android:textColor="#FAF6F6"
-                            android:textSize="34sp" />
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imgvaca"
-                            android:layout_width="124dp"
-                            android:layout_height="171dp"
-                            app:srcCompat="@drawable/vacaed" />
-
-                        <TextView
-                            android:id="@+id/txvaca"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Vaca"
-                            android:textColor="#FAF6F6"
-                            android:textSize="34sp" />
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <ImageView
-                            android:id="@+id/imgovejo"
-                            android:layout_width="124dp"
-                            android:layout_height="171dp"
-                            app:srcCompat="@drawable/ovejoed" />
-
-                        <TextView
-                            android:id="@+id/txovejo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="ovejo"
-                            android:textColor="#FAF6F6"
-                            android:textSize="34sp" />
-                    </TableRow>
-
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
-                </TableLayout>
-            </LinearLayout>
-        </ScrollView>
-
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

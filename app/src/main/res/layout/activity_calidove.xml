@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".yatulve.Calido"
-    android:background="@drawable/fondo">
+    android:background="@drawable/fondoalimentoscalientesve">
     <TextView
         android:id="@+id/txtPapaGuata"
         android:layout_width="wrap_content"

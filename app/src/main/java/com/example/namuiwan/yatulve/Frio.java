@@ -12,7 +12,7 @@ import com.example.namuiwan.R;
 
 public class Frio extends AppCompatActivity implements View.OnClickListener {
     ImageView imgUlluco,imgPapaColorada,imgPapaAmarilla,imgRepollo;
-    TextView txtUlluco,txtPapaColorada, txtPapaAmarilla, txtRepollo, txtFrio;
+    TextView txtUlluco,txtPapaColorada, txtPapaAmarilla, txtRepollo;
     MediaPlayer ulluco,papacolorada,papaamarilla,repollo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,6 @@ public class Frio extends AppCompatActivity implements View.OnClickListener {
         imgPapaAmarilla.setOnClickListener(this);
         imgRepollo    = findViewById(R.id.imgRepollo);
         imgRepollo.setOnClickListener(this);
-        txtFrio   = findViewById(R.id.txtTitle);
         txtUlluco   = findViewById(R.id.txtUlluco);
         txtPapaColorada = findViewById(R.id.txtPapaColorada);
         txtPapaAmarilla   = findViewById(R.id.txtPapaAmarilla);

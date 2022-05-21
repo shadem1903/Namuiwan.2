@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo_wz"
     >
-
     <ImageView
         android:id="@+id/title_view"
         android:layout_width="50dp"
