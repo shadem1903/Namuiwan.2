@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Namuiwan">
         <activity
-            android:name=".JuegoAlvaroWilf"
+            android:name=".AlvaroW.JuegoAlvaroWilf"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

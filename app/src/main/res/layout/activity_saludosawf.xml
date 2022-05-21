@@ -24,10 +24,10 @@
 
     <ImageView
         android:id="@+id/imgfrio"
-        android:layout_width="142dp"
-        android:layout_height="127dp"
+        android:layout_width="137dp"
+        android:layout_height="125dp"
         android:backgroundTint="#00FFFFFF"
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.059"

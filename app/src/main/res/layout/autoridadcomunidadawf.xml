@@ -10,29 +10,29 @@
 
     <ImageView
         android:id="@+id/imgbttmama"
-        android:layout_width="148dp"
-        android:layout_height="283dp"
-        android:scaleType="centerCrop"
+        android:layout_width="136dp"
+        android:layout_height="285dp"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.939"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.627"
-        app:srcCompat="@drawable/ninamisakawf" />
+        app:srcCompat="@drawable/mamaawf" />
 
     <ImageView
         android:id="@+id/imgbttntata"
-        android:layout_width="155dp"
-        android:layout_height="294dp"
-        android:scaleType="centerCrop"
+        android:layout_width="144dp"
+        android:layout_height="298dp"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617"
-        app:srcCompat="@drawable/ninomisakawf" />
+        app:layout_constraintVertical_bias="0.648"
+        app:srcCompat="@drawable/papaawf" />
 
     <TextView
         android:id="@+id/textView"

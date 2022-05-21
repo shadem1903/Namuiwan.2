@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.578"
-        app:srcCompat="@drawable/ninamisakawf" />
+        app:srcCompat="@drawable/papaawf" />
 
     <ImageView
         android:id="@+id/imgbttnna"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.58"
-        app:srcCompat="@drawable/ninomisakawf" />
+        app:srcCompat="@drawable/mamaawf" />
 
     <TextView
         android:id="@+id/textView"
