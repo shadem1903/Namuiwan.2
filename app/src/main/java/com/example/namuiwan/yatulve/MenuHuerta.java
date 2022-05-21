@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.namuiwan.R;
 public class MenuHuerta extends AppCompatActivity implements View.OnClickListener {
     //declarar botones
-    ImageView imgVideo, imgHerramientas, imgFrutas, imgVerduras, imgNumber, imgAlimentos;
+    ImageView imgVideo, imgHerramientas, imgFrutas, imgVerduras, imgNumeros, imgAlimentos;
     MediaPlayer herramienta,video, clasificacion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +30,8 @@ public class MenuHuerta extends AppCompatActivity implements View.OnClickListene
         imgFrutas.setOnClickListener(this);
         imgVerduras = findViewById(R.id.imgVerduras);
         imgVerduras.setOnClickListener(this);
-        imgNumber=findViewById(R.id.imgNumber);
-        imgNumber.setOnClickListener(this);
+        imgNumeros=findViewById(R.id.imgNumeros);
+        imgNumeros.setOnClickListener(this);
         imgAlimentos=findViewById(R.id.imgAlimentos);
         imgAlimentos.setOnClickListener(this);
 
@@ -73,15 +73,15 @@ public class MenuHuerta extends AppCompatActivity implements View.OnClickListene
 
                 break;
 
-            case  R.id.imgNumber:
-                Toast.makeText(MenuHuerta.this, "A seleccionado Vegetales", Toast.LENGTH_SHORT).show();
+            case  R.id.imgNumeros:
+                Toast.makeText(MenuHuerta.this, "A seleccionado Números", Toast.LENGTH_SHORT).show();
                 Intent intent5 = new Intent(MenuHuerta.this,Numeros.class);
                 startActivity(intent5);
 
                 break;
 
             case  R.id.imgAlimentos:
-                Toast.makeText(MenuHuerta.this, "A seleccionado Vegetales", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MenuHuerta.this, "A seleccionado Alimentos", Toast.LENGTH_SHORT).show();
                 Intent intent6 = new Intent(MenuHuerta.this,Trueque.class);
                 startActivity(intent6);
                 clasificacion.start();

@@ -6,6 +6,7 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Window;
 
+import com.example.namuiwan.BD.LoginIn;
 import com.example.namuiwan.Menued;
 import com.example.namuiwan.R;
 
@@ -24,7 +25,7 @@ public class Inicio extends Activity {
         TimerTask tarea = new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(Inicio.this, Menued.class);
+                Intent intent = new Intent(Inicio.this, LoginIn.class);
                 startActivity(intent);
                 finish();
             }
