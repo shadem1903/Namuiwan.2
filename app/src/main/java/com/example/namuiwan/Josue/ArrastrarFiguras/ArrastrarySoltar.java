@@ -1,4 +1,4 @@
-package com.example.namuiwan;
+package com.example.namuiwan.Josue.ArrastrarFiguras;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.DragEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.namuiwan.R;
 
 public class ArrastrarySoltar extends AppCompatActivity {
     ImageView imageView1,imageView2,imageView3,imageView5;
@@ -50,7 +52,6 @@ public class ArrastrarySoltar extends AppCompatActivity {
                 ClipData data = ClipData.newPlainText("","");
                 View.DragShadowBuilder shadow = new View.DragShadowBuilder(imageView2);
                 view.startDrag(data, shadow, null, 0);
-                return;
             }
         });
     }

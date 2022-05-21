@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.namuiwan">
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +16,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Namuiwan">
         <activity
-            android:name=".ArrastrarySoltar"
+            android:name=".BD.LoginIn"
+            android:exported="false" />
+        <activity
+            android:name=".BD.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Josue.ArrastrarFiguras.ArrastrarySoltar"
             android:exported="false" />
         <activity
             android:name=".Josue.carlos.Adivina"

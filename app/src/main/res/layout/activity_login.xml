@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".BD.Login">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/puzzle"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lunarjo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUEVO USUARIO"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="58dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Nombre"
+        android:textSize="25dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="28dp">
+
+    </EditText>
+    <Button
+        android:id="@+id/NuevoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Registrate"
+        android:gravity="center_horizontal"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="38dp">
+    </Button>
+    <Button
+        android:id="@+id/Volver"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="volver"
+        android:gravity="center_horizontal"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="38dp">
+    </Button>
+
+</LinearLayout>

@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.airbnb.lottie.LottieAnimationView;
-import com.example.namuiwan.ArrastrarySoltar;
+import com.example.namuiwan.Josue.ArrastrarFiguras.ArrastrarySoltar;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
 
