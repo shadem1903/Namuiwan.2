@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_adivina.xml" value="0.24139492753623187" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml" value="0.27309782608695654" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_cuerpoed.xml" value="0.33" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_domesticoed.xml" value="0.5" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_familiaed.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_menu_adivina.xml" value="0.18055555555555555" />
       </map>
     </option>
   </component>
