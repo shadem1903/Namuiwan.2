@@ -15,8 +15,7 @@ import com.example.namuiwan.R;
 
 public class Autoridadawf extends AppCompatActivity implements View.OnClickListener {
 
-    Button bttnsigui;
-    ImageView imgbttni, imgbttnna;
+    ImageView imgbttni, imgbttnna,bttnsigui;
     TextView txtni, txtna;
     MediaPlayer naawf, niaawf;
 

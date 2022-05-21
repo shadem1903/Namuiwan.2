@@ -15,10 +15,10 @@
         android:text="TRADUCIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392"
+        app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/traducirawf" />
 
     <ImageView
@@ -28,10 +28,10 @@
         android:text="TRADUCIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553"
+        app:layout_constraintVertical_bias="0.753"
         app:srcCompat="@drawable/traducirawf" />
 
     <ImageView
@@ -41,10 +41,10 @@
         android:text="TRADUCIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.822"
+        app:layout_constraintVertical_bias="0.753"
         app:srcCompat="@drawable/traducirawf" />
 
     <ImageView
@@ -54,16 +54,16 @@
         android:text="TRADUCIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.685"
+        app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/traducirawf" />
 
     <TextView
         android:id="@+id/txtdis"
-        android:layout_width="218dp"
-        android:layout_height="72dp"
+        android:layout_width="167dp"
+        android:layout_height="64dp"
         android:fontFamily="@font/kidsboys"
         android:text="ISUA WAMINCHIP"
         android:textAlignment="center"
@@ -72,19 +72,19 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintHorizontal_bias="0.26"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.405" />
+        app:layout_constraintVertical_bias="0.518" />
 
     <ImageView
         android:id="@+id/imgsaludos"
-        android:layout_width="226dp"
-        android:layout_height="81dp"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
         android:text="saludos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -92,8 +92,8 @@
 
     <TextView
         android:id="@+id/txtleal"
-        android:layout_width="218dp"
-        android:layout_height="72dp"
+        android:layout_width="165dp"
+        android:layout_height="69dp"
         android:fontFamily="@font/kidsboys"
         android:text="ISUA MϴRϴP"
         android:textAlignment="center"
@@ -101,15 +101,15 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintHorizontal_bias="0.259"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571" />
+        app:layout_constraintVertical_bias="0.786" />
 
     <TextView
         android:id="@+id/txtamor"
-        android:layout_width="218dp"
-        android:layout_height="72dp"
+        android:layout_width="179dp"
+        android:layout_height="66dp"
         android:fontFamily="@font/kidsboys"
         android:text="ISUA ASHIP"
         android:textAlignment="center"
@@ -117,15 +117,15 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849" />
+        app:layout_constraintVertical_bias="0.788" />
 
     <TextView
         android:id="@+id/txtres"
-        android:layout_width="218dp"
-        android:layout_height="72dp"
+        android:layout_width="179dp"
+        android:layout_height="66dp"
         android:fontFamily="@font/kidsboys"
         android:text="ISUA UÑIP"
         android:textAlignment="center"
@@ -133,37 +133,37 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.706" />
+        app:layout_constraintVertical_bias="0.521" />
 
     <TextView
         android:id="@+id/txtconsejos"
         android:layout_width="182dp"
         android:layout_height="51dp"
-        android:text="CONSEJOS"
         android:fontFamily="@font/kidsboys"
+        android:text="CONSEJOS"
         android:textAlignment="center"
         android:textColor="#1B0B0B"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintHorizontal_bias="0.683"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintVertical_bias="0.116" />
 
     <ImageView
         android:id="@+id/imgconsejos"
-        android:layout_width="167dp"
-        android:layout_height="174dp"
+        android:layout_width="123dp"
+        android:layout_height="125dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/consejosawf" />
 </androidx.constraintlayout.widget.ConstraintLayout>

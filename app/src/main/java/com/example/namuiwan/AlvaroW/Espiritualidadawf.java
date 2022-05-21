@@ -1,5 +1,4 @@
 package com.example.namuiwan.AlvaroW;
-
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.namuiwan.R;
 
 public class Espiritualidadawf extends AppCompatActivity implements View.OnClickListener {
+
     ImageView imglaguna,imgmontana,imgpetro,imgojo;
     TextView txojo,txlaguna,txmontana,txpetro;
     MediaPlayer ojoawf,lagunaawf,montanaawf,petroawf;

@@ -9,11 +9,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.example.namuiwan.AlvaroW.Splashinicioawf;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.erikadaniel.Casaed;
 import com.example.namuiwan.willi_zaret.Principal_wz;
 import com.example.namuiwan.yatulve.MenuHuerta;
+import com.example.namuiwan.AlvaroW.Cocinaawf;
 
 public class MainActivity extends AppCompatActivity {
     Button btnPuzzle, btncasa,btnPatio,btnAlvaro;
@@ -63,11 +63,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         btnAlvaro = findViewById(R.id.btnAlvaro);
         btnAlvaro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(getApplicationContext(), Splashinicioawf.class);
+                Intent intent2 = new Intent(getApplicationContext(), Cocinaawf.class);
                 startActivityForResult(intent2, 0);
 
             }

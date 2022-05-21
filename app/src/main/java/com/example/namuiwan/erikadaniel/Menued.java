@@ -8,11 +8,12 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.namuiwan.AlvaroW.Splashinicioawf;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
 import com.example.namuiwan.willi_zaret.Principal_wz;
 import com.example.namuiwan.yatulve.MenuHuerta;
+import com.example.namuiwan.AlvaroW.Cocinaawf;
+
 
 
 public class Menued extends AppCompatActivity  implements View.OnClickListener  {
@@ -32,8 +33,10 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
     private void referenciar() {
         btncasa = findViewById(R.id.btncasa);
         btncasa.setOnClickListener(this);
+
         btncocina = findViewById(R.id.btncocina);
         btncocina.setOnClickListener(this);
+
         btnhuerta = findViewById(R.id.btnhuerta);
         btnhuerta.setOnClickListener(this);
         btnartesania = findViewById(R.id.btnartesania);
@@ -73,7 +76,7 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
                 break;
 
             case R.id.btncocina:
-                Intent intent4 = new Intent(Menued.this, Splashinicioawf.class);
+                Intent intent4 = new Intent(Menued.this, Cocinaawf.class);
                 startActivity(intent4);
                 cocina.start();
                 break;

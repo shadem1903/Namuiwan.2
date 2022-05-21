@@ -13,8 +13,7 @@ import com.example.namuiwan.R;
 
 public class Saludosawf extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView imgcalido,imgfrio,imgtarde,imgnoche;
-    Button btnsaludoss;
+    ImageView imgcalido,imgfrio,imgtarde,imgnoche,imgsaludoss;
     TextView txcalido,txfrio,txtarde,txnoche,txtsaludo;
     MediaPlayer pachito,pishinto,mawan,yemkon,saludosawf;
 
@@ -42,8 +41,8 @@ public class Saludosawf extends AppCompatActivity implements View.OnClickListene
         imgnoche = findViewById(R.id.imgnoche);
         imgnoche.setOnClickListener(this);
 
-        btnsaludoss = findViewById(R.id.btnsaludoss);
-        btnsaludoss.setOnClickListener(this);
+        imgsaludoss = findViewById(R.id.imgsaludoss);
+        imgsaludoss.setOnClickListener(this);
 
 
 
@@ -90,7 +89,7 @@ public class Saludosawf extends AppCompatActivity implements View.OnClickListene
                 yemkon.start();
                 break;
 
-            case R.id.btnsaludoss:
+            case R.id.imgsaludoss:
                 txtsaludo.setText("Saludos Y Clima");
                 saludosawf.start();
                 break;

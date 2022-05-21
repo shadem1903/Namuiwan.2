@@ -137,9 +137,6 @@
         <activity
             android:name=".AlvaroW.Cocinaawf"
             android:exported="false" />
-        <activity
-            android:name=".AlvaroW.Splashinicioawf"
-            android:exported="false" />
     </application>
 
 </manifest>

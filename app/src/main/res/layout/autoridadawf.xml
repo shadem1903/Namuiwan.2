@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondococinaawf"
+    android:background="@drawable/cocinasverticalawf"
     tools:context="AlvaroW.Autoridadawf">
 
 
     <ImageView
         android:id="@+id/imgbttni"
-        android:layout_width="164dp"
-        android:layout_height="294dp"
+        android:layout_width="152dp"
+        android:layout_height="289dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.34"
+        app:layout_constraintVertical_bias="0.57"
         app:srcCompat="@drawable/ninamisakawf" />
 
     <ImageView
@@ -26,10 +26,10 @@
         android:layout_height="290dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.337"
+        app:layout_constraintVertical_bias="0.569"
         app:srcCompat="@drawable/ninomisakawf" />
 
     <TextView
@@ -37,58 +37,67 @@
         android:layout_width="256dp"
         android:layout_height="38dp"
         android:focusableInTouchMode="true"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/kidsboys"
         android:text="AUTORIDAD EN EL HOGAR"
-        android:textColor="#F1EEEE"
+        android:textAlignment="center"
+        android:textColor="#101010"
         android:textSize="20sp"
         android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <TextView
         android:id="@+id/txtni"
         android:layout_width="112dp"
         android:layout_height="38dp"
         android:text="ÑI"
-        android:textColor="#F1EEEE"
+        android:fontFamily="@font/kidsboys"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
         android:textSize="20sp"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintVertical_bias="0.822" />
 
     <TextView
         android:id="@+id/txtna"
         android:layout_width="118dp"
         android:layout_height="38dp"
         android:text="NA"
-        android:textColor="#F1EEEE"
+        android:fontFamily="@font/kidsboys"
+        android:textAlignment="center"
+        android:textColor="#050505"
         android:textSize="20sp"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintVertical_bias="0.822" />
 
-    <Button
+    <ImageView
         android:id="@+id/bttnsigui"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="253dp"
+        android:layout_height="83dp"
         android:text="KATOKAN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903" />
+        app:layout_constraintVertical_bias="0.996"
+        app:srcCompat="@drawable/siguienteawf"
+
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
