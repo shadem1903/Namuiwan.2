@@ -14,7 +14,6 @@ import com.example.namuiwan.R;
 
 public class Trueque extends AppCompatActivity implements View.OnClickListener {
     ImageView imgFrio, imgCalientes;
-    TextView txtFrio,txtCaliente;
     MediaPlayer frio, caliente;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +26,6 @@ public class Trueque extends AppCompatActivity implements View.OnClickListener {
         imgFrio.setOnClickListener(this);
         imgCalientes = findViewById(R.id.imgCalientes);
         imgCalientes.setOnClickListener(this);
-
-        txtCaliente=findViewById(R.id.txtCaliente);
-        txtFrio=findViewById(R.id.txtFrio);
 
         frio = MediaPlayer.create(this,R.raw.pishi_mamikmera);
         caliente = MediaPlayer.create(this,R.raw.pachik_mamikmera);
@@ -54,11 +50,11 @@ public class Trueque extends AppCompatActivity implements View.OnClickListener {
         }
         switch (v.getId()){
             case R.id.imgFrio:
-                txtFrio.setText("Pishi Mamikmera");
+
                 frio.start();
                 break;
             case R.id.imgCalientes:
-                txtCaliente.setText("Pachik Mamikmera");
+
                 caliente.start();
                 break;
         }
