@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.namuiwan.Josue.ArrastrarFiguras.ArrastrarySoltar;
+import com.airbnb.lottie.LottieAnimationView;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
 
 public class JuegosCJ extends AppCompatActivity {
-    Button btnPuzzle,btnMemorie,btnAdivina,btnHabilidades,btnArrastrar;
+    Button btnPuzzle,btnMemorie,btnAdivina,btnHabilidades;
 
 
     @Override
@@ -37,15 +37,6 @@ public class JuegosCJ extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
-        btnArrastrar = findViewById(R.id.btnArrastrar);
-        btnArrastrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ArrastrarySoltar.class);
-                startActivity(intent);
-            }
-        });
-
 
 
     }
