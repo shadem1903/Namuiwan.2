@@ -91,12 +91,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
             case R.id.imgabdomen:
                 switch (valor) {
                     case 1:
-                        imgabdomen.setImageResource(R.drawable.pabdomeng);
+                        imgabdomen.setImageResource(R.drawable.pabdomenedg);
                         imgbtnabdomen.setVisibility(View.INVISIBLE);
                         valor = 0;
                         break;
                     case 0:
-                        imgabdomen.setImageResource(R.drawable.ppabdomen);
+                        imgabdomen.setImageResource(R.drawable.pabdomened);
                         imgbtnabdomen.setVisibility(View.VISIBLE);
                         valor = 1;
                         abdomen.start();

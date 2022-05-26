@@ -112,9 +112,6 @@
             android:name=".erikadaniel.Tierraed"
             android:exported="false" />
         <activity
-            android:name=".erikadaniel.Salvajeed"
-            android:exported="false" />
-        <activity
             android:name=".erikadaniel.Domesticoed"
             android:exported="false" />
         <activity
