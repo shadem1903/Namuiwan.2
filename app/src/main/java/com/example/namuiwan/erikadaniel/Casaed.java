@@ -1,6 +1,7 @@
 package com.example.namuiwan.erikadaniel;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +15,7 @@ import com.example.namuiwan.R;
 public class Casaed extends AppCompatActivity implements View.OnClickListener {
 
     ImageView btntierra, btnfamilia, btncuerpo, btnorientacion, btngeometrica, btndomestico;
+    MediaPlayer animales, cuerpo, familia, orientacion, tierra;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +37,14 @@ public class Casaed extends AppCompatActivity implements View.OnClickListener {
         btndomestico= findViewById(R.id.btndomestico);
         btndomestico.setOnClickListener(this);
 
+        animales = MediaPlayer.create(this, R.raw.animalesed);
+        cuerpo = MediaPlayer.create(this, R.raw.cuerpoed);
+        familia = MediaPlayer.create(this, R.raw.familiaed);
+        orientacion = MediaPlayer.create(this, R.raw.orientacioned1);
+        tierra = MediaPlayer.create(this, R.raw.tierraed);
+
+
+
 
     }
 
@@ -42,40 +52,38 @@ public class Casaed extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btntierra:
-                Toast.makeText(Casaed.this, "A seleccionado  Tierra", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(Casaed.this, Tierraed.class);
+                Intent intent = new Intent(Casaed.this, Bosqueed.class);
                 startActivity(intent);
+                tierra.start();
                 break;
 
             case R.id.btnfamilia:
-                Toast.makeText(Casaed.this, "A seleccionado Familia", Toast.LENGTH_SHORT).show();
                 Intent intent1 = new Intent(Casaed.this, Familiaed.class);
                 startActivity(intent1);
+                familia.start();
                 break;
 
             case R.id.btncuerpo:
-                Toast.makeText(Casaed.this, "A seleccionado Partes del Cuerpos", Toast.LENGTH_SHORT).show();
                 Intent intent2 = new Intent(Casaed.this, Cuerpoed.class);
                 startActivity(intent2);
+                cuerpo.start();
                 break;
 
             case R.id.btnorientacion:
-                Toast.makeText(Casaed.this, "A seleccionado Orientacion", Toast.LENGTH_SHORT).show();
                 Intent intent3 = new Intent(Casaed.this, Orientacioned.class);
                 startActivity(intent3);
+                orientacion.start();
                 break;
 
             case R.id.btngeometrica:
-                Toast.makeText(Casaed.this, "A seleccionado Figuras Geometricas", Toast.LENGTH_SHORT).show();
                 Intent intent4 = new Intent(Casaed.this, Geometricaed.class);
                 startActivity(intent4);
 
                 break;
             case R.id.btndomestico:
-                Toast.makeText(Casaed.this, "A seleccionado Animales Domesticos", Toast.LENGTH_SHORT).show();
                 Intent intent5 = new Intent(Casaed.this, Domesticoed.class);
                 startActivity(intent5);
-
+                animales.start();
                 break;
 
 

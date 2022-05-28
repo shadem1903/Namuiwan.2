@@ -89,216 +89,88 @@
         android:visibility="invisible"
         tools:layout_editor_absoluteY="40dp" />
 
-    <TextView
-        android:id="@+id/msjabuela"
-        android:layout_width="181dp"
-        android:layout_height="58dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="ABUELA"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        android:textStyle="bold"
+
+    <ImageView
+        android:id="@+id/imgbtnabuela"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
-        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/btnabuelaed"
+        android:visibility="invisible"/>
 
-    <TextView
-        android:id="@+id/msjabuela1"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="(shura)"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
+    <ImageView
+        android:id="@+id/imgbtnabuelo"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        android:visibility="invisible"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/btnabueloed"
+        android:visibility="invisible"/>
 
-    <TextView
-        android:id="@+id/msjabuelo"
-        android:layout_width="181dp"
-        android:layout_height="58dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="ABUELO"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/imgbtnpapa"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
-        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/btnpapaed"
+        android:visibility="invisible"/>
 
-    <TextView
-        android:id="@+id/msjabuelo1"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="(shur)"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
+
+
+    <ImageView
+        android:id="@+id/imgbtnmama"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        android:visibility="invisible"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/btnmamaed"
+        android:visibility="invisible"/>
 
-    <TextView
-        android:id="@+id/msjmama"
-        android:layout_width="181dp"
-        android:layout_height="58dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="MAMA"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        android:textStyle="bold"
+
+    <ImageView
+        android:id="@+id/imgbtnnino"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
-        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/btnhijoed"
+        android:visibility="invisible"/>
 
-    <TextView
-        android:id="@+id/msjmama1"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="(Usri)"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
+
+    <ImageView
+        android:id="@+id/imgbtnnina"
+        android:layout_width="264dp"
+        android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
-        app:layout_constraintStart_toStartOf="parent"
-        android:visibility="invisible"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
-
-    <TextView
-        android:id="@+id/msjpapa"
-        android:layout_width="181dp"
-        android:layout_height="58dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="PAPA"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
-        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
-
-    <TextView
-        android:id="@+id/msjpapa1"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="(mϴskai)"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
-        app:layout_constraintStart_toStartOf="parent"
-        android:visibility="invisible"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
-
-    <TextView
-        android:id="@+id/msjnina"
-        android:layout_width="181dp"
-        android:layout_height="58dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="HIJA"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
-
-    <TextView
-        android:id="@+id/msjnina1"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="(nimpasr)"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
-        app:layout_constraintStart_toStartOf="parent"
-        android:visibility="invisible"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
-
-    <TextView
-        android:id="@+id/msjnino"
-        android:layout_width="181dp"
-        android:layout_height="58dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="NIÑO"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.096" />
-
-    <TextView
-        android:id="@+id/msjnino1"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:fontFamily="@font/kidsboys"
-        android:text="(nusrkai)"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
-        app:layout_constraintStart_toStartOf="parent"
-        android:visibility="invisible"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
-
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/btnhijaed"
+        android:visibility="invisible"/>
 
 
 
