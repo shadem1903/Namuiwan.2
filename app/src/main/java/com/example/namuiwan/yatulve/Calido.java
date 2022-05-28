@@ -12,7 +12,6 @@ import com.example.namuiwan.R;
 
 public class Calido extends AppCompatActivity implements View.OnClickListener {
     ImageView imgPapaGuata,imgArracacha,imgMaiz,imgOca;
-    TextView txtPapaGuata,txtArracacha, txtMaiz, txtOca;
     MediaPlayer papaguata,arracacha,maiz,oca;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,10 +29,6 @@ public class Calido extends AppCompatActivity implements View.OnClickListener {
         imgOca    = findViewById(R.id.imgOca);
         imgOca.setOnClickListener(this);
 
-        txtPapaGuata   = findViewById(R.id.txtPapaGuata);
-        txtArracacha = findViewById(R.id.txtArracacha);
-        txtMaiz   = findViewById(R.id.txtMaiz);
-        txtOca = findViewById(R.id.txtOca);
         //almacena sonido en la variable gallina
         papaguata = MediaPlayer.create(this,R.raw.wataye);
         arracacha = MediaPlayer.create(this,R.raw.oskowau);
@@ -45,19 +40,15 @@ public class Calido extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgPapaGuata:
-                txtPapaGuata.setText("Wataye");
                 papaguata.start();
                 break;
             case R.id.imgArracacha:
-                txtArracacha.setText("ϴskϴwau");
                 arracacha.start();
                 break;
             case R.id.imgMaiz:
-                txtMaiz.setText("Pura");
                 maiz.start();
                 break;
             case R.id.imgOca:
-                txtOca.setText("Mishi");
                 oca.start();
                 break;
         }

@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".yatulve.Pregunta2frutas"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta1frutas"
+            android:exported="false" />
+        <activity
             android:name=".BD.LoginIn"
             android:exported="false" />
         <activity
@@ -109,6 +115,12 @@
             android:name=".erikadaniel.Familiaed"
             android:exported="false" />
         <activity
+            android:name=".erikadaniel.Tierraed"
+            android:exported="false" />
+        <activity
+            android:name=".erikadaniel.Salvajeed"
+            android:exported="false" />
+        <activity
             android:name=".erikadaniel.Domesticoed"
             android:exported="false" />
         <activity
@@ -119,6 +131,9 @@
             android:exported="true" />
         <activity
             android:name=".erikadaniel.Bosqueed"
+            android:exported="true" />
+        <activity
+            android:name=".erikadaniel.Plantased"
             android:exported="true" />
         <activity
             android:name=".Josue.carlos.juego"
