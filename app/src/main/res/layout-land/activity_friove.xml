@@ -8,161 +8,136 @@
     android:background="@drawable/fondove">
 
     <ImageView
-        android:id="@+id/imgPapaAmarilla"
-        android:layout_width="109dp"
-        android:layout_height="87dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.605"
+        android:id="@+id/imgtitlerepollo"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486"
-        app:srcCompat="@drawable/papaamarillave" />
-
-    <ImageView
-        android:id="@+id/imgRepollo"
-        android:layout_width="107dp"
-        android:layout_height="85dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.368"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486"
-        app:srcCompat="@drawable/repollove" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="66dp"
-        android:layout_height="47dp"
-        android:rotation="182"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.704"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imgPapaColorada"
-        android:layout_width="105dp"
-        android:layout_height="89dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.367"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgRepollo"
-        app:layout_constraintVertical_bias="0.387"
-        app:srcCompat="@drawable/papacoloradave" />
-
-    <ImageView
-        android:id="@+id/imageView59"
-        android:layout_width="166dp"
-        android:layout_height="76dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.813"
-        app:srcCompat="@drawable/titleullucosve" />
-
-    <ImageView
-        android:id="@+id/imageView57"
-        android:layout_width="170dp"
-        android:layout_height="76dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47"
-        app:srcCompat="@drawable/titlepapaamarillave" />
-
-    <ImageView
-        android:id="@+id/imageView58"
-        android:layout_width="148dp"
-        android:layout_height="82dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837"
-        app:srcCompat="@drawable/titlepapacoloradave" />
-
-    <ImageView
-        android:id="@+id/imageView28"
-        android:layout_width="55dp"
-        android:layout_height="42dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imageView56"
-        android:layout_width="159dp"
-        android:layout_height="77dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
         app:srcCompat="@drawable/titlerepollove" />
 
     <ImageView
-        android:id="@+id/imageView29"
-        android:layout_width="62dp"
-        android:layout_height="39dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.274"
+        android:id="@+id/imgtitlepapacolorada"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.802"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlerepollo"
+        app:srcCompat="@drawable/titlepapacoloradave" />
+
+    <ImageView
+        android:id="@+id/imgFlecha3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintStart_toEndOf="@+id/imgtitlepapacolorada"
+        app:layout_constraintTop_toBottomOf="@+id/imgFlecha1"
+        app:srcCompat="@drawable/flechave" />
+
+    <ImageView
+        android:id="@+id/imgFlecha4"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:rotation="178"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toEndOf="@+id/imgUlluco"
+        app:layout_constraintTop_toBottomOf="@+id/imgFlecha2"
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
         android:id="@+id/imgUlluco"
         android:layout_width="109dp"
         android:layout_height="84dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/fondove"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.605"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgPapaColorada"
         app:layout_constraintTop_toBottomOf="@+id/imgPapaAmarilla"
-        app:layout_constraintVertical_bias="0.357"
         app:srcCompat="@drawable/ullucosve" />
 
     <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="62dp"
-        android:layout_height="45dp"
-        android:rotation="178"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imgPapaColorada"
+        android:layout_width="109dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha3"
+        app:layout_constraintTop_toBottomOf="@+id/imgRepollo"
+        app:srcCompat="@drawable/papacoloradave" />
+
+    <ImageView
+        android:id="@+id/imgtitleullucos"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.701"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha4"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlepapaamarilla"
+        app:srcCompat="@drawable/titleullucosve" />
+
+    <ImageView
+        android:id="@+id/imgFlecha2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:rotation="182"
+        app:layout_constraintStart_toEndOf="@+id/imgPapaAmarilla"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imageView55"
-        android:layout_width="277dp"
-        android:layout_height="114dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imgFlecha1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toEndOf="@+id/imgtitlerepollo"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/flechave" />
+
+    <ImageView
+        android:id="@+id/imgtitlepapaamarilla"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/titlepapaamarillave" />
+
+    <ImageView
+        android:id="@+id/imgRepollo"
+        android:layout_width="109dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha1"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/repollove" />
+
+    <ImageView
+        android:id="@+id/imgPapaAmarilla"
+        android:layout_width="109dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imgRepollo"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
+        app:srcCompat="@drawable/papaamarillave" />
+
+    <ImageView
+        android:id="@+id/imgtitlealimentosfrios"
+        android:layout_width="275dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022"
         app:srcCompat="@drawable/titlealimentosfrios" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

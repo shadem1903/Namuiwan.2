@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".yatulve.Pregunta2frutas"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta1frutas"
+            android:exported="false" />
+        <activity
             android:name=".BD.LoginIn"
             android:exported="false" />
         <activity

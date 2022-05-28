@@ -9,160 +9,139 @@
 
     <ImageView
         android:id="@+id/imgPapaColorada"
-        android:layout_width="126dp"
-        android:layout_height="102dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="110dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.888"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlepapaamarilla"
         app:srcCompat="@drawable/papacoloradave" />
 
     <ImageView
-        android:id="@+id/imgUlluco"
-        android:layout_width="119dp"
-        android:layout_height="99dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
+        android:id="@+id/imgFlecha2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toEndOf="@+id/imgtitlepapacolorada"
+        app:layout_constraintTop_toBottomOf="@+id/imgFlecha1"
+        app:srcCompat="@drawable/flechave" />
+
+    <ImageView
+        android:id="@+id/imgtitlepapacolorada"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677"
-        app:srcCompat="@drawable/ullucosve" />
+        app:layout_constraintTop_toBottomOf="@+id/imgPapaAmarilla"
+        app:srcCompat="@drawable/titlepapacoloradave" />
+
+    <ImageView
+        android:id="@+id/imgtitlepapaamarilla"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50"
+        app:srcCompat="@drawable/titlepapaamarillave" />
+
+    <ImageView
+        android:id="@+id/imgFlecha1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:rotation="182"
+        app:layout_constraintStart_toEndOf="@+id/imgPapaAmarilla"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50"
+        app:srcCompat="@drawable/flechave" />
 
     <ImageView
         android:id="@+id/imgPapaAmarilla"
-        android:layout_width="108dp"
-        android:layout_height="96dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.085"
+        android:layout_width="110dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50"
         app:srcCompat="@drawable/papaamarillave" />
 
     <ImageView
         android:id="@+id/imgRepollo"
-        android:layout_width="135dp"
-        android:layout_height="105dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="110dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.902"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.921"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52"
         app:srcCompat="@drawable/repollove" />
 
     <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="91dp"
-        android:layout_height="55dp"
-        android:rotation="182"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.418"
+        android:id="@+id/imageView51"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.255"
-        app:srcCompat="@drawable/flechave" />
+        app:layout_constraintTop_toBottomOf="@+id/imgUlluco"
+        app:srcCompat="@drawable/titlerepollove" />
 
     <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="91dp"
-        android:layout_height="55dp"
-        android:rotation="178"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imageView28"
-        android:layout_width="83dp"
-        android:layout_height="54dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imageView29"
-        android:layout_width="79dp"
-        android:layout_height="52dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888"
+        android:id="@+id/imgFlecha4"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintTop_toBottomOf="@+id/imgFlecha3"
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
         android:id="@+id/imageView50"
         android:layout_width="316dp"
         android:layout_height="128dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001"
         app:srcCompat="@drawable/titlealimentosfrios" />
 
     <ImageView
-        android:id="@+id/imageView51"
-        android:layout_width="168dp"
-        android:layout_height="83dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.028"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907"
-        app:srcCompat="@drawable/titlerepollove" />
-
-    <ImageView
         android:id="@+id/imageView52"
-        android:layout_width="168dp"
-        android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.971"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.673"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha3"
+        app:layout_constraintTop_toBottomOf="@+id/imgPapaColorada"
         app:srcCompat="@drawable/titleullucosve" />
 
     <ImageView
-        android:id="@+id/imageView53"
-        android:layout_width="168dp"
-        android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.256"
-        app:srcCompat="@drawable/titlepapaamarillave" />
+        android:id="@+id/imgFlecha3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:rotation="178"
+        app:layout_constraintStart_toEndOf="@+id/imgUlluco"
+        app:layout_constraintTop_toBottomOf="@+id/imgFlecha2"
+        app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imageView54"
-        android:layout_width="168dp"
-        android:layout_height="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.028"
+        android:id="@+id/imgUlluco"
+        android:layout_width="110dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452"
-        app:srcCompat="@drawable/titlepapacoloradave" />
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlepapacolorada"
+        app:srcCompat="@drawable/ullucosve" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.namuiwan.R;
 public class Verduras extends AppCompatActivity implements View.OnClickListener{
     ImageView imgCebolla,imgZanahoria,imgTomate,imgPimiento;
-    TextView txtCebolla,txtZanahoria, txtTomate, txtPimiento, txtVerdura;
     MediaPlayer cebolla,zanahoria,tomate,pimiento;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +28,10 @@ public class Verduras extends AppCompatActivity implements View.OnClickListener{
         imgTomate.setOnClickListener(this);
         imgPimiento    = findViewById(R.id.imgPimiento);
         imgPimiento.setOnClickListener(this);
-        txtCebolla   = findViewById(R.id.txtCebolla);
-        txtZanahoria = findViewById(R.id.txtZanahoria);
-        txtTomate   = findViewById(R.id.txtTomate);
-        txtPimiento = findViewById(R.id.txtPimiento);
 
         //almacena sonido en la variable gallina
-        cebolla    = MediaPlayer.create(this,R.raw.gallinaaa);
-        zanahoria  = MediaPlayer.create(this,R.raw.gallinaaa);
+        cebolla    = MediaPlayer.create(this,R.raw.cebollave);
+        zanahoria  = MediaPlayer.create(this,R.raw.zanahoriave);
         tomate       = MediaPlayer.create(this,R.raw.gatoaa);
         pimiento      = MediaPlayer.create(this,R.raw.perroaa);
     }
@@ -45,19 +40,15 @@ public class Verduras extends AppCompatActivity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgCebolla:
-                txtCebolla.setText("Itrϴ Mϴn Tur");
                 cebolla.start();
                 break;
             case R.id.imgZanahoria:
-                txtZanahoria.setText("Pikϴskϴ Wau");
                 zanahoria.start();
                 break;
             case R.id.imgTomate:
-                txtTomate.setText("Nϴtrϴ Pikϴ Trul");
                 tomate.start();
                 break;
             case R.id.imgPimiento:
-                txtPimiento.setText("Nϴtrϴ Kϴrϴ");
                 pimiento.start();
                 break;
         }

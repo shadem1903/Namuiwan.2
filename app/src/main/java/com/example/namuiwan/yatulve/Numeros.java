@@ -15,7 +15,8 @@ public class Numeros extends AppCompatActivity implements View.OnClickListener {
     ImageView  imgUno, imgDos, imgTres, imgCuatro, imgCinco, imgSeis, imgSiete,
                imgOcho, imgNueve, imgDiez, imgOnce, imgDoce, imgTrece, imgCatorce, imgQuince, imgDiesciseis,
                imgDiescisiete, imgDiesciocho, imgDiescinueve, imgVeinte;
-    MediaPlayer serpiente, sonido, num1;
+    MediaPlayer serpiente, sonido, num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,
+                num12,num13,num14,num15,num16,num17,num18,num19,num20 ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,10 +67,29 @@ public class Numeros extends AppCompatActivity implements View.OnClickListener {
         imgVeinte = findViewById(R.id.imgVeinte);
         imgVeinte.setOnClickListener(this);
 
+        sonido = MediaPlayer.create(this, R.raw.numerosve);
+        num1 = MediaPlayer.create(this, R.raw.unove);
+        num2 = MediaPlayer.create(this, R.raw.dosve);
+        num3 = MediaPlayer.create(this, R.raw.treceve);
+        num4 = MediaPlayer.create(this, R.raw.cuatrove);
+        num5 = MediaPlayer.create(this, R.raw.cincove);
+        num6 = MediaPlayer.create(this, R.raw.seisve);
+        num7 = MediaPlayer.create(this, R.raw.sieteve);
+        num8 = MediaPlayer.create(this, R.raw.ochove);
+        num9 = MediaPlayer.create(this, R.raw.nueveve);
+        num10 = MediaPlayer.create(this, R.raw.diezve);
+        num11 = MediaPlayer.create(this, R.raw.onceve);
+        num12 = MediaPlayer.create(this, R.raw.doceve);
+        num13 = MediaPlayer.create(this, R.raw.treceve);
+        num14 = MediaPlayer.create(this, R.raw.catorceve);
+        num15 = MediaPlayer.create(this, R.raw.quinceve);
+        num16 = MediaPlayer.create(this, R.raw.diescieisve);
+        num17 = MediaPlayer.create(this, R.raw.diescisieteve);
+        num18 = MediaPlayer.create(this, R.raw.diesciochove);
+        num19 = MediaPlayer.create(this, R.raw.diescinueveve);
+        num20 = MediaPlayer.create(this, R.raw.veinteve);
+        serpiente = MediaPlayer.create(this, R.raw.numerosve);
 
-        sonido = MediaPlayer.create(this, R.raw.gatoaa);
-        num1 = MediaPlayer.create(this, R.raw.perroaa);
-        serpiente = MediaPlayer.create(this, R.raw.serpienteaa);
 
 
     }
@@ -81,61 +101,61 @@ public class Numeros extends AppCompatActivity implements View.OnClickListener {
                 num1.start();
                 break;
             case R.id.imgDos:
-                sonido.start();
+                num2.start();
                 break;
             case R.id.imgTres:
-                num1.start();
+                num3.start();
                 break;
             case R.id.imgCuatro:
-                sonido.start();
+                num4.start();
                 break;
             case R.id.imgCinco:
-                num1.start();
+                num5.start();
                 break;
             case R.id.imgSeis:
-                sonido.start();
+                num6.start();
                 break;
             case R.id.imgSiete:
-                num1.start();
+                num7.start();
                 break;
             case R.id.imgOcho:
-                sonido.start();
+                num8.start();
                 break;
             case R.id.imgNueve:
-                num1.start();
+                num9.start();
                 break;
             case R.id.imgDiez:
-                sonido.start();
+                num10.start();
                 break;
             case R.id.imgOnce:
-                num1.start();
+                num11.start();
                 break;
             case R.id.imgDoce:
-                sonido.start();
+                num12.start();
                 break;
             case R.id.imgTrece:
-                num1.start();
+                num13.start();
                 break;
             case R.id.imgCatorce:
-                sonido.start();
+                num14.start();
                 break;
             case R.id.imgQuince:
-                num1.start();
+                num15.start();
                 break;
             case R.id.imgDiesciseis:
-                sonido.start();
+                num16.start();
                 break;
             case R.id.imgDiescisiete:
-                num1.start();
+                num17.start();
                 break;
             case R.id.imgDiesciocho:
-                sonido.start();
+                num18.start();
                 break;
             case R.id.imgDiescinueve:
-                num1.start();
+                num19.start();
                 break;
             case R.id.imgVeinte:
-                sonido.start();
+                num20.start();
                 break;
         }
     }

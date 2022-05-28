@@ -34,7 +34,7 @@ public class Huerta extends AppCompatActivity implements View.OnClickListener {
         referenciar();
     }
     private void referenciar(){
-        txtContenido=findViewById(R.id.txtContenido);
+
 
         imgSonido=findViewById(R.id.imgSonido);
         imgSonido.setOnClickListener(this);

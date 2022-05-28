@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.namuiwan.R;
 public class Herramientas extends AppCompatActivity implements View.OnClickListener {
     ImageView imgAzadon, imgHacha,imgMachete,imgPala;
-    TextView txtAzadon, txtHacha, txtMachete,txtPala;
     MediaPlayer azadon, hacha, machete,pala;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,11 +28,6 @@ public class Herramientas extends AppCompatActivity implements View.OnClickListe
         imgPala=findViewById(R.id.imgPala);
         imgPala.setOnClickListener(this);
 
-        txtAzadon=findViewById(R.id.txtAzadon);
-        txtHacha=findViewById(R.id.txtHacha);
-        txtMachete=findViewById(R.id.txtMachete);
-        txtPala=findViewById(R.id.txtPala);
-
         //almacena sonido en la variable gallina
         azadon = MediaPlayer.create(this,R.raw.anchul_kachull);
         hacha = MediaPlayer.create(this,R.raw.walom);
@@ -45,19 +39,15 @@ public class Herramientas extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgAzadon:
-                txtAzadon.setText("Anchul Kachull");
                 azadon.start();
                 break;
             case R.id.imgHacha:
-                txtHacha.setText("Walϴm");
                 hacha.start();
                 break;
             case R.id.imgMachete:
-                txtMachete.setText("Awinchi");
                 machete.start();
                 break;
             case R.id.imgPala:
-                txtPala.setText("ϴl kachul");
                 pala.start();
                 break;
         }
