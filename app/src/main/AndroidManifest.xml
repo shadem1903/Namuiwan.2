@@ -15,6 +15,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!--cambios zaret y willian-->
+        <activity
+            android:name=".willi_zaret.Patiowz"
+            android:exported="false" />
+
+        <activity
+            android:name=".willi_zaret.ManualesTelarwz"
+            android:exported="false" />
+
+        <activity
+            android:name=".willi_zaret.Alfareriawz"
+            android:exported="false" />
+
+        <activity
+            android:name=".willi_zaret.Manualeswz"
+            android:exported="false" />
+        <!--fin de cambios zaret-->
         <activity
             android:name=".yatulve.Pregunta2frutas"
             android:exported="false" />
@@ -81,24 +99,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- willian y zaret -->
-        <activity
-            android:name=".willi_zaret.Principal_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Patio_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.ManualesTelar_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Manuales_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Arsesania_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Alfareria_wz"
-            android:exported="false" /> <!-- hasta aqui -->
+        <!-- hasta aqui -->
         <activity
             android:name=".erikadaniel.Casaed"
             android:exported="false" />

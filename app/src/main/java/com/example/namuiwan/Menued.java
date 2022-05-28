@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.namuiwan.AlvaroW.Splashinicioawf;
 import com.example.namuiwan.Josue.JuegosCJ;
 import com.example.namuiwan.erikadaniel.Casaed;
-import com.example.namuiwan.willi_zaret.Principal_wz;
+import com.example.namuiwan.willi_zaret.Patiowz;
 import com.example.namuiwan.yatulve.MenuHuerta;
 
 
@@ -67,7 +67,7 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
                 break;
 
             case R.id.btnartesania:
-                Intent intent3 = new Intent(Menued.this, Principal_wz.class);
+                Intent intent3 = new Intent(Menued.this, Patiowz.class);
                 startActivity(intent3);
                 artesania.start();
                 break;
