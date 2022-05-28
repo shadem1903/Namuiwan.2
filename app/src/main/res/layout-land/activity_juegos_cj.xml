@@ -9,7 +9,6 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/puzzle"
-
         android:layout_width="300dp"
         android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +19,8 @@
         app:layout_constraintVertical_bias="0.657"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/animationjo1" />
+        app:lottie_rawRes="@raw/animationjo1"
+        tools:ignore="MissingClass" />
 
     <Button
         android:id="@+id/btnHabilidades"

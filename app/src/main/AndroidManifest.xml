@@ -139,16 +139,16 @@
             android:name=".Josue.carlos.juego"
             android:exported="false" />
         <activity
-            android:name=".AlvaroW.Convivenciaawf"
+            android:name=".AlvaroW.Autoridadawf"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Autoridadcomunidadawf"
             android:exported="false" />
         <activity
-            android:name=".AlvaroW.Saludosawf"
+            android:name=".AlvaroW.Convivenciaawf"
             android:exported="false" />
         <activity
-            android:name=".AlvaroW.Autoridadawf"
+            android:name=".AlvaroW.Saludosawf"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Espiritualidadawf"
@@ -157,7 +157,7 @@
             android:name=".AlvaroW.Cocinaawf"
             android:exported="false" />
         <activity
-            android:name=".AlvaroW.Splashinicioawf"
+            android:name=".AlvaroW.JuegoAlvaroWilf"
             android:exported="false" />
     </application>
 

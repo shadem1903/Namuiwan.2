@@ -4,75 +4,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cocinaverticalawf"
+    android:background="@drawable/cocinahorizontalawf"
     tools:context="AlvaroW.Cocinaawf">
 
 
-    <ImageView
-        android:id="@+id/imgespi"
-        android:layout_width="150dp"
-        android:layout_height="74dp"
+    <TextView
+        android:id="@+id/texcocina"
+        android:layout_width="211dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/kidsboys"
+        android:text="cocina (nak chak)"
+        android:textColor="#090909"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintHorizontal_bias="0.751"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369"
-        app:srcCompat="@drawable/espiritualidadawaf" />
-
-    <ImageView
-        android:id="@+id/imgauto"
-        android:layout_width="147dp"
-        android:layout_height="73dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.969"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/autoridadawf" />
-
-    <ImageView
-        android:id="@+id/imgconv"
-        android:layout_width="143dp"
-        android:layout_height="42dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/convivenciaawf" />
+        app:layout_constraintVertical_bias="0.045" />
 
     <ImageView
         android:id="@+id/imgFogon"
-        android:layout_width="158dp"
-        android:layout_height="195dp"
-        android:background="#0FFFFFFF"
-        android:backgroundTint="#08FFFFFF"
-        android:scaleType="centerCrop"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578"
+        app:layout_constraintVertical_bias="0.052"
         app:srcCompat="@drawable/fogonawf" />
 
     <ImageView
-        android:id="@+id/imgjuego"
-        android:layout_width="147dp"
-        android:layout_height="67dp"
-        android:background="#0FFFFFFF"
-        android:backgroundTint="#08FFFFFF"
+        android:id="@+id/imgconv"
+        android:layout_width="167dp"
+        android:layout_height="69dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975"
-        app:srcCompat="@drawable/juegoawf" />
+        app:layout_constraintVertical_bias="0.684"
+        app:srcCompat="@drawable/convivenciaawf" />
+
+    <ImageView
+        android:id="@+id/imgauto"
+        android:layout_width="167dp"
+        android:layout_height="69dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684"
+        app:srcCompat="@drawable/autoridadawf" />
+
+    <ImageView
+        android:id="@+id/imgespi"
+        android:layout_width="167dp"
+        android:layout_height="69dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684"
+        app:srcCompat="@drawable/espiritualidadawaf" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

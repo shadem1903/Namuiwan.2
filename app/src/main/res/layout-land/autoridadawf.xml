@@ -5,94 +5,99 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cocinasverticalawf"
-    tools:context=".AlvaroW.Autoridadcomunidadawf">
+    tools:context="AlvaroW.Autoridadawf">
 
 
     <ImageView
-        android:id="@+id/imgbttmama"
-        android:layout_width="136dp"
-        android:layout_height="285dp"
-        android:scaleType="fitXY"
+        android:id="@+id/imgbttni"
+        android:layout_width="80dp"
+        android:layout_height="174dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627"
-        app:srcCompat="@drawable/mamaawf" />
-
-    <ImageView
-        android:id="@+id/imgbttntata"
-        android:layout_width="144dp"
-        android:layout_height="298dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.648"
+        app:layout_constraintVertical_bias="0.578"
         app:srcCompat="@drawable/papaawf" />
+
+    <ImageView
+        android:id="@+id/imgbttnna"
+        android:layout_width="85dp"
+        android:layout_height="175dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"
+        app:srcCompat="@drawable/mamaawf" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="329dp"
-        android:layout_height="47dp"
-        android:text="AUTORIDAD EN LA COMUNIDAD"
+        android:layout_width="256dp"
+        android:layout_height="38dp"
+        android:focusableInTouchMode="true"
         android:fontFamily="@font/kidsboys"
+        android:text="AUTORIDAD EN EL HOGAR"
         android:textAlignment="center"
-        android:textColor="#121212"
+        android:textColor="#101010"
         android:textSize="20sp"
+        android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintHorizontal_bias="0.408"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.096" />
 
     <TextView
-        android:id="@+id/txtmama"
-        android:layout_width="112dp"
-        android:layout_height="38dp"
+        android:id="@+id/txtni"
+        android:layout_width="106dp"
+        android:layout_height="46dp"
         android:fontFamily="@font/kidsboys"
-        android:text="MAMA"
+        android:text="ÑI"
         android:textAlignment="center"
-        android:textColor="#121212"
+        android:textColor="#0B0A0A"
         android:textSize="20sp"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/txttata"
-        android:layout_width="118dp"
-        android:layout_height="38dp"
-        android:text="TATA"
+        android:id="@+id/txtna"
+        android:layout_width="93dp"
+        android:layout_height="43dp"
         android:fontFamily="@font/kidsboys"
+        android:text="NA"
         android:textAlignment="center"
-        android:textColor="#121212"
+        android:textColor="#050505"
         android:textSize="20sp"
+        android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.286"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/imgbas"
-        android:layout_width="47dp"
-        android:layout_height="249dp"
-        android:rotation="17"
+        android:id="@+id/bttnsigui"
+        android:layout_width="211dp"
+        android:layout_height="72dp"
+        android:text="KATOKAN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.64"
-        app:srcCompat="@drawable/bastonawf" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/siguienteawf"
+
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

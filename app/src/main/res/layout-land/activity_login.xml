@@ -20,7 +20,8 @@
         app:layout_constraintVertical_bias="0.9"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/lunarjo" />
+        app:lottie_rawRes="@raw/lunarjo"
+        tools:ignore="MissingClass" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,7 +49,6 @@
         android:hint="Nombre"
         android:paddingLeft="28dp"
         android:textColor="@color/black"
-        android:textColorHint="@color/black"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,7 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="70dp"
         android:layout_marginTop="76dp"
-        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
         android:gravity="center_horizontal"
         android:text="Registrate"
         android:textSize="28dp"
@@ -82,7 +82,7 @@
         android:id="@+id/Volver"
         android:layout_width="wrap_content"
         android:layout_height="70dp"
-        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
         android:gravity="center_horizontal"
         android:text="volver"
         android:textSize="28dp"

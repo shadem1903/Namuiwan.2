@@ -20,7 +20,8 @@
         app:layout_constraintVertical_bias="0.332"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/lunarjo" />
+        app:lottie_rawRes="@raw/lunarjo"
+        tools:ignore="MissingClass" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -55,7 +56,7 @@
         android:gravity="center_horizontal"
         android:textSize="28dp"
         android:textStyle="bold"
-        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
         android:layout_marginBottom="38dp">
     </Button>
     <Button
@@ -66,7 +67,7 @@
         android:gravity="center_horizontal"
         android:textSize="28dp"
         android:textStyle="bold"
-        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
         android:layout_marginBottom="38dp">
     </Button>
 

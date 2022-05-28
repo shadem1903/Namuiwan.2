@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@drawable/fondococinaawf"
+        android:background="@drawable/cocinasverticalawf"
         tools:ignore="MissingConstraints">
 
         <ScrollView
@@ -31,7 +31,9 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="180sp"
                     android:text="SITIOS SAGRADOS"
-                    android:textColor="#FAF6F6"
+                    android:fontFamily="@font/kidsboys"
+                    android:textAlignment="center"
+                    android:textColor="#1B0B0B"
                     android:textSize="34sp" />
 
                 <TextView
@@ -39,8 +41,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:fontFamily="@font/kidsboys"
                     android:text="Pishintϴ lincha waramik"
-                    android:textColor="#FAF6F6"
+                    android:textAlignment="center"
+                    android:textColor="#1B0B0B"
                     android:textSize="24sp" />
 
                 <TableLayout
@@ -64,8 +68,10 @@
                             android:id="@+id/txojo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Pi kap"
-                            android:textColor="#FAF6F6"
+                            android:text="PI KAP"
+                            android:fontFamily="@font/kidsboys"
+                            android:textAlignment="center"
+                            android:textColor="#1B0B0B"
                             android:textSize="24sp" />
 
                     </TableRow>
@@ -86,8 +92,10 @@
                             android:id="@+id/txlaguna"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="pisumera"
-                            android:textColor="#FAF6F6"
+                            android:text="PISUMERA"
+                            android:fontFamily="@font/kidsboys"
+                            android:textAlignment="center"
+                            android:textColor="#1B0B0B"
                             android:textSize="24sp" />
 
                     </TableRow>
@@ -108,8 +116,10 @@
                             android:id="@+id/txmontana"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="tunmera"
-                            android:textColor="#FAF6F6"
+                            android:text="TUNMERA"
+                            android:fontFamily="@font/kidsboys"
+                            android:textAlignment="center"
+                            android:textColor="#1B0B0B"
                             android:textSize="24sp" />
 
                     </TableRow>
@@ -130,8 +140,10 @@
                             android:id="@+id/txpetro"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="pϴrawarilϴ"
-                            android:textColor="#FAF6F6"
+                            android:text="PϴRAWARILϴ"
+                            android:fontFamily="@font/kidsboys"
+                            android:textAlignment="center"
+                            android:textColor="#1B0B0B"
                             android:textSize="24sp" />
                     </TableRow>
 
