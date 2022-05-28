@@ -7,137 +7,108 @@
     tools:context=".erikadaniel.Casaed"
     android:background="@drawable/fondocasaed">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/senal1"
+        android:layout_width="41dp"
+        android:layout_height="338dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267"
+        app:srcCompat="@drawable/palosenaled" />
 
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:gravity="center">
+    <ImageView
+        android:id="@+id/senal2"
+        android:layout_width="41dp"
+        android:layout_height="338dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btncuerpo"
+        app:srcCompat="@drawable/palosenaled" />
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
+    <ImageButton
+        android:id="@+id/btntierra"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnorientacion"
+        app:srcCompat="@drawable/btntierraed" />
 
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="CASA"
-                    android:textColor="@color/black"
-                    android:textSize="48sp" />
-            </TableRow>
+    <ImageButton
+        android:id="@+id/btnfamilia"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="@+id/senal1"
+        app:srcCompat="@drawable/btnfamiliaed"
+        tools:layout_editor_absoluteX="-12dp" />
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
+    <ImageButton
+        android:id="@+id/btnorientacion"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncuerpo"
+        app:srcCompat="@drawable/btnorientacioned" />
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Ya"
-                    android:textColor="@color/black"
-                    android:textSize="24sp" />
-            </TableRow>
+    <ImageButton
+        android:id="@+id/btngeometrica"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:text="FGURAS GEOMETRICAS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnorientacion"
+        app:srcCompat="@drawable/btnfigurased" />
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
+    <ImageButton
+        android:id="@+id/btndomestico"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        android:text="ANIMALES (Ushamera)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntierra"
+        app:srcCompat="@drawable/btnanimalesed" />
 
-                <ImageButton
-                    android:id="@+id/btntierra"
-                    android:layout_width="300dp"
-                    android:layout_height="90dp"
-                    android:backgroundTint="#00FFFFFF"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/tierra" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/btnfamilia"
-                    android:layout_width="300dp"
-                    android:layout_height="90dp"
-                    android:backgroundTint="#00FFFFFF"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/familia" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/btncuerpo"
-                    android:layout_width="300dp"
-                    android:layout_height="90dp"
-                    android:backgroundTint="#00FFFFFF"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/partes" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/btnorientacion"
-                    android:layout_width="90dp"
-                    android:layout_height="100dp"
-                    android:backgroundTint="#00FFFFFF"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/orientacion" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/btngeometrica"
-                    android:layout_width="300dp"
-                    android:layout_height="90dp"
-                    android:layout_gravity="center"
-                    android:backgroundTint="#00FFFFFF"
-                    android:scaleType="centerCrop"
-                    android:text="FGURAS GEOMETRICAS"
-                    app:srcCompat="@drawable/figuras" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
-
-                <ImageButton
-                    android:id="@+id/btndomestico"
-                    android:layout_width="300dp"
-                    android:layout_height="90dp"
-                    android:layout_gravity="center"
-                    android:backgroundTint="#00FFFFFF"
-                    android:scaleType="centerCrop"
-                    android:text="ANIMALES (Ushamera)"
-                    app:srcCompat="@drawable/animales" />
-            </TableRow>
-
-        </TableLayout>
-    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btncuerpo"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnfamilia"
+        app:srcCompat="@drawable/btncuerpoed" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

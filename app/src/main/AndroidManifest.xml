@@ -109,9 +109,6 @@
             android:name=".erikadaniel.Familiaed"
             android:exported="false" />
         <activity
-            android:name=".erikadaniel.Tierraed"
-            android:exported="false" />
-        <activity
             android:name=".erikadaniel.Domesticoed"
             android:exported="false" />
         <activity
@@ -122,9 +119,6 @@
             android:exported="true" />
         <activity
             android:name=".erikadaniel.Bosqueed"
-            android:exported="true" />
-        <activity
-            android:name=".erikadaniel.Plantased"
             android:exported="true" />
         <activity
             android:name=".Josue.carlos.juego"
