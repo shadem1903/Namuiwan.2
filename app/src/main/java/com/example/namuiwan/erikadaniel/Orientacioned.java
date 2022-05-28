@@ -12,9 +12,9 @@ import com.example.namuiwan.R;
 
 public class Orientacioned extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView imgpuerta,imgventana,imgbano,imglavadero,imgarriba,imgabajo,imgderecha,imgizquierda;
-    TextView txtpuerta,txtventana,txtbano,txtlavadero,txtarriba,txtabajo,txtderecha,txtizquierda;
+    ImageView imgabajo, imgarriba, imgderecha, imgizquierda, imgventana, imgpuerta, imglavadero, imgbano, imgbtnbano, imgbtnlavadero, imgbtnpuerta, imgbtnventana, imgbtnarriba, imgbtnabajo, imgbtnderecha, imgbtnizquierda;
     MediaPlayer abajo,arriba,derecha,izquierda,bno,lava,puert,ventna;
+    int valor=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,14 +41,22 @@ public class Orientacioned extends AppCompatActivity implements View.OnClickList
         imgizquierda = findViewById(R.id.imgizquierda);
         imgizquierda.setOnClickListener(this);
 
-        txtpuerta= findViewById(R.id.txtpuerta);
-        txtventana= findViewById(R.id.txtventana);
-        txtbano= findViewById(R.id.txtbano);
-        txtlavadero= findViewById(R.id.txtlavadero);
-        txtarriba= findViewById(R.id.txtarriba);
-        txtabajo= findViewById(R.id.txtabajo);
-        txtderecha= findViewById(R.id.txtderecha);
-        txtizquierda= findViewById(R.id.txtizquierda);
+        imgbtnpuerta = findViewById(R.id.imgbtnpuerta);
+        imgbtnpuerta.setOnClickListener(this);
+        imgbtnventana = findViewById(R.id.imgbtnventana);
+        imgbtnventana.setOnClickListener(this);
+        imgbtnbano = findViewById(R.id.imgbtnbano);
+        imgbtnbano.setOnClickListener(this);
+        imgbtnlavadero = findViewById(R.id.imgbtnlavadero);
+        imgbtnlavadero.setOnClickListener(this);
+        imgbtnarriba = findViewById(R.id.imgbtnarriba);
+        imgbtnarriba.setOnClickListener(this);
+        imgbtnabajo = findViewById(R.id.imgbtnabajo);
+        imgbtnabajo.setOnClickListener(this);
+        imgbtnderecha = findViewById(R.id.imgbtnderecha);
+        imgbtnderecha.setOnClickListener(this);
+        imgbtnizquierda = findViewById(R.id.imgbtnizquierda);
+        imgbtnizquierda.setOnClickListener(this);
 
         //almacenar sonido en la variables
 
@@ -67,50 +75,127 @@ public class Orientacioned extends AppCompatActivity implements View.OnClickList
     public void onClick(View view) {
         switch (view.getId()) {
 
-            case R.id.imgbano:
-                txtbano.setText("baño");
-                bno.start();
-                break;
-
-            case R.id.imglavadero:
-                txtlavadero.setText("lavadero");
-                lava.start();
-                break;
-
-            case R.id.imgpuerta:
-                txtpuerta.setText("puerta");
-                puert.start();
-                break;
-
-            case R.id.imgventana:
-                txtventana.setText("ventana");
-                ventna.start();
-                break;
-
-            case R.id.imgarriba:
-                txtarriba.setText("arriba");
-                arriba.start();
-                break;
-
             case R.id.imgabajo:
-                txtabajo.setText("abajo");
-                abajo.start();
+                switch (valor) {
+                    case 1:
+                        imgabajo.setImageResource(R.drawable.abajoedg);
+                        imgbtnabajo.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgabajo.setImageResource(R.drawable.abajoed);
+                        imgbtnabajo.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        abajo.start();
+                        break;
+                }
+                break;
+            case R.id.imgarriba:
+                switch (valor) {
+                    case 1:
+                        imgarriba.setImageResource(R.drawable.arribaedg);
+                        imgbtnarriba.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgarriba.setImageResource(R.drawable.arribaed);
+                        imgbtnarriba.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        arriba.start();
+                        break;
+                }
                 break;
             case R.id.imgderecha:
-                txtderecha.setText("derecha");
-                derecha.start();
+                switch (valor) {
+                    case 1:
+                        imgderecha.setImageResource(R.drawable.derechaedg);
+                        imgbtnderecha.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgderecha.setImageResource(R.drawable.derechaed);
+                        imgbtnderecha.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        derecha.start();
+                        break;
+                }
                 break;
-
             case R.id.imgizquierda:
-                txtizquierda.setText("izquierda");
-                izquierda.start();
+                switch (valor) {
+                    case 1:
+                        imgizquierda.setImageResource(R.drawable.izquierdaedg);
+                        imgbtnizquierda.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgizquierda.setImageResource(R.drawable.izquierdaed);
+                        imgbtnizquierda.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        izquierda.start();
+                        break;
+                }
                 break;
-
-
-
+            case R.id.imgventana:
+                switch (valor) {
+                    case 1:
+                        imgventana.setImageResource(R.drawable.ventanaedg);
+                        imgbtnventana.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgventana.setImageResource(R.drawable.ventanaed);
+                        imgbtnventana.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        ventna.start();
+                        break;
+                }
+                break;
+            case R.id.imgpuerta:
+                switch (valor) {
+                    case 1:
+                        imgpuerta.setImageResource(R.drawable.puertaedg);
+                        imgbtnpuerta.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgpuerta.setImageResource(R.drawable.puertaed);
+                        imgbtnpuerta.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        puert.start();
+                        break;
+                }
+                break;
+            case R.id.imglavadero:
+                switch (valor) {
+                    case 1:
+                        imglavadero.setImageResource(R.drawable.lavaderoedg);
+                        imgbtnlavadero.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imglavadero.setImageResource(R.drawable.lavaderoed);
+                        imgbtnlavadero.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        lava.start();
+                        break;
+                }
+                break;
+            case R.id.imgbano:
+                switch (valor) {
+                    case 1:
+                        imgbano.setImageResource(R.drawable.banoed1g);
+                        imgbtnbano.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgbano.setImageResource(R.drawable.banoed1);
+                        imgbtnbano.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        bno.start();
+                        break;
+                }
+                break;
         }
-
-
     }
 
 

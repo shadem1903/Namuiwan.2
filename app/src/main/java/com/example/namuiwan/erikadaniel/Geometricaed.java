@@ -11,9 +11,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.namuiwan.R;
 public class Geometricaed extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView imgcir,imgrecta,imgtri,imggrande,imgmedi,imgpeque;
-    TextView txtcir,txtrecta,txttri,txtgrande,txtmedi,txtpeque;
+    ImageView imggrande, imgmediano, imgpequeno, imgcuadrado, imgrectangulo, imgtriangulo, imgcirculo, imgbtngrande, imgbtnmediano, imgbtnpequeno, imgbtncuadrado, imgbtncirculo, imgbtntriangulo, imgbtnrectangulo;
     MediaPlayer circulo,recta,tria,grande,media,peque;
+    int valor=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,25 +23,35 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
         referenciar();
     }
     private void referenciar() {
-        imgcir = findViewById(R.id.imgcir);
-        imgcir.setOnClickListener(this);
-        imgrecta = findViewById(R.id.imgrecta);
-        imgrecta.setOnClickListener(this);
-        imgtri = findViewById(R.id.imgtri);
-        imgtri.setOnClickListener(this);
+        imgcirculo = findViewById(R.id.imgcirculo);
+        imgcirculo.setOnClickListener(this);
+        imgcuadrado = findViewById(R.id.imgcuadrado);
+        imgcuadrado.setOnClickListener(this);
+        imgrectangulo = findViewById(R.id.imgrectangulo);
+        imgrectangulo.setOnClickListener(this);
+        imgtriangulo = findViewById(R.id.imgtriangulo);
+        imgtriangulo.setOnClickListener(this);
         imggrande = findViewById(R.id.imggrande);
         imggrande.setOnClickListener(this);
-        imgmedi = findViewById(R.id.imgmedi);
-        imgmedi.setOnClickListener(this);
-        imgpeque = findViewById(R.id.imgpeque);
-        imgpeque.setOnClickListener(this);
+        imgmediano = findViewById(R.id.imgmediano);
+        imgmediano.setOnClickListener(this);
+        imgpequeno = findViewById(R.id.imgpequeno);
+        imgpequeno.setOnClickListener(this);
+        imgbtncirculo = findViewById(R.id.imgbtncirculo);
+        imgbtncirculo.setOnClickListener(this);
+        imgbtncuadrado = findViewById(R.id.imgbtncuadrado);
+        imgbtncuadrado.setOnClickListener(this);
+        imgbtnrectangulo = findViewById(R.id.imgbtnrectangulo);
+        imgbtnrectangulo.setOnClickListener(this);
+        imgbtntriangulo = findViewById(R.id.imgbtntriangulo);
+        imgbtntriangulo.setOnClickListener(this);
+        imgbtngrande = findViewById(R.id.imgbtngrande);
+        imgbtngrande.setOnClickListener(this);
+        imgbtnmediano = findViewById(R.id.imgbtnmediano);
+        imgbtnmediano.setOnClickListener(this);
+        imgbtnpequeno = findViewById(R.id.imgbtnpequeno);
+        imgbtnpequeno.setOnClickListener(this);
 
-        txtcir= findViewById(R.id.txtcir);
-        txtrecta= findViewById(R.id.txtrecta);
-        txttri= findViewById(R.id.txttri);
-        txtgrande= findViewById(R.id.txtgrande);
-        txtmedi= findViewById(R.id.txtmedi);
-        txtpeque= findViewById(R.id.txtpeque);
 
         //almacenar sonido en la variables
 
@@ -60,34 +70,109 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
 
-            case R.id.imgcir:
-                txtcir.setText("circulo");
-                circulo.start();
-                break;
-
-            case R.id.imgrecta:
-                txtrecta.setText("rectángulo");
-                recta.start();
-                break;
-
-            case R.id.imgtri:
-                txttri.setText("triangulo");
-                tria.start();
-                break;
-
             case R.id.imggrande:
-                txtgrande.setText("nuik");
-                grande.start();
+                switch (valor) {
+                    case 1:
+                        imggrande.setImageResource(R.drawable.grandeedg);
+                        imgbtngrande.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imggrande.setImageResource(R.drawable.grandeed);
+                        imgbtngrande.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        grande.start();
+                        break;
+                }
                 break;
-
-            case R.id.imgmedi:
-                txtmedi.setText("netik");
-                media.start();
+            case R.id.imgmediano:
+                switch (valor) {
+                    case 1:
+                        imgmediano.setImageResource(R.drawable.medianoedg);
+                        imgbtnmediano.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgmediano.setImageResource(R.drawable.medianoed);
+                        imgbtnmediano.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        media.start();
+                        break;
+                }
                 break;
-
-            case R.id.imgpeque:
-                txtpeque.setText("lamik");
-                peque.start();
+            case R.id.imgpequeno:
+                switch (valor) {
+                    case 1:
+                        imgpequeno.setImageResource(R.drawable.pequenoedg);
+                        imgbtnpequeno.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgpequeno.setImageResource(R.drawable.pequenoed);
+                        imgbtnpequeno.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        peque.start();
+                        break;
+                }
+                break;
+            case R.id.imgcuadrado:
+                switch (valor) {
+                    case 1:
+                        imgcuadrado.setImageResource(R.drawable.cuadradoedg);
+                        imgbtncuadrado.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgcuadrado.setImageResource(R.drawable.cuadradoed);
+                        imgbtncuadrado.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        break;
+                }
+                break;
+            case R.id.imgrectangulo:
+                switch (valor) {
+                    case 1:
+                        imgrectangulo.setImageResource(R.drawable.rectanguloedg);
+                        imgbtnrectangulo.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgrectangulo.setImageResource(R.drawable.rectanguloed);
+                        imgbtnrectangulo.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        recta.start();
+                        break;
+                }
+                break;
+            case R.id.imgtriangulo:
+                switch (valor) {
+                    case 1:
+                        imgtriangulo.setImageResource(R.drawable.trianguloedg);
+                        imgbtntriangulo.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgtriangulo.setImageResource(R.drawable.trianguloed);
+                        imgbtntriangulo.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        tria.start();
+                        break;
+                }
+                break;
+            case R.id.imgcirculo:
+                switch (valor) {
+                    case 1:
+                        imgcirculo.setImageResource(R.drawable.circuloedg);
+                        imgbtncirculo.setVisibility(View.INVISIBLE);
+                        valor = 0;
+                        break;
+                    case 0:
+                        imgcirculo.setImageResource(R.drawable.circuloed);
+                        imgbtncirculo.setVisibility(View.VISIBLE);
+                        valor = 1;
+                        circulo.start();
+                        break;
+                }
                 break;
         }
     }
