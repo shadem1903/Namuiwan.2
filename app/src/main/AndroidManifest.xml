@@ -15,24 +15,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-        <!--cambios zaret y willian-->
+        <activity
+            android:name=".yatulve.Pregunta3frutas"
+            android:exported="false" />
+        <!-- cambios zaret y willian -->
         <activity
             android:name=".willi_zaret.Patiowz"
             android:exported="false" />
-
         <activity
             android:name=".willi_zaret.ManualesTelarwz"
             android:exported="false" />
-
         <activity
             android:name=".willi_zaret.Alfareriawz"
             android:exported="false" />
-
         <activity
             android:name=".willi_zaret.Manualeswz"
-            android:exported="false" />
-        <!--fin de cambios zaret-->
+            android:exported="false" /> <!-- fin de cambios zaret -->
         <activity
             android:name=".yatulve.Pregunta2frutas"
             android:exported="false" />

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".yatulve.Pregunta2frutas"
+    tools:context=".yatulve.Pregunta3frutas"
     android:background="@drawable/fondove">
 
     <ImageView
@@ -19,16 +19,17 @@
         app:srcCompat="@drawable/titlefrutas" />
 
     <ImageView
-        android:id="@+id/imageView29"
+        android:id="@+id/imgtitlemora"
         android:layout_width="150dp"
         android:layout_height="62dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imgParlanteve"
-        app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:srcCompat="@drawable/titlemortino" />
+        app:layout_constraintVertical_bias="0.012"
+        app:srcCompat="@drawable/titlemora" />
 
     <ImageView
         android:id="@+id/imgUchuvas"
@@ -36,10 +37,10 @@
         android:layout_height="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintVertical_bias="0.787"
         app:srcCompat="@drawable/uchuvave" />
 
     <ImageView
@@ -48,10 +49,10 @@
         android:layout_height="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.881"
+        app:layout_constraintVertical_bias="0.955"
         app:srcCompat="@drawable/morave" />
 
     <ImageView
@@ -60,10 +61,10 @@
         android:layout_height="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.541"
+        app:layout_constraintVertical_bias="0.452"
         app:srcCompat="@drawable/fresasve" />
 
     <ImageView
@@ -72,10 +73,10 @@
         android:layout_height="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452"
+        app:layout_constraintVertical_bias="0.619"
         app:srcCompat="@drawable/arandanosve" />
 
     <ImageView
@@ -83,10 +84,12 @@
         android:layout_width="113dp"
         android:layout_height="56dp"
         android:layout_marginTop="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/mensaje2conparlanteve" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

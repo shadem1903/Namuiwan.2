@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.namuiwan.R;
@@ -13,8 +15,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 public class Pregunta1frutas extends AppCompatActivity implements View.OnClickListener{
 
-    MediaPlayer correcto, incorrecto, fresa, mora, uchuva, mortino;
-    ImageView imgUchuvas, imgMora, imgMortino, imgFresas;
+    MediaPlayer correcto, incorrecto, fresa, mora, uchuva, mortino, pregunta1uchuva, Pregunta2mortino;
+    ImageView imgUchuvas, imgMora, imgMortino, imgFresas, imgParlanteve;
 
     //TextView txtPregunta1;
 
@@ -34,6 +36,8 @@ public class Pregunta1frutas extends AppCompatActivity implements View.OnClickLi
         mora = MediaPlayer.create(this,R.raw.morave);
         uchuva =  MediaPlayer.create(this,R.raw.uchuvave);
         mortino = MediaPlayer.create(this,R.raw.mortinove);
+        pregunta1uchuva = MediaPlayer.create(this,R.raw.pregunta1frutascualesuchuvave);
+        Pregunta2mortino = MediaPlayer.create(this,R.raw.pregunta2frutascualesmotinove);
 
         imgUchuvas = findViewById(R.id.imgUchuvas);
         imgUchuvas.setOnClickListener(this);
@@ -43,26 +47,34 @@ public class Pregunta1frutas extends AppCompatActivity implements View.OnClickLi
         imgMortino.setOnClickListener(this);
         imgFresas = findViewById(R.id.imgFresas);
         imgFresas.setOnClickListener(this);
+        imgParlanteve = findViewById(R.id.imgParlanteve);
+        imgParlanteve.setOnClickListener(this);
         //txtPregunta1 = findViewById(R.id.txtPregunta1);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            case R.id.imgParlanteve:
+                Toast.makeText(Pregunta1frutas.this, "¿Cual es la uchuva...?", Toast.LENGTH_SHORT).show();
+                pregunta1uchuva.start();
+                break;
+
             case R.id.imgUchuvas:
                 //txtPregunta1.setText("!!!!!excelente!!!!!");
                 correcto.start();
                 TimerTask esperar1 = new TimerTask() {
                     @Override
                     public void run() {
-
-                        uchuva.start();
+                        //uchuva.start();
                         Intent intent = new Intent(Pregunta1frutas.this, Pregunta2frutas.class);
                         startActivity(intent);
+                        Pregunta2mortino.start();
                     }
                 };
                 Timer timer1 = new Timer();
-                timer1.schedule(esperar1,1000);
+                timer1.schedule(esperar1,1400);
+
                 break;
 
             case R.id.imgMora:
