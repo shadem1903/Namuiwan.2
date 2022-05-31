@@ -16,9 +16,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".yatulve.Pregunta3frutas"
+            android:name=".yatulve.Pregunta3verdura"
             android:exported="false" />
-        <!-- cambios zaret y willian -->
+        <activity
+            android:name=".yatulve.Pregunta2vegefrio"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta1vegefrio"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta3frutas"
+            android:exported="false" /> <!-- cambios zaret y willian -->
         <activity
             android:name=".willi_zaret.Patiowz"
             android:exported="false" />

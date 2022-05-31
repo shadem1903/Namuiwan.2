@@ -9,14 +9,24 @@
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_domesticoed.xml" value="0.5" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_familiaed.xml" value="0.33" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/Namuiwan.4/Namuiwan.2/app/src/main/res/layout/activity_menu_adivina.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_friove.xml" value="0.31040564373897706" />
         <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_frutasve.xml" value="0.33" />
         <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_pegunta1frutasve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_pregunta1vegefriove.xml" value="0.31040564373897706" />
         <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_pregunta2frutasve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_pregunta2vegefriove.xml" value="0.31040564373897706" />
         <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_pregunta3frutasve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_pregunta3verdurave.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout-land/activity_verdurasve.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_friove.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_frutasve.xml" value="0.35280797101449274" />
         <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_pegunta1frutasve.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_pregunta1vegefriove.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_pregunta2frutasve.xml" value="0.5" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_pregunta2vegefriove.xml" value="0.5" />
         <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_pregunta3frutasve.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_pregunta3verdurave.xml" value="0.33" />
+        <entry key="..\:/Users/JANUS/AndroidStudioProjects/Namuiwan.2/app/src/main/res/layout/activity_verdurasve.xml" value="0.5" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.3.1/Namuiwan.2/app/src/main/res/layout-land/activity_tierraed.xml" value="0.2310405643738977" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.3.1/Namuiwan.2/app/src/main/res/layout/activity_bosqueed.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.3.1/Namuiwan.2/app/src/main/res/layout/activity_casaed.xml" value="0.33" />
@@ -32,6 +42,9 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Namuiwan.3.1/Namuiwan.2/app/src/main/res/layout/activity_tierraed.xml" value="0.27291666666666664" />
       </map>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_pregunta2vegefriove.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
