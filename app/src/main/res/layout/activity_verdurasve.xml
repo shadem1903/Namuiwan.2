@@ -9,6 +9,30 @@
 
 
     <ImageView
+        android:id="@+id/imgCebolla"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/cebollave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView56"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <ImageView
+        android:id="@+id/imgPregunta"
+        android:layout_width="90dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
+        app:srcCompat="@drawable/interrogacionve" />
+
+    <ImageView
         android:id="@+id/imgFlecha6"
         android:layout_width="50dp"
         android:layout_height="40dp"
@@ -17,43 +41,42 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgCebolla"
         app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.105" />
+        app:layout_constraintVertical_bias="0.162" />
 
     <ImageView
-        android:id="@+id/imgCebolla"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/cebollave"
+        android:id="@+id/imageView57"
+        android:layout_width="170dp"
+        android:layout_height="82dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView56"
+        app:layout_constraintVertical_bias="0.148"
+        app:srcCompat="@drawable/titlecebollave" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="170dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgFlecha2"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintVertical_bias="0.392"
+        app:srcCompat="@drawable/titletomateve" />
 
     <ImageView
-        android:id="@+id/imgTomate"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/tomateve"
+        android:id="@+id/imgFlecha2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="200dp"
+        android:src="@drawable/flechave"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.317" />
-
-    <ImageView
-        android:id="@+id/imgPimiento"
-        android:layout_width="130dp"
-        android:layout_height="80dp"
-        android:src="@drawable/pimientove"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.085"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.57" />
+        app:layout_constraintVertical_bias="0.393" />
 
     <ImageView
         android:id="@+id/imageView59"
@@ -65,7 +88,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha3"
         app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.568"
+        app:layout_constraintVertical_bias="0.629"
         app:srcCompat="@drawable/titlepimentonve" />
 
     <ImageView
@@ -78,54 +101,19 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgPimiento"
         app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.567" />
+        app:layout_constraintVertical_bias="0.625" />
 
     <ImageView
-        android:id="@+id/imgFlecha2"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="204dp"
-        android:src="@drawable/flechave"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.337" />
-
-    <ImageView
-        android:id="@+id/imageView56"
-        android:layout_width="262dp"
-        android:layout_height="116dp"
+        android:id="@+id/imgPimiento"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pimientove"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.59"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.039"
-        app:srcCompat="@drawable/titlevegetales" />
-
-    <ImageView
-        android:id="@+id/imageView57"
-        android:layout_width="170dp"
-        android:layout_height="82dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
-        app:layout_constraintStart_toEndOf="@+id/imgFlecha6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.087"
-        app:srcCompat="@drawable/titlecebollave" />
-
-    <ImageView
-        android:id="@+id/imageView58"
-        android:layout_width="170dp"
-        android:layout_height="82dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imgFlecha2"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.331"
-        app:srcCompat="@drawable/titletomateve" />
+        app:layout_constraintVertical_bias="0.632" />
 
     <ImageView
         android:id="@+id/imageView62"
@@ -134,23 +122,11 @@
         android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imgFlecha4"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.817"
+        app:layout_constraintVertical_bias="0.879"
         app:srcCompat="@drawable/titlezanahoriave" />
-
-    <ImageView
-        android:id="@+id/imgZanahoria"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/zanahoriave"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.228"
-        app:layout_constraintStart_toEndOf="@+id/imgFlecha4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.829" />
 
     <ImageView
         android:id="@+id/imgFlecha4"
@@ -159,9 +135,45 @@
         android:src="@drawable/flechave"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825" />
+        app:layout_constraintVertical_bias="0.872" />
+
+    <ImageView
+        android:id="@+id/imgZanahoria"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/zanahoriave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView56"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <ImageView
+        android:id="@+id/imgTomate"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/tomateve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView56"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="262dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@drawable/titlevegetales" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

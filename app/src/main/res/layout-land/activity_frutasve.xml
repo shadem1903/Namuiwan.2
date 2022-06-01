@@ -30,6 +30,18 @@
         app:srcCompat="@drawable/titlefrutas" />
 
     <ImageView
+        android:id="@+id/imgPregunta"
+        android:layout_width="90dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547"
+        app:srcCompat="@drawable/interrogacionve" />
+
+    <ImageView
         android:id="@+id/imgMora"
         android:layout_width="119dp"
         android:layout_height="105dp"
@@ -43,7 +55,7 @@
         android:id="@+id/imageView20"
         android:layout_width="150dp"
         android:layout_height="62dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="36dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView19"
@@ -53,7 +65,7 @@
         android:id="@+id/imageView23"
         android:layout_width="150dp"
         android:layout_height="62dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="52dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
@@ -116,7 +128,7 @@
         android:layout_height="62dp"
         android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.294"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha"
         app:layout_constraintTop_toBottomOf="@+id/imageView28"
         app:srcCompat="@drawable/titlemortino" />
@@ -127,7 +139,7 @@
         android:layout_height="62dp"
         android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.314"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha1"
         app:layout_constraintTop_toBottomOf="@+id/imageView19"
         app:srcCompat="@drawable/titleuchuvas" />

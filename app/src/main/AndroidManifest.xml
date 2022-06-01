@@ -10,9 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+
             android:name=".Josue.ArrastrarFiguras.ArrastrarSoltar"
             android:exported="false" />
         <activity
+
+            android:name=".yatulve.Pregunta3verdura"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta2vegefrio"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta1vegefrio"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta3frutas"
+            android:exported="false" /> <!-- cambios zaret y willian -->
+        <activity
+            android:name=".willi_zaret.Patiowz"
+            android:exported="false" />
+        <activity
+            android:name=".willi_zaret.ManualesTelarwz"
+            android:exported="false" />
+        <activity
+            android:name=".willi_zaret.Alfareriawz"
+            android:exported="false" />
+        <activity
+            android:name=".willi_zaret.Manualeswz"
+            android:exported="false" /> <!-- fin de cambios zaret -->
+        <activity
+
             android:name=".yatulve.Pregunta2frutas"
             android:exported="false" />
         <activity
@@ -75,24 +102,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- willian y zaret -->
-        <activity
-            android:name=".willi_zaret.Principal_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Patio_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.ManualesTelar_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Manuales_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Arsesania_wz"
-            android:exported="false" />
-        <activity
-            android:name=".willi_zaret.Alfareria_wz"
-            android:exported="false" /> <!-- hasta aqui -->
+        <!-- hasta aqui -->
         <activity
             android:name=".erikadaniel.Casaed"
             android:exported="false" />

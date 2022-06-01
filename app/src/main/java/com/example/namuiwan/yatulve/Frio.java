@@ -1,18 +1,20 @@
 package com.example.namuiwan.yatulve;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.namuiwan.R;
 
 public class Frio extends AppCompatActivity implements View.OnClickListener {
-    ImageView imgUlluco,imgPapaColorada,imgPapaAmarilla,imgRepollo;
-    MediaPlayer ulluco,papacolorada,papaamarilla,repollo;
+    ImageView imgUlluco,imgPapaColorada,imgPapaAmarilla,imgRepollo, imgPregunta;
+    MediaPlayer ulluco,papacolorada,papaamarilla,repollo,pregunta1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +22,8 @@ public class Frio extends AppCompatActivity implements View.OnClickListener {
         referenciar();
     }
     private void referenciar() {
+        imgPregunta = findViewById(R.id.imgPregunta);
+        imgPregunta.setOnClickListener(this);
         imgUlluco = findViewById(R.id.imgUlluco);
         imgUlluco.setOnClickListener(this);
         imgPapaColorada = findViewById(R.id.imgPapaColorada);
@@ -33,11 +37,19 @@ public class Frio extends AppCompatActivity implements View.OnClickListener {
         papacolorada  = MediaPlayer.create(this,R.raw.pikoye);
         papaamarilla       = MediaPlayer.create(this,R.raw.maiye);
         repollo      = MediaPlayer.create(this,R.raw.tulurmon);
+        pregunta1 = MediaPlayer.create(this,R.raw.pregunta1vegetcualesrepollo);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            case R.id.imgPregunta:
+                Toast.makeText(Frio.this, "¿Cual es el repollo...?", Toast.LENGTH_SHORT).show();
+                Intent intent1 = new Intent(Frio.this, Pregunta1vegefrio.class);
+                startActivity(intent1);
+                pregunta1.start();
+                break;
+
             case R.id.imgUlluco:
                 ulluco.start();
                 break;

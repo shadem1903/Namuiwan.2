@@ -13,7 +13,7 @@ import com.example.namuiwan.R;
 
 public class Frutas extends AppCompatActivity implements View.OnClickListener {
     ImageView imgUchuvas, imgMora, imgMortino, imgFresas,imgPregunta;
-    MediaPlayer uchuvas, mora, mortino, fresas;
+    MediaPlayer uchuvas, mora, mortino, fresas, pregunta1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +36,7 @@ public class Frutas extends AppCompatActivity implements View.OnClickListener {
         mora = MediaPlayer.create(this,R.raw.morave);
         mortino = MediaPlayer.create(this,R.raw.mortinove);
         fresas = MediaPlayer.create(this,R.raw.fresasve);
+        pregunta1 = MediaPlayer.create(this, R.raw.pregunta1frutascualesuchuvave);
 
 
     }
@@ -44,10 +45,10 @@ public class Frutas extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.imgPregunta:
-                Toast.makeText(Frutas.this, "A seleccionado Preguntas", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Frutas.this, "¿Cual es la uchuva...?", Toast.LENGTH_SHORT).show();
                 Intent intent1 = new Intent(Frutas.this, Pregunta1frutas.class);
                 startActivity(intent1);
-                //fresas.start();
+                pregunta1.start();
 
                 break;
 
