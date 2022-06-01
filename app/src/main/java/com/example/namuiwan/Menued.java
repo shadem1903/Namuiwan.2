@@ -20,8 +20,6 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
     ImageView btncasa, btncocina, btnhuerta, btnartesania, btnjugar;
     MediaPlayer artesania, casa, cocina, huerta, juegos;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

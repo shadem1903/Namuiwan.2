@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.namuiwan.Josue.ArrastrarFiguras.ArrastrarySoltar;
+import com.example.namuiwan.Josue.ArrastrarFiguras.ArrastrarSoltar;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
 
@@ -41,7 +41,7 @@ public class JuegosCJ extends AppCompatActivity {
         btnArrastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ArrastrarySoltar.class);
+                Intent intent = new Intent(getApplicationContext(), ArrastrarSoltar.class);
                 startActivity(intent);
             }
         });

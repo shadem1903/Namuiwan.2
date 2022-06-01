@@ -2,12 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.namuiwan">
-
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".Josue.ArrastrarFiguras.ArrastrarSoltar"
+            android:exported="false" />
         <activity
             android:name=".yatulve.Pregunta2frutas"
             android:exported="false" />
@@ -26,9 +23,6 @@
             android:exported="false" />
         <activity
             android:name=".BD.Login"
-            android:exported="false" />
-        <activity
-            android:name=".Josue.ArrastrarFiguras.ArrastrarySoltar"
             android:exported="false" />
         <activity
             android:name=".Josue.carlos.Adivina"
@@ -115,12 +109,6 @@
             android:name=".erikadaniel.Familiaed"
             android:exported="false" />
         <activity
-            android:name=".erikadaniel.Tierraed"
-            android:exported="false" />
-        <activity
-            android:name=".erikadaniel.Salvajeed"
-            android:exported="false" />
-        <activity
             android:name=".erikadaniel.Domesticoed"
             android:exported="false" />
         <activity
@@ -131,9 +119,6 @@
             android:exported="true" />
         <activity
             android:name=".erikadaniel.Bosqueed"
-            android:exported="true" />
-        <activity
-            android:name=".erikadaniel.Plantased"
             android:exported="true" />
         <activity
             android:name=".Josue.carlos.juego"
