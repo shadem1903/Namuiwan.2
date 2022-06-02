@@ -25,62 +25,61 @@
             android:id="@+id/head"
             android:layout_width="57sp"
             android:layout_height="57sp"
-            android:layout_marginLeft="189dp"
-            android:layout_marginTop="78dp"
-            app:srcCompat="@drawable/carloscabeza"
-            android:visibility="invisible"/>
+            android:layout_marginLeft="226dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/carloscabeza" />
 
         <ImageView
             android:id="@+id/body"
             android:layout_width="95sp"
             android:layout_height="95sp"
-            android:layout_marginLeft="170dp"
-            android:layout_marginTop="75dp"
-            android:visibility="invisible"
+            android:layout_marginLeft="209dp"
+            android:layout_marginTop="79dp"
+
             app:srcCompat="@drawable/carlostronco" />
 
         <ImageView
             android:id="@+id/armLeft"
             android:layout_width="104sp"
             android:layout_height="104sp"
-            android:layout_marginLeft="162.9dp"
-            android:layout_marginTop="76dp"
+            android:layout_marginLeft="204dp"
+            android:layout_marginTop="78dp"
             app:srcCompat="@drawable/carlosbrazoizq"
-            android:visibility="invisible"/>
+            />
 
         <ImageView
             android:id="@+id/armRight"
             android:layout_width="104sp"
             android:layout_height="104sp"
-            android:layout_marginLeft="165dp"
-            android:layout_marginTop="76dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="78dp"
             app:srcCompat="@drawable/carlosbracoder"
-            android:visibility="invisible"/>
+            />
 
         <ImageView
             android:id="@+id/legLeft"
             android:layout_width="148sp"
             android:layout_height="148sp"
-            android:layout_marginLeft="143.5dp"
+            android:layout_marginLeft="188dp"
             android:layout_marginTop="78.5dp"
-            android:visibility="invisible"
+
             app:srcCompat="@drawable/carlospiernaizq" />
 
         <ImageView
             android:id="@+id/legRight"
-            android:layout_width="159dp"
-            android:layout_height="159dp"
-            android:layout_marginLeft="139dp"
-            android:layout_marginTop="67dp"
-            app:srcCompat="@drawable/carlospiernader"
-            android:visibility="invisible"/>
+            android:layout_width="169dp"
+            android:layout_height="169dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="62dp"
+
+            app:srcCompat="@drawable/carlospiernader" />
 
     </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/fruit"
         android:layout_width="match_parent"
-        android:layout_height="47dp"
+        android:layout_height="86dp"
         android:layout_marginBottom="5dp"
         android:background="@android:color/white"
         android:gravity="center"
