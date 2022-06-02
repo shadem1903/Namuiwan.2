@@ -50,8 +50,8 @@
 
     <Button
         android:id="@+id/Iniciar"
-        android:layout_width="130dp"
-        android:layout_height="50dp"
+        android:layout_width="166dp"
+        android:layout_height="48dp"
         android:background="@drawable/iniciojo"
         android:gravity="center_horizontal"
         android:textColor="@color/black"
@@ -66,8 +66,8 @@
 
     <Button
         android:id="@+id/Registro"
-        android:layout_width="130dp"
-        android:layout_height="50dp"
+        android:layout_width="164dp"
+        android:layout_height="52dp"
         android:background="@drawable/registrarjo"
         android:gravity="center_horizontal"
         android:textColor="@color/black"
@@ -86,7 +86,7 @@
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.638"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.969"

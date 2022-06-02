@@ -8,6 +8,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.example.namuiwan.BD.DBHELPER.DBhelper;
@@ -16,7 +17,7 @@ import com.example.namuiwan.R;
 
 public class Login extends AppCompatActivity {
     EditText Username;
-    Button NuevoUsuario,Volver;
+    ImageButton NuevoUsuario,Volver;
     DBhelper DB;
 
     @Override
