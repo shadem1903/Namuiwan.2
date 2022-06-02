@@ -107,21 +107,21 @@ public class Memoria extends Activity {
 
     private void cargarTexto(){
         textoPuntuacion = findViewById(R.id.texto_puntuacion);
-        puntuacion = 0;
+        puntuacion = 10;
         aciertos = 0;
         textoPuntuacion.setText("Puntuacion: " + puntuacion);
     }
 
     private void cargarImagenes(){
         imagenes = new int[]{
-                R.drawable.la0,
-                R.drawable.la1,
-                R.drawable.la2,
-                R.drawable.la3,
-                R.drawable.la4,
-                R.drawable.la5,
-                R.drawable.la6,
-                R.drawable.la7
+                R.drawable.gallinaed,
+                R.drawable.gatoed,
+                R.drawable.caballoed,
+                R.drawable.vacaed,
+                R.drawable.perroed,
+                R.drawable.ovejoed,
+                R.drawable.conejoed,
+                R.drawable.cuyed
         };
         fondo = R.drawable.fondocarlos;
     }
@@ -195,7 +195,6 @@ public class Memoria extends Activity {
             public void run() {
                 for(int i=0; i<tablero.length; i++){
                     tablero[i].setScaleType(ImageView.ScaleType.CENTER_CROP);
-                    //tablero[i].setImageResource(imagenes[arrayDesordenado.get(i)]);
                     tablero[i].setImageResource(fondo);
                 }
             }
