@@ -8,11 +8,13 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.namuiwan.Josue.ArrastrarFiguras.ArrastrarSoltar;
+import com.example.namuiwan.Josue.carlos.Adivina;
+import com.example.namuiwan.Josue.carlos.Memoria;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
 
 public class JuegosCJ extends AppCompatActivity {
-    Button btnPuzzle,btnMemorie,btnAdivina,btnHabilidades,btnArrastrar;
+    Button btnPuzzle, btnMemorie, btnAdivina, btnHabilidades, btnArrastrar;
 
 
     @Override
@@ -21,6 +23,15 @@ public class JuegosCJ extends AppCompatActivity {
         setContentView(R.layout.activity_juegos_cj);
 
         btnPuzzle = findViewById(R.id.btnPuzzle);
+        btnMemorie = findViewById(R.id.btnMemorie);
+
+        btnMemorie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                System.out.println("Iniciando juego ...");
+                iniciarjuego();
+            }
+        });
 
         btnPuzzle.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +44,7 @@ public class JuegosCJ extends AppCompatActivity {
         btnAdivina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MenuAdivina.class);
+                Intent intent = new Intent(getApplicationContext(), Adivina.class);
                 startActivityForResult(intent, 0);
             }
         });
@@ -46,7 +57,9 @@ public class JuegosCJ extends AppCompatActivity {
             }
         });
 
-
-
+    }
+    private void iniciarjuego () {
+        Intent i = new Intent(this, Memoria.class);
+        startActivity(i);
     }
 }

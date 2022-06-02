@@ -130,9 +130,6 @@
             android:name=".erikadaniel.Bosqueed"
             android:exported="true" />
         <activity
-            android:name=".Josue.carlos.juego"
-            android:exported="false" />
-        <activity
             android:name=".AlvaroW.Autoridadawf"
             android:exported="false" />
         <activity
@@ -153,6 +150,8 @@
         <activity
             android:name=".AlvaroW.JuegoAlvaroWilf"
             android:exported="false" />
+        <activity android:name=".Josue.carlos.Memoria"></activity>
+
     </application>
 
 </manifest>
