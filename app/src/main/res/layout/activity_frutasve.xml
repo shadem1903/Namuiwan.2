@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".yatulve.Frutas"
-    android:background="@drawable/fondove">
+    android:background="@drawable/fondofrutashve">
 
     <ImageView
         android:id="@+id/imageView22"
@@ -75,7 +75,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView21"
         app:layout_constraintTop_toBottomOf="@+id/imgMora"
         app:layout_constraintVertical_bias="0.073"
-        app:srcCompat="@drawable/titlemortino" />
+        app:srcCompat="@drawable/titlefresas" />
 
     <ImageView
         android:id="@+id/imgFlecha1"
@@ -96,20 +96,18 @@
         android:layout_marginTop="60dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlemora"
-        app:srcCompat="@drawable/arandanosve" />
+        app:srcCompat="@drawable/fresasve" />
 
     <ImageView
         android:id="@+id/imgFresas"
         android:layout_width="119dp"
         android:layout_height="105dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
         app:layout_constraintTop_toBottomOf="@+id/imageView29"
-        app:layout_constraintVertical_bias="0.606"
-        app:srcCompat="@drawable/fresasve" />
+        app:srcCompat="@drawable/arandanove" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -164,14 +162,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgMortino"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/titlefresas" />
+        app:srcCompat="@drawable/titlemortino" />
 
     <ImageView
         android:id="@+id/imgFlecha2"
         android:layout_width="50dp"
         android:layout_height="40dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="100dp"
         app:layout_constraintStart_toEndOf="@+id/imgtitlemora"
         app:layout_constraintTop_toBottomOf="@+id/imgFlecha1"
         app:srcCompat="@drawable/flechave" />

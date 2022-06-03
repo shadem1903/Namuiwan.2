@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".yatulve.Pregunta2frutas"
-    android:background="@drawable/fondove">
+    android:background="@drawable/fondofrutashve">
 
     <ImageView
         android:id="@+id/imageView22"
@@ -76,7 +76,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.452"
-        app:srcCompat="@drawable/arandanosve" />
+        app:srcCompat="@drawable/arandanove" />
 
     <ImageView
         android:id="@+id/imgParlanteve"

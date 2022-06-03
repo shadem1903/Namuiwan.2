@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".yatulve.Pregunta3frutas"
-    android:background="@drawable/fondove">
+    android:background="@drawable/fondofrutashve">
 
     <ImageView
         android:id="@+id/imageView22"
@@ -37,10 +37,10 @@
         android:layout_height="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.787"
+        app:layout_constraintVertical_bias="0.715"
         app:srcCompat="@drawable/uchuvave" />
 
     <ImageView
@@ -49,10 +49,10 @@
         android:layout_height="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintHorizontal_bias="0.77"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955"
+        app:layout_constraintVertical_bias="0.883"
         app:srcCompat="@drawable/morave" />
 
     <ImageView
@@ -61,10 +61,10 @@
         android:layout_height="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452"
+        app:layout_constraintVertical_bias="0.619"
         app:srcCompat="@drawable/fresasve" />
 
     <ImageView
@@ -73,11 +73,11 @@
         android:layout_height="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.619"
-        app:srcCompat="@drawable/arandanosve" />
+        app:layout_constraintVertical_bias="0.444"
+        app:srcCompat="@drawable/arandanove" />
 
     <ImageView
         android:id="@+id/imgParlanteve"
