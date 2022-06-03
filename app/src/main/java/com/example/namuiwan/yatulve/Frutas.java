@@ -59,10 +59,10 @@ public class Frutas extends AppCompatActivity implements View.OnClickListener {
                 mora.start();
                 break;
             case R.id.imgMortino:
-                mortino.start();
+                fresas.start();
                 break;
             case R.id.imgFresas:
-                fresas.start();
+                mortino.start();
                 break;
         }
     }
