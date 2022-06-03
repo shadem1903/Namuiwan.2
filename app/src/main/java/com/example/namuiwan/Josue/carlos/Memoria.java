@@ -13,12 +13,12 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
+import com.example.namuiwan.R;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
-import com.example.namuiwan.R;
-
-public class juego extends Activity {
+public class Memoria extends Activity {
     // variables para los componentes de la vista
     ImageButton imb00, imb01, imb02, imb03, imb04, imb05, imb06, imb07, imb08, imb09, imb10, imb11, imb12, imb13, imb14, imb15;
     ImageButton[] tablero = new ImageButton[16];
@@ -42,7 +42,7 @@ public class juego extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.juego);
+        setContentView(R.layout.memoria);
         init();
     }
 
@@ -107,23 +107,23 @@ public class juego extends Activity {
 
     private void cargarTexto(){
         textoPuntuacion = findViewById(R.id.texto_puntuacion);
-        puntuacion = 0;
+        puntuacion = 10;
         aciertos = 0;
         textoPuntuacion.setText("Puntuacion: " + puntuacion);
     }
 
     private void cargarImagenes(){
         imagenes = new int[]{
-                R.drawable.la0,
-                R.drawable.la1,
-                R.drawable.la2,
-                R.drawable.la3,
-                R.drawable.la4,
-                R.drawable.la5,
-                R.drawable.la6,
-                R.drawable.la7
+                R.drawable.gallinaed,
+                R.drawable.gatoed,
+                R.drawable.caballoed,
+                R.drawable.vacaed,
+                R.drawable.perroed,
+                R.drawable.ovejoed,
+                R.drawable.conejoed,
+                R.drawable.cuyed
         };
-        fondo = R.drawable.fondove;
+        fondo = R.drawable.fondocarlos;
     }
 
     private ArrayList<Integer> barajar(int longitud){
@@ -195,7 +195,6 @@ public class juego extends Activity {
             public void run() {
                 for(int i=0; i<tablero.length; i++){
                     tablero[i].setScaleType(ImageView.ScaleType.CENTER_CROP);
-                    //tablero[i].setImageResource(imagenes[arrayDesordenado.get(i)]);
                     tablero[i].setImageResource(fondo);
                 }
             }

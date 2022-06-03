@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.namuiwan">
     <application
         android:allowBackup="true"
@@ -131,9 +130,6 @@
             android:name=".erikadaniel.Bosqueed"
             android:exported="true" />
         <activity
-            android:name=".Josue.carlos.juego"
-            android:exported="false" />
-        <activity
             android:name=".AlvaroW.Autoridadawf"
             android:exported="false" />
         <activity
@@ -154,6 +150,8 @@
         <activity
             android:name=".AlvaroW.JuegoAlvaroWilf"
             android:exported="false" />
+        <activity android:name=".Josue.carlos.Memoria"></activity>
+
     </application>
 
 </manifest>
