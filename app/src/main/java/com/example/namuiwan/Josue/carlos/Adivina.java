@@ -101,9 +101,9 @@ public class Adivina extends AppCompatActivity {
             if(numCorr==numChars){
                 disableButtons();
                 AlertDialog.Builder builder=new AlertDialog.Builder(this);
-                builder.setTitle("Ganaste");
-                builder.setMessage("Felicitaciones!\n\nLa respuesta es \n\n"+currWord);
-                builder.setPositiveButton("Jugar de nuevo", new DialogInterface.OnClickListener() {
+                builder.setTitle("KatƟkan purayan");
+                builder.setMessage("Tap kƟn!\n\nƟya pƟramik kƟn \n\n"+currWord);
+                builder.setPositiveButton("KatƟle ishekamik", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Adivina.this.playGame();

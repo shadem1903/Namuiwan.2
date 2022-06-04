@@ -13,7 +13,7 @@ import com.example.namuiwan.R;
 
 public class Domesticoed extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView imgcuy, imgconejo, imggallina, imggato, imgperro, imgcaballo, imgvaca, imgovejo, imgbtnconejo, imgbtncuy, imgbtngallina, imgbtngato, imgbtnovejo, imgbtnperro, imgbtnvaca, imgbtncaballo;
+    ImageView imgcuy, imgconejo, imggallina, imggato, imgperro, imgcaballo, imgvaca, imgovejo, imgbtnconejo, imgTraduccion, imgbtngallina, imgbtngato, imgbtnovejo, imgbtnperro, imgbtnvaca, imgbtncaballo;
     MediaPlayer caballo, conejo, cuy, gallina, gato, ovejo, perro, vaca;
     int valor=0;
 
@@ -41,11 +41,14 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
         imgovejo = findViewById(R.id.imgovejo);
         imgovejo.setOnClickListener(this);
         imgcaballo = findViewById(R.id.imgcaballo);
+        imgTraduccion = findViewById(R.id.imgtraduccion);
+        imgTraduccion.setOnClickListener(this);
         imgcaballo.setOnClickListener(this);
 
-        imgbtnconejo = findViewById(R.id.imgbtnconejo);
+
+       /* imgbtnconejo = findViewById(R.id.imgbtnconejo);
         imgbtnconejo.setOnClickListener(this);
-        imgbtncuy = findViewById(R.id.imgbtncuy);
+     //   imgbtncuy = findViewById(R.id.imgbtncuy);
         imgbtncuy.setOnClickListener(this);
         imgbtngallina = findViewById(R.id.imgbtngallina);
         imgbtngallina.setOnClickListener(this);
@@ -58,7 +61,7 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
         imgbtnovejo = findViewById(R.id.imgbtnovejo);
         imgbtnovejo.setOnClickListener(this);
         imgbtncaballo = findViewById(R.id.imgbtncaballo);
-        imgbtncaballo.setOnClickListener(this);
+        imgbtncaballo.setOnClickListener(this);*/
 
 
         //almacenar sonido en la variables
@@ -79,12 +82,12 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
                     switch (valor) {
                         case 1:
                             imgcuy.setImageResource(R.drawable.cuyedg);
-                            imgbtncuy.setVisibility(View.INVISIBLE);
+                            //imgTraduccion.setImageResource(R.drawable.btncuy);
                             valor = 0;
                             break;
                         case 0:
                             imgcuy.setImageResource(R.drawable.cuyed);
-                            imgbtncuy.setVisibility(View.VISIBLE);
+                            imgTraduccion.setImageResource(R.drawable.btncuy);
                             valor = 1;
                             cuy.start();
                             break;
@@ -95,12 +98,12 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
                     switch (valor) {
                         case 1:
                             imgconejo.setImageResource(R.drawable.conejoedg);
-                            imgbtnconejo.setVisibility(View.INVISIBLE);
+                          //  imgTraduccion.setImageResource(R.drawable.btnconejo);
                             valor = 0;
                             break;
                         case 0:
                             imgconejo.setImageResource(R.drawable.conejoed);
-                            imgbtnconejo.setVisibility(View.VISIBLE);
+                            imgTraduccion.setImageResource(R.drawable.btnconejo);
                             valor = 1;
                             conejo.start();
                             break;
@@ -111,12 +114,12 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
                     switch (valor) {
                         case 1:
                             imggallina.setImageResource(R.drawable.gallinaedg);
-                            imgbtngallina.setVisibility(View.INVISIBLE);
+                         //   imgTraduccion.setImageResource(R.drawable.btngallina);
                             valor = 0;
                             break;
                         case 0:
                             imggallina.setImageResource(R.drawable.gallinaed);
-                            imgbtngallina.setVisibility(View.VISIBLE);
+                            imgTraduccion.setImageResource(R.drawable.btngallina);
                             valor = 1;
                             gallina.start();
                             break;
@@ -127,12 +130,12 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
                     switch (valor) {
                         case 1:
                             imgperro.setImageResource(R.drawable.perroedg);
-                            imgbtnperro.setVisibility(View.INVISIBLE);
+                            //imgTraduccion.setImageResource(R.drawable.btncuy);
                             valor = 0;
                             break;
                         case 0:
                             imgperro.setImageResource(R.drawable.perroed);
-                            imgbtnperro.setVisibility(View.VISIBLE);
+                            imgTraduccion.setImageResource(R.drawable.btnperro);
                             valor = 1;
                             perro.start();
                             break;
@@ -143,12 +146,12 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
                     switch (valor) {
                         case 1:
                             imgovejo.setImageResource(R.drawable.ovejoedg);
-                            imgbtnovejo.setVisibility(View.INVISIBLE);
+                            //imgTraduccion.setImageResource(R.drawable.btncuy);
                             valor = 0;
                             break;
                         case 0:
                             imgovejo.setImageResource(R.drawable.ovejoed);
-                            imgbtnovejo.setVisibility(View.VISIBLE);
+                            imgTraduccion.setImageResource(R.drawable.btnovejo);
                             valor = 1;
                             ovejo.start();
                             break;
@@ -159,12 +162,12 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
                     switch (valor) {
                         case 1:
                             imgvaca.setImageResource(R.drawable.vacaedg);
-                            imgbtnvaca.setVisibility(View.INVISIBLE);
+                            //imgTraduccion.setImageResource(R.drawable.btncuy);
                             valor = 0;
                             break;
                         case 0:
                             imgvaca.setImageResource(R.drawable.vacaed);
-                            imgbtnvaca.setVisibility(View.VISIBLE);
+                            imgTraduccion.setImageResource(R.drawable.btnvaca);
                             valor = 1;
                             vaca.start();
                             break;
@@ -175,12 +178,12 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
                     switch (valor) {
                         case 1:
                             imgcaballo.setImageResource(R.drawable.caballoedg);
-                            imgbtncaballo.setVisibility(View.INVISIBLE);
+                            //imgTraduccion.setImageResource(R.drawable.btncuy);
                             valor = 0;
                             break;
                         case 0:
                             imgcaballo.setImageResource(R.drawable.caballoed);
-                            imgbtncaballo.setVisibility(View.VISIBLE);
+                            imgTraduccion.setImageResource(R.drawable.btncaballo);
                             valor = 1;
                             caballo.start();
                             break;
@@ -190,12 +193,12 @@ public class Domesticoed extends AppCompatActivity implements View.OnClickListen
                     switch (valor) {
                         case 1:
                             imggato.setImageResource(R.drawable.gatoedg);
-                            imgbtngato.setVisibility(View.INVISIBLE);
+                            //imgTraduccion.setImageResource(R.drawable.btncuy);
                             valor = 0;
                             break;
                         case 0:
                             imggato.setImageResource(R.drawable.gatoed);
-                            imgbtngato.setVisibility(View.VISIBLE);
+                            imgTraduccion.setImageResource(R.drawable.btngato);
                             valor = 1;
                             gato.start();
                             break;
