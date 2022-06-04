@@ -15,11 +15,12 @@
         android:gravity="center"
         android:paddingTop="15dp">
 
+
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/carlosbarra" />
+            android:id="@+id/imageView25"
+            android:layout_width="222dp"
+            android:layout_height="222dp"
+            app:srcCompat="@drawable/arbolcarlos21" />
 
         <ImageView
             android:id="@+id/head"
