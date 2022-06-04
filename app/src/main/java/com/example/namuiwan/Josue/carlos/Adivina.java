@@ -19,10 +19,12 @@ import com.example.namuiwan.R;
 import java.util.Random;
 
 public class Adivina extends AppCompatActivity {
+    ImageView imagen;
 
     private String []fruit;
     private Random random;
     private String currWord;
+    String newWord;
     private TextView[] charViews;
     private LinearLayout wordLayout;
     private Adivina1 adapter;
@@ -36,6 +38,7 @@ public class Adivina extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adivina);
+        imagen = findViewById(R.id.imageView25);
         fruit=getResources().getStringArray(R.array.fruit);
         wordLayout=findViewById(R.id.fruit);
         gridView=findViewById(R.id.letters);
@@ -52,8 +55,9 @@ public class Adivina extends AppCompatActivity {
         playGame();
     }
     private void playGame(){
-        String newWord=fruit[random.nextInt(fruit.length)];
+        newWord=fruit[random.nextInt(fruit.length)];
 
+        cargarimagen(newWord);
         while(newWord.equals(currWord))newWord =fruit[random.nextInt(fruit.length)];
 
         currWord=newWord;
@@ -79,6 +83,49 @@ public class Adivina extends AppCompatActivity {
 
         for(int i=0;i<sizeParts;i++){
             parts[i].setVisibility(View.INVISIBLE);
+        }
+    }
+
+    private void cargarimagen(String palabra) {
+
+        switch (palabra){
+
+            case "YE":
+
+                imagen.setImageResource(R.drawable.papaguatave);
+
+                break;
+
+            case "KALTRUL":
+                imagen.setImageResource(R.drawable.morave);
+
+                break;
+
+            case "NITAK":
+                imagen.setImageResource(R.drawable.platowz);
+
+                break;
+
+            case "KAULLI":
+                imagen.setImageResource(R.drawable.caballoed);
+
+                break;
+
+            case "KACHULL":
+                imagen.setImageResource(R.drawable.palave);
+
+                break;
+
+            case "YASKAP":
+                imagen.setImageResource(R.drawable.puertaed);
+
+                break;
+
+            case "AWINCHI":
+                imagen.setImageResource(R.drawable.macheteve);
+
+                break;
+
         }
     }
 

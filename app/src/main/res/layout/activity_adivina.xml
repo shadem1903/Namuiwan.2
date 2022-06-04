@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".Josue.carlos.Adivina"
     android:orientation="vertical"
-    android:background="@drawable/fondocarlos20"
+    android:background="@drawable/fondopatioed"
     android:fontFamily="@font/kidsboys">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="261dp"
-
+        android:background="@drawable/carlosfondoadivina"
         android:gravity="center"
         android:paddingTop="15dp">
 
@@ -75,7 +75,6 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:layout_marginTop="200dp"
         android:id="@+id/fruit"
         android:layout_width="match_parent"
         android:layout_height="86dp"
@@ -83,10 +82,9 @@
         android:background="@android:color/white"
         android:gravity="center"
         android:orientation="horizontal"
-        android:padding="10dp" />
-
+        android:padding="10dp"/>
     <GridView
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:id="@+id/letters"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
