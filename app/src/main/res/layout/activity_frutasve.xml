@@ -15,30 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/titlefrutas" /><![CDATA[
-
-    app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17"
-        app:srcCompat="@drawable/interrogacionve" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ]]>
+        app:srcCompat="@drawable/titlefrutas" />
 
     <ImageView
         android:id="@+id/imgPregunta"
@@ -55,134 +32,87 @@
 
     <ImageView
         android:id="@+id/imgUchuvas"
-        android:layout_width="119dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="72dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="147dp"
+        android:layout_height="264dp"
+        android:layout_marginTop="172dp"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:srcCompat="@drawable/uchuvave" />
+        app:srcCompat="@drawable/uchuvave"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView29"
-        android:layout_width="150dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.025"
-        app:layout_constraintStart_toEndOf="@+id/imageView21"
-        app:layout_constraintTop_toBottomOf="@+id/imgMora"
-        app:layout_constraintVertical_bias="0.073"
+        android:id="@+id/titlefresas"
+        android:layout_width="120dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/imgMortino"
+        app:layout_constraintTop_toBottomOf="@+id/imgPregunta"
         app:srcCompat="@drawable/titlefresas" />
 
     <ImageView
-        android:id="@+id/imgFlecha1"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="100dp"
-        android:rotationY="180"
-        app:layout_constraintStart_toEndOf="@+id/imgUchuvas"
-        app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imgMortino"
-        android:layout_width="119dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgtitlemora"
+        android:id="@+id/imgFresas"
+        android:layout_width="114dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/imgPregunta"
         app:srcCompat="@drawable/fresasve" />
 
     <ImageView
-        android:id="@+id/imgFresas"
-        android:layout_width="119dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toEndOf="@+id/imageView18"
-        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        android:id="@+id/imgMortino"
+        android:layout_width="236dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toEndOf="@+id/imgUchuvas"
+        app:layout_constraintTop_toBottomOf="@+id/imgFresas"
         app:srcCompat="@drawable/arandanove" />
 
     <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="92dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView32"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imgtitleuchuvas"
+        android:id="@+id/titleuchuvas"
         android:layout_width="150dp"
         android:layout_height="62dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="92dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
-        app:layout_constraintStart_toEndOf="@+id/imgFlecha1"
-        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        android:layout_marginTop="4dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/imgFresas"
+        app:layout_constraintTop_toBottomOf="@+id/imgUchuvas"
         app:srcCompat="@drawable/titleuchuvas" />
 
     <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="100dp"
-        android:rotationY="180"
+        android:id="@+id/titlemora"
+        android:layout_width="140dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="4dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgMora"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imgMortino"
-        app:layout_constraintTop_toBottomOf="@+id/imgFlecha2"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imgtitlemora"
-        android:layout_width="150dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgUchuvas"
+        app:layout_constraintTop_toBottomOf="@+id/imgMora"
         app:srcCompat="@drawable/titlemora" />
 
     <ImageView
-        android:id="@+id/imageView32"
-        android:layout_width="150dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="68dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgMortino"
-        app:layout_constraintVertical_bias="0.0"
+        android:id="@+id/titlemortino"
+        android:layout_width="127dp"
+        android:layout_height="52dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgFresas"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="@+id/imgFresas"
+        app:layout_constraintTop_toBottomOf="@+id/imgFresas"
         app:srcCompat="@drawable/titlemortino" />
 
     <ImageView
-        android:id="@+id/imgFlecha2"
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="100dp"
-        app:layout_constraintStart_toEndOf="@+id/imgtitlemora"
-        app:layout_constraintTop_toBottomOf="@+id/imgFlecha1"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
         android:id="@+id/imgMora"
-        android:layout_width="119dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.216"
-        app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
-        app:layout_constraintTop_toBottomOf="@+id/imgtitleuchuvas"
+        android:layout_width="143dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toEndOf="@+id/imgFresas"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
         app:srcCompat="@drawable/morave" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
