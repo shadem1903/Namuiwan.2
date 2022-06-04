@@ -94,7 +94,7 @@ public class Frutas extends AppCompatActivity implements View.OnClickListener {
 
             case R.id.imgMortino:
                 titlemortino.setVisibility(View.VISIBLE);
-                fresas.start();
+                mortino.start();
                 TimerTask esperar3 = new TimerTask() {
                     @Override
                     public void run() {
@@ -106,7 +106,8 @@ public class Frutas extends AppCompatActivity implements View.OnClickListener {
                 break;
             case R.id.imgFresas:
                 titlefresas.setVisibility(View.VISIBLE);
-                mortino.start();
+                fresas.start();
+
                 TimerTask esperar4 = new TimerTask() {
                     @Override
                     public void run() {
