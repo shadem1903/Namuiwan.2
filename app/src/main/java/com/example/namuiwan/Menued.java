@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.namuiwan.AlvaroW.Splashinicioawf;
+import com.example.namuiwan.AlvaroW.Cocinaawf;
 import com.example.namuiwan.Josue.JuegosCJ;
 import com.example.namuiwan.erikadaniel.Casaed;
 import com.example.namuiwan.willi_zaret.Patiowz;
@@ -19,8 +19,6 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
 
     ImageView btncasa, btncocina, btnhuerta, btnartesania, btnjugar;
     MediaPlayer artesania, casa, cocina, huerta, juegos;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +71,7 @@ public class Menued extends AppCompatActivity  implements View.OnClickListener  
                 break;
 
             case R.id.btncocina:
-                Intent intent4 = new Intent(Menued.this, Splashinicioawf.class);
+                Intent intent4 = new Intent(Menued.this, Cocinaawf.class);
                 startActivity(intent4);
                 cocina.start();
                 break;

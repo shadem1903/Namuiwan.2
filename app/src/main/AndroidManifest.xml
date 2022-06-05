@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.namuiwan">
-
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+
+            android:name=".Josue.ArrastrarFiguras.ArrastrarSoltar"
+            android:exported="false" />
+        <activity
+
             android:name=".yatulve.Pregunta3verdura"
             android:exported="false" />
         <activity
@@ -40,6 +38,7 @@
             android:name=".willi_zaret.Manualeswz"
             android:exported="false" /> <!-- fin de cambios zaret -->
         <activity
+
             android:name=".yatulve.Pregunta2frutas"
             android:exported="false" />
         <activity
@@ -50,9 +49,6 @@
             android:exported="false" />
         <activity
             android:name=".BD.Login"
-            android:exported="false" />
-        <activity
-            android:name=".Josue.ArrastrarFiguras.ArrastrarySoltar"
             android:exported="false" />
         <activity
             android:name=".Josue.carlos.Adivina"
@@ -122,12 +118,6 @@
             android:name=".erikadaniel.Familiaed"
             android:exported="false" />
         <activity
-            android:name=".erikadaniel.Tierraed"
-            android:exported="false" />
-        <activity
-            android:name=".erikadaniel.Salvajeed"
-            android:exported="false" />
-        <activity
             android:name=".erikadaniel.Domesticoed"
             android:exported="false" />
         <activity
@@ -140,22 +130,16 @@
             android:name=".erikadaniel.Bosqueed"
             android:exported="true" />
         <activity
-            android:name=".erikadaniel.Plantased"
-            android:exported="true" />
-        <activity
-            android:name=".Josue.carlos.juego"
-            android:exported="false" />
-        <activity
-            android:name=".AlvaroW.Convivenciaawf"
+            android:name=".AlvaroW.Autoridadawf"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Autoridadcomunidadawf"
             android:exported="false" />
         <activity
-            android:name=".AlvaroW.Saludosawf"
+            android:name=".AlvaroW.Convivenciaawf"
             android:exported="false" />
         <activity
-            android:name=".AlvaroW.Autoridadawf"
+            android:name=".AlvaroW.Saludosawf"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Espiritualidadawf"
@@ -164,8 +148,10 @@
             android:name=".AlvaroW.Cocinaawf"
             android:exported="false" />
         <activity
-            android:name=".AlvaroW.Splashinicioawf"
+            android:name=".AlvaroW.JuegoAlvaroWilf"
             android:exported="false" />
+        <activity android:name=".Josue.carlos.Memoria"></activity>
+
     </application>
 
 </manifest>

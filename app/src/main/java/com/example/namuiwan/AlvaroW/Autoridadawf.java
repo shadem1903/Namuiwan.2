@@ -4,19 +4,18 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.namuiwan.R;
 
 
 public class Autoridadawf extends AppCompatActivity implements View.OnClickListener {
 
-    Button bttnsigui;
-    ImageView imgbttni, imgbttnna;
+    ImageView imgbttni, imgbttnna,bttnsigui;
     TextView txtni, txtna;
     MediaPlayer naawf, niaawf;
 

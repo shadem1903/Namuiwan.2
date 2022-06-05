@@ -4,134 +4,148 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondococinaawf"
+    android:background="@drawable/cocinahorizontalawf"
     tools:context="AlvaroW.Convivenciaawf">
 
 
-    <Button
+    <ImageView
         android:id="@+id/bttntradu1"
         android:layout_width="118dp"
         android:layout_height="50dp"
         android:text="TRADUCIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.392" />
+        app:layout_constraintVertical_bias="0.392"
+        app:srcCompat="@drawable/traducirawf" />
 
-
-    <Button
+    <ImageView
         android:id="@+id/bttntradu2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="118dp"
+        android:layout_height="50dp"
         android:text="TRADUCIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
+        app:layout_constraintVertical_bias="0.553"
+        app:srcCompat="@drawable/traducirawf" />
 
-
-    <Button
+    <ImageView
         android:id="@+id/bttntradu3"
-        android:layout_width="116dp"
-        android:layout_height="56dp"
+        android:layout_width="118dp"
+        android:layout_height="50dp"
         android:text="TRADUCIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841" />
+        app:layout_constraintVertical_bias="0.822"
+        app:srcCompat="@drawable/traducirawf" />
 
-    <Button
+    <ImageView
         android:id="@+id/bttntradu4"
         android:layout_width="118dp"
-        android:layout_height="51dp"
+        android:layout_height="50dp"
         android:text="TRADUCIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintVertical_bias="0.685"
+        app:srcCompat="@drawable/traducirawf" />
 
     <TextView
         android:id="@+id/txtdis"
         android:layout_width="218dp"
         android:layout_height="72dp"
+        android:fontFamily="@font/kidsboys"
         android:text="ISUA WAMINCHIP"
-        android:textColor="#F8F7F7"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
+
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.405" />
 
-    <Button
-        android:id="@+id/bttnsaludos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imgsaludos"
+        android:layout_width="226dp"
+        android:layout_height="81dp"
         android:text="saludos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/saludosawf" />
 
     <TextView
         android:id="@+id/txtleal"
-        android:layout_width="215dp"
-        android:layout_height="73dp"
-        android:text="ISUA M?R?P"
-        android:textColor="#F8F7F7"
+        android:layout_width="218dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/kidsboys"
+        android:text="ISUA MϴRϴP"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.571" />
 
     <TextView
         android:id="@+id/txtamor"
-        android:layout_width="227dp"
-        android:layout_height="80dp"
+        android:layout_width="218dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/kidsboys"
         android:text="ISUA ASHIP"
-        android:textColor="#F8F7F7"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.849" />
 
     <TextView
         android:id="@+id/txtres"
-        android:layout_width="217dp"
-        android:layout_height="71dp"
+        android:layout_width="218dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/kidsboys"
         android:text="ISUA UÑIP"
-        android:textColor="#F8F7F7"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.952"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707" />
+        app:layout_constraintVertical_bias="0.706" />
 
     <TextView
         android:id="@+id/txtconsejos"
         android:layout_width="182dp"
         android:layout_height="51dp"
         android:text="CONSEJOS"
-        android:textColor="#F8F7F7"
+        android:fontFamily="@font/kidsboys"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -141,14 +155,15 @@
         app:layout_constraintVertical_bias="0.095" />
 
     <ImageView
-        android:id="@+id/imgbttconcejos"
+        android:id="@+id/imgconsejos"
         android:layout_width="167dp"
         android:layout_height="174dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.323"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028"
+        app:layout_constraintVertical_bias="0.049"
         app:srcCompat="@drawable/consejosawf" />
 </androidx.constraintlayout.widget.ConstraintLayout>

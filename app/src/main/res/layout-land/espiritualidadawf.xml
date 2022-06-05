@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cocinahorizontalawf"
+    tools:context="AlvaroW.Espiritualidadawf">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="321dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:text="SITIOS SAGRADOS"
+        android:fontFamily="@font/kidsboys"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="325dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/kidsboys"
+        android:text="PISHINTϴ LINCHA WARAMIK"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <ImageView
+        android:id="@+id/imgojo"
+        android:layout_width="137dp"
+        android:layout_height="153dp"
+        android:layout_margin="10px"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589"
+        app:srcCompat="@drawable/ojodeaguaawf" />
+
+    <ImageView
+        android:id="@+id/imglaguna"
+        android:layout_width="137dp"
+        android:layout_height="153dp"
+        android:layout_margin="10px"
+        android:scaleType="fitXY"
+        android:src="@drawable/lagunaguambiaawf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
+
+
+    <ImageView
+        android:id="@+id/imgmontana"
+        android:layout_width="137dp"
+        android:layout_height="153dp"
+        android:layout_margin="10px"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555"
+        app:srcCompat="@drawable/purayatunawf" />
+
+    <ImageView
+        android:id="@+id/imgpetro"
+        android:layout_width="137dp"
+        android:layout_height="153dp"
+        android:layout_margin="10px"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565"
+        app:srcCompat="@drawable/petroglifosawf" />
+
+
+    <TextView
+        android:id="@+id/txojo"
+        android:layout_width="136dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/kidsboys"
+        android:text="PI KAP"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <TextView
+        android:id="@+id/txlaguna"
+        android:layout_width="136dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/kidsboys"
+        android:text="PISUMERA"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <TextView
+        android:id="@+id/txmontana"
+        android:layout_width="136dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/kidsboys"
+        android:text="TUNMERA"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <TextView
+        android:id="@+id/txpetro"
+        android:layout_width="136dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/kidsboys"
+        android:text="PϴRAWARILϴ"
+        android:textAlignment="center"
+        android:textColor="#1B0B0B"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

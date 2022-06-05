@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -15,10 +14,9 @@ import com.example.namuiwan.R;
 
 public class Convivenciaawf extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView imgbttconcejos ;
-    Button bttntradu1,bttntradu2,bttntradu3,bttntradu4,bttnsaludos;
+    ImageView imgconsejos,bttntradu1,bttntradu2,bttntradu3,bttntradu4,imgsaludos;
     TextView txtdis,txtres,txtamor,txtleal,txtconsejos;
-    MediaPlayer isuawaminchip,isuamorop, isuaaship,isuaunip,saludosawf;
+    MediaPlayer isuawaminchip,isuamorop, isuaaship,isuaunip,saludosawf,consejosawf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +28,8 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
     }
     private void referenciar() {
 
-        imgbttconcejos = findViewById(R.id.imgbttconcejos);
-        imgbttconcejos.setOnClickListener(this);
+        imgconsejos = findViewById(R.id.imgconsejos);
+        imgconsejos.setOnClickListener(this);
 
         bttntradu1 = findViewById(R.id.bttntradu1);
         bttntradu1.setOnClickListener(this);
@@ -45,8 +43,8 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
         bttntradu4 = findViewById(R.id.bttntradu4);
         bttntradu4.setOnClickListener(this);
 
-        bttnsaludos = findViewById(R.id.bttnsaludos);
-        bttnsaludos.setOnClickListener(this);
+        imgsaludos = findViewById(R.id.imgsaludos);
+        imgsaludos.setOnClickListener(this);
 
 
 
@@ -64,6 +62,7 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
         isuaaship = MediaPlayer.create(this, R.raw.isuaaship);
         isuaunip = MediaPlayer.create(this, R.raw.isuaunip);
         saludosawf  = MediaPlayer.create(this, R.raw.saludosawf);
+        consejosawf = MediaPlayer.create(this, R.raw.consejosawf);
 
 
     }
@@ -91,11 +90,16 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
                 isuaunip.start();
                 break;
 
-            case R.id.bttnsaludos:
+            case R.id.imgsaludos:
                 Toast.makeText(Convivenciaawf.this, "A seleccionado Saludos", Toast.LENGTH_SHORT).show();
                 Intent intent3 = new Intent(Convivenciaawf.this,Saludosawf.class);
                 startActivity(intent3);
                 saludosawf.start();
+                break;
+
+
+            case R.id.imgconsejos:
+                consejosawf.start();
                 break;
 
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".yatulve.Pregunta3verdura"
-    android:background="@drawable/fondove">
+    android:background="@drawable/fondovegetaleshve">
 
     <ImageView
         android:id="@+id/imgCebolla"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".yatulve.Frio"
-    android:background="@drawable/fondove">
+    android:background="@drawable/fondoalimentosfrioshve">
 
     <ImageView
         android:id="@+id/imgtitlerepollo"
@@ -19,14 +19,12 @@
 
     <ImageView
         android:id="@+id/imgPregunta"
-        android:layout_width="90dp"
-        android:layout_height="62dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547"
+        android:layout_width="88dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imgtitlealimentosfrios"
+        app:layout_constraintTop_toTopOf="@+id/imgtitlealimentosfrios"
         app:srcCompat="@drawable/interrogacionve" />
 
     <ImageView
@@ -66,7 +64,6 @@
         android:layout_height="84dp"
         android:layout_marginStart="92dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/fondove"
         app:layout_constraintStart_toEndOf="@+id/imgPapaColorada"
         app:layout_constraintTop_toBottomOf="@+id/imgPapaAmarilla"
         app:srcCompat="@drawable/ullucosve" />

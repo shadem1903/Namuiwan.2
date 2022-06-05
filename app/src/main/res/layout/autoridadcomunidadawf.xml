@@ -4,92 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondococinaawf"
+    android:background="@drawable/cocinasverticalawf"
     tools:context=".AlvaroW.Autoridadcomunidadawf">
 
 
     <ImageView
         android:id="@+id/imgbttmama"
-        android:layout_width="148dp"
-        android:layout_height="283dp"
+        android:layout_width="136dp"
+        android:layout_height="285dp"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.939"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348"
-        app:srcCompat="@drawable/ninamisakawf" />
+        app:layout_constraintVertical_bias="0.627"
+        app:srcCompat="@drawable/mamaawf" />
 
     <ImageView
         android:id="@+id/imgbttntata"
-        android:layout_width="155dp"
-        android:layout_height="294dp"
+        android:layout_width="144dp"
+        android:layout_height="298dp"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.331"
-        app:srcCompat="@drawable/ninomisakawf" />
+        app:layout_constraintVertical_bias="0.648"
+        app:srcCompat="@drawable/papaawf" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="329dp"
         android:layout_height="47dp"
-        android:focusableInTouchMode="true"
-        android:fontFamily="monospace"
         android:text="AUTORIDAD EN LA COMUNIDAD"
-        android:textColor="#F1EEEE"
+        android:fontFamily="@font/kidsboys"
+        android:textAlignment="center"
+        android:textColor="#121212"
         android:textSize="20sp"
-        android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.646"
+        app:layout_constraintHorizontal_bias="0.378"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintVertical_bias="0.15" />
 
     <TextView
         android:id="@+id/txtmama"
         android:layout_width="112dp"
         android:layout_height="38dp"
+        android:fontFamily="@font/kidsboys"
         android:text="MAMA"
-        android:textColor="#F1EEEE"
+        android:textAlignment="center"
+        android:textColor="#121212"
         android:textSize="20sp"
         android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintVertical_bias="0.87" />
 
     <TextView
         android:id="@+id/txttata"
         android:layout_width="118dp"
         android:layout_height="38dp"
         android:text="TATA"
-        android:textColor="#F1EEEE"
+        android:fontFamily="@font/kidsboys"
+        android:textAlignment="center"
+        android:textColor="#121212"
         android:textSize="20sp"
-        android:typeface="sans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.688" />
+        app:layout_constraintVertical_bias="0.87" />
 
     <ImageView
         android:id="@+id/imgbas"
-        android:layout_width="57dp"
-        android:layout_height="266dp"
+        android:layout_width="47dp"
+        android:layout_height="249dp"
         android:rotation="17"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365"
+        app:layout_constraintVertical_bias="0.64"
         app:srcCompat="@drawable/bastonawf" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
