@@ -64,8 +64,7 @@
             android:layout_height="150sp"
             android:layout_marginLeft="250dp"
             android:layout_marginTop="84dp"
-            app:srcCompat="@drawable/gruñoncarlos"
-            android:visibility="invisible"
+            app:srcCompat="@drawable/grunoncarlos"
             />
 
         <ImageView
