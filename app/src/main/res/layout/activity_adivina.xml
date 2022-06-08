@@ -19,7 +19,7 @@
             android:id="@+id/imageView26"
             android:layout_width="200dp"
             android:layout_height="220dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="22dp"
             android:layout_marginRight="224dp"
             app:srcCompat="@drawable/arbolcarlos21" />
 
@@ -33,53 +33,57 @@
 
         <ImageView
             android:id="@+id/head"
-            android:layout_width="57sp"
-            android:layout_height="57sp"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
             android:layout_marginLeft="250dp"
-            android:layout_marginTop="80dp"
-            app:srcCompat="@drawable/carloscabeza" />
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/felizcarlos" />
 
         <ImageView
             android:id="@+id/body"
-            android:layout_width="95sp"
-            android:layout_height="95sp"
-            android:layout_marginLeft="231dp"
-            android:layout_marginTop="79dp"
-            app:srcCompat="@drawable/carlostronco" />
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/sonriendocarlos"
+            />
 
         <ImageView
             android:id="@+id/armLeft"
-            android:layout_width="104sp"
-            android:layout_height="104sp"
-            android:layout_marginLeft="224dp"
-            android:layout_marginTop="78dp"
-            app:srcCompat="@drawable/carlosbrazoizq"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/riendocarlos"
+
             />
 
         <ImageView
             android:id="@+id/armRight"
-            android:layout_width="104sp"
-            android:layout_height="104sp"
-            android:layout_marginLeft="225dp"
-            android:layout_marginTop="78dp"
-            app:srcCompat="@drawable/carlosbracoder"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/gruñoncarlos"
+            android:visibility="invisible"
             />
 
         <ImageView
             android:id="@+id/legLeft"
-            android:layout_width="148sp"
-            android:layout_height="148sp"
-            android:layout_marginLeft="205dp"
-            android:layout_marginTop="78.5dp"
-            app:srcCompat="@drawable/carlospiernaizq" />
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/bravocarlos" />
 
         <ImageView
             android:id="@+id/legRight"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="266dp"
-            android:layout_marginTop="166dp"
-            app:srcCompat="@drawable/piernaderecha" />
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="84dp"
+            app:srcCompat="@drawable/tristecarlos"
+           />
 
     </RelativeLayout>
 
