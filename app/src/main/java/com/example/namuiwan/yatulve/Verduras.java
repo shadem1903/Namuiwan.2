@@ -52,6 +52,7 @@ public class Verduras extends AppCompatActivity implements View.OnClickListener{
                 break;
 
             case R.id.imgCebolla:
+
                 cebolla.start();
                 break;
             case R.id.imgZanahoria:
