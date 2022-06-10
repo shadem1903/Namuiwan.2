@@ -129,6 +129,7 @@ public class Adivina extends AppCompatActivity {
         }
     }
 
+
     public void letterPressed(View view){
         String letter=((TextView)view).getText().toString();
         char letterChar=letter.charAt(0);

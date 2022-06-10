@@ -12,7 +12,7 @@ import com.example.namuiwan.R;
 
 public class Bosqueed extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView imgflores, imgflores1, imguchuva, imgrosa, imgsuculenta, imgaliso, imgchilco, imgsalvia, imgbtnflores, imgbtnrosa, imgbtnsuculenta, imgbtnaliso, imgbtnchilco, imgbtnsalvia, imgbtnuchuva;
+    ImageView imgflores, imgflores1, imguchuva, imgrosa, imgsuculenta, imgaliso, imgchilco, imgsalvia, imgtraducciontierra/*imgbtnflores, imgbtnrosa, imgbtnsuculenta, imgbtnaliso, imgbtnchilco, imgbtnsalvia, imgbtnuchuva*/;
     MediaPlayer aliso,chilco,salvia, uchuva, rosa, suculenta,flores ;
     int valor=0;
     @Override
@@ -42,8 +42,10 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
         imgchilco.setOnClickListener(this);
         imgsalvia= findViewById(R.id.imgsalvia);
         imgsalvia.setOnClickListener(this);
+        imgtraducciontierra= findViewById(R.id.imgtraducciontierra);
+        imgtraducciontierra.setOnClickListener(this);
 
-        imgbtnflores= findViewById(R.id.imgbtnflores);
+       /* imgbtnflores= findViewById(R.id.imgbtnflores);
         imgbtnflores.setOnClickListener(this);
         imgbtnuchuva= findViewById(R.id.imgbtnuchuva);
         imgbtnuchuva.setOnClickListener(this);
@@ -56,7 +58,7 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
         imgbtnchilco= findViewById(R.id.imgbtnchilco);
         imgbtnchilco.setOnClickListener(this);
         imgbtnsalvia= findViewById(R.id.imgbtnsalvia);
-        imgbtnsalvia.setOnClickListener(this);
+        imgbtnsalvia.setOnClickListener(this);*/
 
         //almacenar sonido en la variables
 
@@ -78,12 +80,12 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 switch (valor){
                     case 1:
                         imgflores.setImageResource(R.drawable.floresed4g);
-                        imgbtnflores.setVisibility(View.INVISIBLE);
+                        //imgtraducciontierra.setImageResource(R.drawable.btnflores);
                         valor = 0;
                         break;
                     case 0:
                         imgflores.setImageResource(R.drawable.floresed4);
-                        imgbtnflores.setVisibility(View.VISIBLE);
+                        imgtraducciontierra.setImageResource(R.drawable.btnflores);
                         flores.start();
                         valor = 1;
                         break;
@@ -94,12 +96,12 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 switch (valor){
                     case 1:
                         imgflores1.setImageResource(R.drawable.floresed1g);
-                        imgbtnflores.setVisibility(View.INVISIBLE);
+                       // imgtraducciontierra.setImageResource(R.drawable.btnflores);
                         valor = 0;
                         break;
                     case 0:
                         imgflores1.setImageResource(R.drawable.floresed1);
-                        imgbtnflores.setVisibility(View.VISIBLE);
+                        imgtraducciontierra.setImageResource(R.drawable.btnflores);
                         flores.start();
                         valor = 1;
                         break;
@@ -109,12 +111,12 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 switch (valor){
                     case 1:
                         imguchuva.setImageResource(R.drawable.uchuvaedg);
-                        imgbtnuchuva.setVisibility(View.INVISIBLE);
+                      //  imgtraducciontierra.setImageResource(R.drawable.btnuchuva);
                         valor = 0;
                         break;
                     case 0:
                         imguchuva.setImageResource(R.drawable.uchuvaed);
-                        imgbtnuchuva.setVisibility(View.VISIBLE);
+                        imgtraducciontierra.setImageResource(R.drawable.btnuchuva);
                         uchuva.start();
                         valor = 1;
                         break;
@@ -124,12 +126,12 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 switch (valor){
                     case 1:
                         imgrosa.setImageResource(R.drawable.rosaedg);
-                        imgbtnrosa.setVisibility(View.INVISIBLE);
+                      //  imgtraducciontierra.setImageResource(R.drawable.btnrosa);
                         valor = 0;
                         break;
                     case 0:
                         imgrosa.setImageResource(R.drawable.rosaed);
-                        imgbtnrosa.setVisibility(View.VISIBLE);
+                        imgtraducciontierra.setImageResource(R.drawable.btnrosa);
                         rosa.start();
                         valor = 1;
                         break;
@@ -139,12 +141,12 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 switch (valor){
                     case 1:
                         imgsuculenta.setImageResource(R.drawable.suculentasedg);
-                        imgbtnsuculenta.setVisibility(View.INVISIBLE);
+                       // imgtraducciontierra.setImageResource(R.drawable.btnsuculenta);
                         valor = 0;
                         break;
                     case 0:
                         imgsuculenta.setImageResource(R.drawable.suculentased);
-                        imgbtnsuculenta.setVisibility(View.VISIBLE);
+                        imgtraducciontierra.setImageResource(R.drawable.btnsuculenta);
                         suculenta.start();
                         valor = 1;
                         break;
@@ -154,12 +156,12 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 switch (valor){
                     case 1:
                         imgaliso.setImageResource(R.drawable.alisoedg);
-                        imgbtnaliso.setVisibility(View.INVISIBLE);
+                      //  imgtraducciontierra.setImageResource(R.drawable.btnaliso);
                         valor = 0;
                         break;
                     case 0:
                         imgaliso.setImageResource(R.drawable.alisoed);
-                        imgbtnaliso.setVisibility(View.VISIBLE);
+                        imgtraducciontierra.setImageResource(R.drawable.btnaliso);
                         aliso.start();
                         valor = 1;
                         break;
@@ -169,12 +171,12 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 switch (valor){
                     case 1:
                         imgchilco.setImageResource(R.drawable.chilcoedg);
-                        imgbtnchilco.setVisibility(View.INVISIBLE);
+                       // imgtraducciontierra.setImageResource(R.drawable.btnchilco);
                         valor = 0;
                         break;
                     case 0:
                         imgchilco.setImageResource(R.drawable.chilcoed1);
-                        imgbtnchilco.setVisibility(View.VISIBLE);
+                        imgtraducciontierra.setImageResource(R.drawable.btnchilco);
                         chilco.start();
                         valor = 1;
                         break;
@@ -184,12 +186,12 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 switch (valor){
                     case 1:
                         imgsalvia.setImageResource(R.drawable.salviaedg);
-                        imgbtnsalvia.setVisibility(View.INVISIBLE);
+                      //  imgtraducciontierra.setImageResource(R.drawable.btnsalvia);
                         valor = 0;
                         break;
                     case 0:
                         imgsalvia.setImageResource(R.drawable.salviaed);
-                        imgbtnsalvia.setVisibility(View.VISIBLE);
+                        imgtraducciontierra.setImageResource(R.drawable.btnsalvia);
                         salvia.start();
                         valor = 1;
                         break;

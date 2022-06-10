@@ -106,12 +106,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtnbano"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionorientacion"
         app:layout_constraintVertical_bias="0.589"
         app:srcCompat="@drawable/banoed1" />
 
     <ImageView
-        android:id="@+id/imgbtnbano"
+        android:id="@+id/imgtraduccionorientacion"
         android:layout_width="264dp"
         android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -120,105 +120,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnbano"
-        android:visibility="invisible"
-        />
-
-    <ImageView
-        android:id="@+id/imgbtnlavadero"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnlavadero"
-        android:visibility="invisible"
-        />
-
-    <ImageView
-        android:id="@+id/imgbtnpuerta"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnpuerta"
-        android:visibility="invisible"
-        />
-
-    <ImageView
-        android:id="@+id/imgbtnventana"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnventana"
-        android:visibility="invisible"
-        />
-
-    <ImageView
-        android:id="@+id/imgbtnarriba"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnarriba"
-        android:visibility="invisible"
-        />
-
-    <ImageView
-        android:id="@+id/imgbtnabajo"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnabajo"
-        android:visibility="invisible"
-        />
-
-    <ImageView
-        android:id="@+id/imgbtnderecha"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnderecha"
-        android:visibility="invisible"/>
+        app:srcCompat="@drawable/btnorientacioned"   />
 
 
 
-    <ImageView
-        android:id="@+id/imgbtnizquierda"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnizquierda"
-        android:visibility="invisible"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

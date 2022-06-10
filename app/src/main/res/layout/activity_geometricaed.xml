@@ -51,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtngrande"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionorientacion"
         app:layout_constraintVertical_bias="0.206"
         app:srcCompat="@drawable/cuadradoedg" />
 
@@ -63,7 +63,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtngrande"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionorientacion"
         app:layout_constraintVertical_bias="0.421"
         app:srcCompat="@drawable/rectanguloedg" />
 
@@ -76,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtngrande"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionorientacion"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/trianguloedg" />
 
@@ -88,12 +88,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtngrande"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionorientacion"
         app:layout_constraintVertical_bias="0.206"
         app:srcCompat="@drawable/circuloedg" />
 
     <ImageView
-        android:id="@+id/imgbtngrande"
+        android:id="@+id/imgtraduccionorientacion"
         android:layout_width="264dp"
         android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -102,86 +102,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btngrande"
-        android:visibility="invisible"/>
+        app:srcCompat="@drawable/btnfigurased"
+        />
 
-    <ImageView
-        android:id="@+id/imgbtnmediano"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnmediano"
-        android:visibility="invisible"/>
 
-    <ImageView
-        android:id="@+id/imgbtnpequeno"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnpequeno"
-        android:visibility="invisible"/>
-
-    <ImageView
-        android:id="@+id/imgbtncuadrado"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btncuadrado"
-        android:visibility="invisible"/>
-
-    <ImageView
-        android:id="@+id/imgbtncirculo"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btncirculo"
-        android:visibility="invisible"/>
-
-    <ImageView
-        android:id="@+id/imgbtntriangulo"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btntriangulo"
-        android:visibility="invisible"/>
-
-    <ImageView
-        android:id="@+id/imgbtnrectangulo"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.017"
-        app:srcCompat="@drawable/btnrectanculo"
-        android:visibility="invisible"/>
 
 
 

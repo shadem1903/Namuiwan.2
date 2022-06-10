@@ -15,7 +15,7 @@ import com.example.namuiwan.R;
 public class Familiaed extends AppCompatActivity implements View.OnClickListener{
 
 
-    ImageView  imgabuela, imgabuelo, imgpapa, imgmama, imgnina, imgnino, imgbtnabuela, imgbtnabuelo, imgbtnpapa, imgbtnmama, imgbtnnino, imgbtnnina ;
+    ImageView  imgabuela, imgabuelo, imgpapa, imgmama, imgnina, imgnino, imgtraduccionfamilia/*imgbtnabuela, imgbtnabuelo, imgbtnpapa, imgbtnmama, imgbtnnino, imgbtnnina*/ ;
     //TextView txfamiliar, txparentesco;
 
     MediaPlayer abuela, abuelo, papa, mama, hijo, hija;
@@ -45,8 +45,9 @@ public class Familiaed extends AppCompatActivity implements View.OnClickListener
         imgnina = findViewById(R.id.imgnina);
         imgnina.setOnClickListener(this);
 
-        imgbtnabuela = findViewById(R.id.imgbtnabuela);
-        imgbtnabuela.setOnClickListener(this);
+        imgtraduccionfamilia = findViewById(R.id.imgtraduccionfamilia);
+        imgtraduccionfamilia.setOnClickListener(this);
+        /*
         imgbtnabuelo = findViewById(R.id.imgbtnabuelo);
         imgbtnabuelo.setOnClickListener(this);
         imgbtnpapa = findViewById(R.id.imgbtnpapa);
@@ -56,7 +57,7 @@ public class Familiaed extends AppCompatActivity implements View.OnClickListener
         imgbtnnino = findViewById(R.id.imgbtnnino);
         imgbtnnino.setOnClickListener(this);
         imgbtnnina = findViewById(R.id.imgbtnnina);
-        imgbtnnina.setOnClickListener(this);
+        imgbtnnina.setOnClickListener(this);*/
 
 
 
@@ -83,12 +84,12 @@ public class Familiaed extends AppCompatActivity implements View.OnClickListener
                   switch (valor){
                       case 1:
                           imgabuela.setImageResource(R.drawable.abuelaedg);
-                          imgbtnabuela.setVisibility(View.INVISIBLE);
+                         // imgtraduccionfamilia.setImageResource(R.drawable.btnabuelaed);
                           valor = 0;
                           break;
                       case 0:
                           imgabuela.setImageResource(R.drawable.abuelaed);
-                          imgbtnabuela.setVisibility(View.VISIBLE);
+                          imgtraduccionfamilia.setImageResource(R.drawable.btnabuelaed);
                           abuela.start();
                           valor = 1;
                           break;
@@ -98,12 +99,12 @@ public class Familiaed extends AppCompatActivity implements View.OnClickListener
                 switch (valor) {
                     case 1:
                         imgabuelo.setImageResource(R.drawable.abueloedg);
-                        imgbtnabuelo.setVisibility(View.INVISIBLE);
+                       // imgtraduccionfamilia.setImageResource(R.drawable.btnabueloed);
                         valor = 0;
                         break;
                     case 0:
                         imgabuelo.setImageResource(R.drawable.abueloed);
-                        imgbtnabuelo.setVisibility(View.VISIBLE);
+                        imgtraduccionfamilia.setImageResource(R.drawable.btnabueloed);
                         abuelo.start();
                         valor = 1;
                         break;
@@ -113,12 +114,12 @@ public class Familiaed extends AppCompatActivity implements View.OnClickListener
                 switch (valor) {
                     case 1:
                         imgmama.setImageResource(R.drawable.mamaedg);
-                        imgbtnmama.setVisibility(View.INVISIBLE);
+                       // imgtraduccionfamilia.setImageResource(R.drawable.btnmamaed);
                         valor = 0;
                         break;
                     case 0:
                         imgmama.setImageResource(R.drawable.mamaed);
-                        imgbtnmama.setVisibility(View.VISIBLE);
+                        imgtraduccionfamilia.setImageResource(R.drawable.btnmamaed);
                         valor = 1;
                         mama.start();
                         break;
@@ -128,12 +129,12 @@ public class Familiaed extends AppCompatActivity implements View.OnClickListener
                 switch (valor) {
                     case 1:
                         imgpapa.setImageResource(R.drawable.papaedg);
-                        imgbtnpapa.setVisibility(View.INVISIBLE);
+                        //imgtraduccionfamilia.setImageResource(R.drawable.btnpapaed);
                         valor = 0;
                         break;
                     case 0:
                         imgpapa.setImageResource(R.drawable.papaed);
-                        imgbtnpapa.setVisibility(View.VISIBLE);
+                        imgtraduccionfamilia.setImageResource(R.drawable.btnpapaed);
                         papa.start();
                         valor = 1;
                         break;
@@ -143,12 +144,12 @@ public class Familiaed extends AppCompatActivity implements View.OnClickListener
                 switch (valor) {
                     case 1:
                         imgnino.setImageResource(R.drawable.ninoedg);
-                        imgbtnnino.setVisibility(View.INVISIBLE);
+                       // imgtraduccionfamilia.setImageResource(R.drawable.btnhijoed);
                         valor = 0;
                         break;
                     case 0:
                         imgnino.setImageResource(R.drawable.ninoed);
-                        imgbtnnino.setVisibility(View.VISIBLE);
+                        imgtraduccionfamilia.setImageResource(R.drawable.btnhijoed);
                         valor = 1;
                         hijo.start();
                         break;
@@ -158,12 +159,12 @@ public class Familiaed extends AppCompatActivity implements View.OnClickListener
                 switch (valor) {
                     case 1:
                         imgnina.setImageResource(R.drawable.ninaedg);
-                        imgbtnnina.setVisibility(View.INVISIBLE);
+                        //imgtraduccionfamilia.setImageResource(R.drawable.btnhijaed);
                         valor = 0;
                         break;
                     case 0:
                         imgnina.setImageResource(R.drawable.ninaed);
-                        imgbtnnina.setVisibility(View.VISIBLE);
+                        imgtraduccionfamilia.setImageResource(R.drawable.btnhijaed);
                         valor = 1;
                         hija.start();
                         break;

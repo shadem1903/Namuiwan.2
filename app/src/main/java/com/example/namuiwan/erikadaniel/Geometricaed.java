@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.namuiwan.R;
 public class Geometricaed extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView imggrande, imgmediano, imgpequeno, imgcuadrado, imgrectangulo, imgtriangulo, imgcirculo, imgbtngrande, imgbtnmediano, imgbtnpequeno, imgbtncuadrado, imgbtncirculo, imgbtntriangulo, imgbtnrectangulo;
+    ImageView imggrande, imgmediano, imgpequeno, imgcuadrado, imgrectangulo, imgtriangulo, imgcirculo, imgtraduccionorientacion/*, imgbtnmediano, imgbtnpequeno, imgbtncuadrado, imgbtncirculo, imgbtntriangulo, imgbtnrectangulo*/;
     MediaPlayer circulo,recta,tria,grande,media,peque;
     int valor=0;
 
@@ -37,8 +37,9 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
         imgmediano.setOnClickListener(this);
         imgpequeno = findViewById(R.id.imgpequeno);
         imgpequeno.setOnClickListener(this);
-        imgbtncirculo = findViewById(R.id.imgbtncirculo);
-        imgbtncirculo.setOnClickListener(this);
+        imgtraduccionorientacion = findViewById(R.id.imgtraduccionorientacion);
+        imgtraduccionorientacion.setOnClickListener(this);
+        /*
         imgbtncuadrado = findViewById(R.id.imgbtncuadrado);
         imgbtncuadrado.setOnClickListener(this);
         imgbtnrectangulo = findViewById(R.id.imgbtnrectangulo);
@@ -50,7 +51,7 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
         imgbtnmediano = findViewById(R.id.imgbtnmediano);
         imgbtnmediano.setOnClickListener(this);
         imgbtnpequeno = findViewById(R.id.imgbtnpequeno);
-        imgbtnpequeno.setOnClickListener(this);
+        imgbtnpequeno.setOnClickListener(this);*/
 
 
         //almacenar sonido en la variables
@@ -74,12 +75,12 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                 switch (valor) {
                     case 1:
                         imggrande.setImageResource(R.drawable.grandeedg);
-                        imgbtngrande.setVisibility(View.INVISIBLE);
+                        //imgtraduccionorientacion.setImageResource(R.drawable.btngrande);
                         valor = 0;
                         break;
                     case 0:
                         imggrande.setImageResource(R.drawable.grandeed);
-                        imgbtngrande.setVisibility(View.VISIBLE);
+                        imgtraduccionorientacion.setImageResource(R.drawable.btngrande);
                         valor = 1;
                         grande.start();
                         break;
@@ -89,12 +90,12 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                 switch (valor) {
                     case 1:
                         imgmediano.setImageResource(R.drawable.medianoedg);
-                        imgbtnmediano.setVisibility(View.INVISIBLE);
+                       // imgtraduccionorientacion.setImageResource(R.drawable.btnmediano);
                         valor = 0;
                         break;
                     case 0:
                         imgmediano.setImageResource(R.drawable.medianoed);
-                        imgbtnmediano.setVisibility(View.VISIBLE);
+                        imgtraduccionorientacion.setImageResource(R.drawable.btnmediano);
                         valor = 1;
                         media.start();
                         break;
@@ -104,12 +105,12 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                 switch (valor) {
                     case 1:
                         imgpequeno.setImageResource(R.drawable.pequenoedg);
-                        imgbtnpequeno.setVisibility(View.INVISIBLE);
+                       // imgtraduccionorientacion.setImageResource(R.drawable.btnpequeno);
                         valor = 0;
                         break;
                     case 0:
                         imgpequeno.setImageResource(R.drawable.pequenoed);
-                        imgbtnpequeno.setVisibility(View.VISIBLE);
+                        imgtraduccionorientacion.setImageResource(R.drawable.btnpequeno);
                         valor = 1;
                         peque.start();
                         break;
@@ -119,12 +120,12 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                 switch (valor) {
                     case 1:
                         imgcuadrado.setImageResource(R.drawable.cuadradoedg);
-                        imgbtncuadrado.setVisibility(View.INVISIBLE);
+                       // imgtraduccionorientacion.setImageResource(R.drawable.btncuadrado);
                         valor = 0;
                         break;
                     case 0:
                         imgcuadrado.setImageResource(R.drawable.cuadradoed);
-                        imgbtncuadrado.setVisibility(View.VISIBLE);
+                        imgtraduccionorientacion.setImageResource(R.drawable.btncuadrado);
                         valor = 1;
                         break;
                 }
@@ -133,12 +134,12 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                 switch (valor) {
                     case 1:
                         imgrectangulo.setImageResource(R.drawable.rectanguloedg);
-                        imgbtnrectangulo.setVisibility(View.INVISIBLE);
+                      //  imgtraduccionorientacion.setImageResource(R.drawable.btnrectanculo);
                         valor = 0;
                         break;
                     case 0:
                         imgrectangulo.setImageResource(R.drawable.rectanguloed);
-                        imgbtnrectangulo.setVisibility(View.VISIBLE);
+                        imgtraduccionorientacion.setImageResource(R.drawable.btnrectanculo);
                         valor = 1;
                         recta.start();
                         break;
@@ -148,12 +149,12 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                 switch (valor) {
                     case 1:
                         imgtriangulo.setImageResource(R.drawable.trianguloedg);
-                        imgbtntriangulo.setVisibility(View.INVISIBLE);
+                      //  imgtraduccionorientacion.setImageResource(R.drawable.btntriangulo);
                         valor = 0;
                         break;
                     case 0:
                         imgtriangulo.setImageResource(R.drawable.trianguloed);
-                        imgbtntriangulo.setVisibility(View.VISIBLE);
+                        imgtraduccionorientacion.setImageResource(R.drawable.btntriangulo);
                         valor = 1;
                         tria.start();
                         break;
@@ -163,12 +164,12 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                 switch (valor) {
                     case 1:
                         imgcirculo.setImageResource(R.drawable.circuloedg);
-                        imgbtncirculo.setVisibility(View.INVISIBLE);
+                       // imgtraduccionorientacion.setImageResource(R.drawable.btncirculo);
                         valor = 0;
                         break;
                     case 0:
                         imgcirculo.setImageResource(R.drawable.circuloed);
-                        imgbtncirculo.setVisibility(View.VISIBLE);
+                        imgtraduccionorientacion.setImageResource(R.drawable.btncirculo);
                         valor = 1;
                         circulo.start();
                         break;
