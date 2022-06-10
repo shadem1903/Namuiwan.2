@@ -27,15 +27,19 @@
             android:exported="false" /> <!-- cambios zaret y willian -->
         <activity
             android:name=".willi_zaret.Patiowz"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".willi_zaret.ManualesTelarwz"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".willi_zaret.Alfareriawz"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".willi_zaret.Manualeswz"
+            android:screenOrientation="landscape"
             android:exported="false" /> <!-- fin de cambios zaret -->
         <activity
 
@@ -61,27 +65,34 @@
             android:exported="false" />
         <activity
             android:name=".yatulve.Frio"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".yatulve.Calido"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".yatulve.Trueque"
             android:exported="false" />
         <activity
             android:name=".yatulve.Numeros"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".yatulve.Verduras"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".yatulve.Frutas"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".yatulve.Herramientas"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".yatulve.Huerta"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".yatulve.MenuHuerta"
@@ -104,9 +115,11 @@
         <!-- hasta aqui -->
         <activity
             android:name=".erikadaniel.Casaed"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".erikadaniel.Geometricaed"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".erikadaniel.Orientacioned"

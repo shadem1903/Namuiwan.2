@@ -17,7 +17,7 @@
         android:src="@drawable/pcabezaedg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtncabeza" />
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
 
     <ImageView
         android:id="@+id/imgbrazod"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtncabeza" />
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
 
     <ImageView
         android:id="@+id/imgbrazoi"
@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.310"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtncabeza" />
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
 
     <ImageView
         android:id="@+id/imgmanod"
@@ -53,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.765"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtncabeza" />
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
 
     <ImageView
         android:id="@+id/imgmanoi"
@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.237"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtncabeza" />
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
 
     <ImageView
         android:id="@+id/imgpiernad"
@@ -73,7 +73,6 @@
         android:layout_height="107dp"
         android:layout_marginTop="136dp"
         android:scaleType="fitXY"
-
         android:src="@drawable/piernadedg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.427"
@@ -119,7 +118,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imgabdomen" />
 
     <ImageView
-        android:id="@+id/imgbtncabeza"
+        android:id="@+id/imgtraduccioncuerpo"
         android:layout_width="264dp"
         android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -128,73 +127,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.174"
-        app:srcCompat="@drawable/btncabezaed"
-        android:visibility="invisible"/>
+        app:srcCompat="@drawable/btncuerpoed"
+        />
 
-    <ImageView
-        android:id="@+id/imgbtnabdomen"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174"
-        app:srcCompat="@drawable/btnabdomened"
-        android:visibility="invisible"/>
 
-    <ImageView
-        android:id="@+id/imgbtnbrazo"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174"
-        app:srcCompat="@drawable/btnbrazosed"
-        android:visibility="invisible"/>
-
-    <ImageView
-        android:id="@+id/imgbtnmano"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174"
-        app:srcCompat="@drawable/btnmanosed"
-        android:visibility="invisible"/>
-
-    <ImageView
-        android:id="@+id/imgbtnpierna"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174"
-        app:srcCompat="@drawable/btnpiernased"
-        android:visibility="invisible"/>
-
-    <ImageView
-        android:id="@+id/imgbtnpie"
-        android:layout_width="264dp"
-        android:layout_height="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174"
-        app:srcCompat="@drawable/btnpiesed"
-        android:visibility="invisible"/>
 
     <ImageView
         android:id="@+id/imgabdomen"
@@ -206,7 +142,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgbtncabeza" />
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccioncuerpo" />
 
 
 

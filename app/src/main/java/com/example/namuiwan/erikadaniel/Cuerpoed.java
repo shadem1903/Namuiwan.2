@@ -13,7 +13,7 @@ import com.example.namuiwan.R;
 public class
 Cuerpoed extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView imgabdomen, imgcabeza, imgbrazod, imgbrazoi, imgmanod, imgmanoi, impiernad, impiernai, imgpied, imgpiei, imgbtncabeza, imgbtnabdomen, imgbtnbrazo, imgbtnmano, imgbtnpierna, imgbtnpie;
+    ImageView imgabdomen, imgcabeza, imgbrazod, imgbrazoi, imgmanod, imgmanoi, impiernad, impiernai, imgpied, imgpiei, imgtraduccioncuerpo/* imgbtnabdomen, imgbtnbrazo, imgbtnmano, imgbtnpierna, imgbtnpie*/;
     MediaPlayer cabeza, abdomen, brazo, mano, pierna, pie;
     int valor = 0;
 
@@ -46,9 +46,9 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
         imgpiei = findViewById(R.id.imgpiei);
         imgpiei.setOnClickListener(this);
 
-        imgbtncabeza = findViewById(R.id.imgbtncabeza);
-        imgbtncabeza.setOnClickListener(this);
-        imgbtnbrazo = findViewById(R.id.imgbtnbrazo);
+        imgtraduccioncuerpo = findViewById(R.id.imgtraduccioncuerpo);
+        imgtraduccioncuerpo.setOnClickListener(this);
+        /*imgbtnbrazo = findViewById(R.id.imgbtnbrazo);
         imgbtnbrazo.setOnClickListener(this);
         imgbtnmano = findViewById(R.id.imgbtnmano);
         imgbtnmano.setOnClickListener(this);
@@ -57,7 +57,7 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
         imgbtnpie = findViewById(R.id.imgbtnpie);
         imgbtnpie.setOnClickListener(this);
         imgbtnabdomen = findViewById(R.id.imgbtnabdomen);
-        imgbtnabdomen.setOnClickListener(this);
+        imgbtnabdomen.setOnClickListener(this);*/
 
         abdomen = MediaPlayer.create(this, R.raw.abdomen);
         cabeza = MediaPlayer.create(this, R.raw.cabeza);
@@ -77,12 +77,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         imgcabeza.setImageResource(R.drawable.pcabezaedg);
-                        imgbtncabeza.setVisibility(View.INVISIBLE);
+                       // imgtraduccioncuerpo.setImageResource(R.drawable.btncabezaed);
                         valor = 0;
                         break;
                     case 0:
                         imgcabeza.setImageResource(R.drawable.pcabezaed);
-                        imgbtncabeza.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btncabezaed);
                         valor = 1;
                         cabeza.start();
                         break;
@@ -92,12 +92,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         imgabdomen.setImageResource(R.drawable.pabdomenedg);
-                        imgbtnabdomen.setVisibility(View.INVISIBLE);
+                        //imgtraduccioncuerpo.setImageResource(R.drawable.btnabdomened;
                         valor = 0;
                         break;
                     case 0:
                         imgabdomen.setImageResource(R.drawable.pabdomened);
-                        imgbtnabdomen.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnabdomened);
                         valor = 1;
                         abdomen.start();
                         break;
@@ -107,12 +107,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         imgbrazod.setImageResource(R.drawable.pbrazodedg);
-                        imgbtnbrazo.setVisibility(View.INVISIBLE);
+                        //imgtraduccioncuerpo.setImageResource(R.drawable.btnbrazosed);
                         valor = 0;
                         break;
                     case 0:
                         imgbrazod.setImageResource(R.drawable.pbrazoded);
-                        imgbtnbrazo.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnbrazosed);
                         valor = 1;
                         brazo.start();
                         break;
@@ -122,12 +122,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         imgbrazoi.setImageResource(R.drawable.pbrazoiedg);
-                        imgbtnbrazo.setVisibility(View.INVISIBLE);
+                       // imgtraduccioncuerpo.setImageResource(R.drawable.btnbrazosed);
                         valor = 0;
                         break;
                     case 0:
                         imgbrazoi.setImageResource(R.drawable.pbrazoied);
-                        imgbtnbrazo.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnbrazosed);
                         valor = 1;
                         brazo.start();
                         break;
@@ -138,12 +138,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         imgmanod.setImageResource(R.drawable.pmanodedg);
-                        imgbtnmano.setVisibility(View.INVISIBLE);
+                        //imgtraduccioncuerpo.setImageResource(R.drawable.btnmanosed);
                         valor = 0;
                         break;
                     case 0:
                         imgmanod.setImageResource(R.drawable.pmanoded);
-                        imgbtnmano.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnmanosed);
                         valor = 1;
                         mano.start();
                         break;
@@ -154,12 +154,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         imgmanoi.setImageResource(R.drawable.pmanoiedg);
-                        imgbtnmano.setVisibility(View.INVISIBLE);
+                        //imgtraduccioncuerpo.setImageResource(R.drawable.btnmanosed);
                         valor = 0;
                         break;
                     case 0:
                         imgmanoi.setImageResource(R.drawable.pmanoied);
-                        imgbtnmano.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnmanosed);
                         valor = 1;
                         mano.start();
                         break;
@@ -170,12 +170,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         impiernad.setImageResource(R.drawable.piernadedg);
-                        imgbtnpierna.setVisibility(View.INVISIBLE);
+                        //imgtraduccioncuerpo.setImageResource(R.drawable.btnpiernased);
                         valor = 0;
                         break;
                     case 0:
                         impiernad.setImageResource(R.drawable.piernaded);
-                        imgbtnpierna.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnpiernased);
                         valor = 1;
                         pierna.start();
                         break;
@@ -186,12 +186,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         impiernai.setImageResource(R.drawable.piernaiedg);
-                        imgbtnpierna.setVisibility(View.INVISIBLE);
+                        //imgtraduccioncuerpo.setImageResource(R.drawable.btnpiernased);
                         valor = 0;
                         break;
                     case 0:
                         impiernai.setImageResource(R.drawable.piernaied);
-                        imgbtnpierna.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnpiernased);
                         valor = 1;
                         pierna.start();
                         break;
@@ -202,12 +202,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         imgpied.setImageResource(R.drawable.piededg);
-                        imgbtnpie.setVisibility(View.INVISIBLE);
+                       // imgtraduccioncuerpo.setImageResource(R.drawable.btnpiesed);
                         valor = 0;
                         break;
                     case 0:
                         imgpied.setImageResource(R.drawable.pieded);
-                        imgbtnpie.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnpiesed);
                         valor = 1;
                         pie.start();
                         break;
@@ -218,12 +218,12 @@ Cuerpoed extends AppCompatActivity implements View.OnClickListener {
                 switch (valor) {
                     case 1:
                         imgpiei.setImageResource(R.drawable.pieiedg);
-                        imgbtnpie.setVisibility(View.INVISIBLE);
+                        //imgtraduccioncuerpo.setImageResource(R.drawable.btnpiesed);
                         valor = 0;
                         break;
                     case 0:
                         imgpiei.setImageResource(R.drawable.pieied);
-                        imgbtnpie.setVisibility(View.VISIBLE);
+                        imgtraduccioncuerpo.setImageResource(R.drawable.btnpiesed);
                         valor = 1;
                         pie.start();
                         break;

@@ -5,24 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
-    android:background="@drawable/verticaljo"
     android:orientation="vertical"
+    android:background="@drawable/verticaljo"
     tools:context=".BD.Login">
+
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="350dp"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:background="@drawable/namuiwanjo"
         android:gravity="center_horizontal"
+        android:textColor="@color/black"
         android:textSize="50dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/Username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.737"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.263"
+        app:layout_constraintVertical_bias="0.896"
         tools:ignore="MissingConstraints">
 
     </TextView>
@@ -33,62 +35,26 @@
         android:layout_height="60dp"
         android:fontFamily="@font/kidsboys"
         android:gravity="center_horizontal"
-        android:hint="Nombre"
+        android:hint="Nuevo Nombre"
         android:paddingLeft="28dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintHorizontal_bias="0.252"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469"
-        tools:ignore="MissingConstraints">
-
-    </EditText>
-
-    <Button
-        android:id="@+id/NuevoUsuario"
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:gravity="center_horizontal"
-        android:text="Registrate"
-        android:textColor="@color/black"
-        android:textSize="28dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.583"
-        tools:ignore="MissingConstraints"></Button>
-
-    <Button
-        android:id="@+id/Volver"
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:gravity="center_horizontal"
-        android:text="volver"
-        android:textColor="@color/black"
-        android:textSize="28dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714"
-        tools:ignore="MissingConstraints"></Button>
+        app:layout_constraintVertical_bias="0.52"
+        tools:ignore="MissingConstraints"></EditText>
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="140dp"
-        android:layout_height="200dp"
+        android:layout_width="166dp"
+        android:layout_height="179dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.628"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.969"
@@ -97,15 +63,43 @@
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="140dp"
-        android:layout_height="200dp"
+        android:layout_width="172dp"
+        android:layout_height="173dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.969"
+        app:layout_constraintVertical_bias="0.971"
         app:srcCompat="@drawable/ninoed"
         tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/Volver"
+        android:layout_width="181dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.253"
+        app:srcCompat="@drawable/volver" />
+
+    <ImageButton
+        android:id="@+id/NuevoUsuario"
+        android:layout_width="218dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.472"
+        app:srcCompat="@drawable/registrarse" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
