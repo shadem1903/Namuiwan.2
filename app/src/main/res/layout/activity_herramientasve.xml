@@ -126,9 +126,9 @@
         android:id="@+id/imgHacha"
         android:layout_width="110dp"
         android:layout_height="97dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
         app:layout_constraintTop_toBottomOf="@+id/imgtitleazadon"
         app:srcCompat="@drawable/hachave" />
@@ -138,11 +138,10 @@
         android:layout_width="150dp"
         android:layout_height="62dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha1"
-        app:layout_constraintTop_toBottomOf="@+id/imageView35"
-        app:srcCompat="@drawable/titleazadon" />
+        app:srcCompat="@drawable/titleazadon"
+        tools:layout_editor_absoluteY="189dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
