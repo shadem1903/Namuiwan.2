@@ -39,6 +39,7 @@
         android:layout_marginStart="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imgPapaGuata"
         app:layout_constraintVertical_bias="0.102"
         app:srcCompat="@drawable/titlearracacha" />
@@ -70,6 +71,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="56dp"
         app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imgMaiz"
         app:srcCompat="@drawable/titleoca" />
 
@@ -112,6 +114,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.148"
+        android:visibility="invisible"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha1"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentoscalientes"
         app:layout_constraintVertical_bias="0.002"
@@ -121,8 +124,9 @@
         android:id="@+id/imgtitlemaiz"
         android:layout_width="158dp"
         android:layout_height="66dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="invisible"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha3"
         app:layout_constraintTop_toBottomOf="@+id/imgArracacha"

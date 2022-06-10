@@ -43,6 +43,7 @@
         android:layout_width="150dp"
         android:layout_height="62dp"
         android:layout_marginTop="100dp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha1"
@@ -55,6 +56,7 @@
         android:layout_height="62dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="64dp"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgPapaAmarilla"
         app:srcCompat="@drawable/titlepapacoloradave" />
@@ -102,12 +104,13 @@
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imageView52"
+        android:id="@+id/imgtittleulluco"
         android:layout_width="150dp"
         android:layout_height="62dp"
         android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.177"
+        android:visibility="invisible"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha3"
         app:layout_constraintTop_toBottomOf="@+id/imgPapaColorada"
         app:srcCompat="@drawable/titleullucosve" />
@@ -118,17 +121,18 @@
         android:layout_height="40dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="80dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView51"
+        app:layout_constraintStart_toEndOf="@+id/imgtitlerepollo"
         app:layout_constraintTop_toBottomOf="@+id/imgFlecha3"
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imageView51"
+        android:id="@+id/imgtitlerepollo"
         android:layout_width="150dp"
         android:layout_height="62dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imgUlluco"
         app:srcCompat="@drawable/titlerepollove" />
 
@@ -140,7 +144,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView52"
+        app:layout_constraintTop_toBottomOf="@+id/imgtittleulluco"
         app:srcCompat="@drawable/repollove" />
 
     <ImageView

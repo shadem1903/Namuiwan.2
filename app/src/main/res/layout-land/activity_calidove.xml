@@ -23,7 +23,7 @@
         android:layout_width="50dp"
         android:layout_height="40dp"
         android:layout_marginTop="60dp"
-        app:layout_constraintStart_toEndOf="@+id/imgtitleoca"
+        app:layout_constraintStart_toEndOf="@+id/imgtitlemaiz"
         app:layout_constraintTop_toBottomOf="@+id/imgFlecha1"
         app:srcCompat="@drawable/flechave" />
 
@@ -47,15 +47,16 @@
         app:srcCompat="@drawable/flechave" />
 
     <ImageView
-        android:id="@+id/imageView64"
+        android:id="@+id/imgtitleoca"
         android:layout_width="157dp"
         android:layout_height="59dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView33"
-        app:layout_constraintTop_toBottomOf="@+id/imageView63"
+        app:layout_constraintTop_toBottomOf="@+id/imgtitlepapaguata"
         app:srcCompat="@drawable/titleoca" />
 
     <ImageView
@@ -79,12 +80,13 @@
         app:srcCompat="@drawable/papaguatave" />
 
     <ImageView
-        android:id="@+id/imgtitleoca"
+        android:id="@+id/imgtitlemaiz"
         android:layout_width="158dp"
         android:layout_height="62dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlearracacha"
         app:srcCompat="@drawable/titlemaiz" />
 
@@ -121,13 +123,14 @@
         app:srcCompat="@drawable/ocave" />
 
     <ImageView
-        android:id="@+id/imageView63"
+        android:id="@+id/imgtitlepapaguata"
         android:layout_width="157dp"
         android:layout_height="59dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="0.189"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha3"
         app:layout_constraintTop_toBottomOf="@+id/imageView60"
         app:srcCompat="@drawable/titlepapaguata" />
@@ -139,6 +142,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imageView60"
         app:srcCompat="@drawable/titlearracacha" />
 
