@@ -40,7 +40,7 @@ public class ArrastrarSoltar extends AppCompatActivity {
 
         iniciaArrastre();
         eventoArrastre();
-        soltarOrigen();
+        /*soltarOrigen();*/
         soltarOrigen1();
 
     }
@@ -58,7 +58,7 @@ public class ArrastrarSoltar extends AppCompatActivity {
             );
             View.DragShadowBuilder myShadow = new View.DragShadowBuilder(imgV1);
             view.startDragAndDrop(dragData,myShadow,null,0);
-            return ;
+            return;
         });
     }
     private static final String IMAGEVIEW_TAG = "ICON BITMAP";
@@ -133,10 +133,10 @@ public class ArrastrarSoltar extends AppCompatActivity {
             return false;
         });
     }
-
+/*
     @RequiresApi(api = Build.VERSION_CODES.N)
     private void soltarOrigen(){
-        /*File internalImagesDir = new File(Context.getFilesDir(),"images");
+        File internalImagesDir = new File(Context.getFilesDir(),"images");
         File imageFile = new File(internalImagesDir, imageFilaname);
         final Uri uri = FileProvider.getUriForFile(Context, contentAhority, imageFile);
 
@@ -145,12 +145,12 @@ public class ArrastrarSoltar extends AppCompatActivity {
            ClipData clipData = new ClipData(new ClipDescription("Image Description", new String[]{"image/*"}), new ClipData.Item(uri));
            int flags = View.DRAG_FLAG_GLOBAL | View.DRAG_FLAG_GLOBAL_URI_READ;
            return view.startDragAndDrop(clipData, new View.DragShadowBuilder(view),null,flags);
-        }).attach();*/
-    }
+        }).attach();
+    }*/
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     private void soltarOrigen1(){
-        ImageView targetImageView = findViewById(R.id.imageView);
+        ImageView targetImageView = findViewById(R.id.imgV2);
 
         targetImageView.setOnDragListener( (view, event) -> {
 

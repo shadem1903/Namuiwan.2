@@ -21,10 +21,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/Username"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896"
+        app:layout_constraintVertical_bias="0.769"
         tools:ignore="MissingConstraints">
 
     </TextView>
@@ -35,17 +35,60 @@
         android:layout_height="60dp"
         android:fontFamily="@font/kidsboys"
         android:gravity="center_horizontal"
-        android:hint="Nuevo Nombre"
+        android:hint="NUEVO NOMBRE"
+        android:paddingLeft="28dp"
+        android:maxLength="20"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33"
+        tools:ignore="MissingConstraints"></EditText>
+
+    <EditText
+        android:id="@+id/Edad"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/kidsboys"
+        android:gravity="center_horizontal"
+        android:hint="EDAD"
+        android:maxLength="2"
+        android:inputType="number"
         android:paddingLeft="28dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintHorizontal_bias="0.315"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52"
+        app:layout_constraintVertical_bias="0.533"
+        tools:ignore="MissingConstraints"></EditText>
+
+    <EditText
+        android:id="@+id/Nick"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/kidsboys"
+        android:gravity="center_horizontal"
+        android:hint="NICK"
+        android:maxLength="10"
+
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432"
         tools:ignore="MissingConstraints"></EditText>
 
     <ImageView
@@ -54,10 +97,10 @@
         android:layout_height="179dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintHorizontal_bias="0.579"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.969"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ninaed"
         tools:ignore="MissingConstraints" />
 
@@ -70,7 +113,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.971"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ninoed"
         tools:ignore="MissingConstraints" />
 
@@ -82,10 +125,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.253"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628"
         app:srcCompat="@drawable/volver" />
 
     <ImageButton
@@ -96,10 +139,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.472"
+        app:layout_constraintVertical_bias="0.61"
         app:srcCompat="@drawable/registrarse" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
