@@ -12,9 +12,10 @@ import com.example.namuiwan.R;
 
 public class Saludosawf extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView imgcalido,imgfrio,imgtarde,imgnoche,imgsaludoss;
-    TextView txcalido,txfrio,txtarde,txnoche,txtsaludo;
-    MediaPlayer pachito,pishinto,mawan,yemkon,saludosawf;
+    ImageView imgtraduccionsaludos, imgsaludoss, imgsaludosoleado, imgsaludofrio, imgsaludotarde, imgsaludonoche;
+
+    MediaPlayer buencalido,buenfrio,buenatarde,buenanoche;
+
 
 
     @Override
@@ -28,37 +29,27 @@ public class Saludosawf extends AppCompatActivity implements View.OnClickListene
 
     private void referenciar() {
 
-        imgcalido = findViewById(R.id.imgcalido);
-        imgcalido.setOnClickListener(this);
-
-        imgfrio = findViewById(R.id.imgfrio);
-        imgfrio.setOnClickListener(this);
-
-        imgtarde = findViewById(R.id.imgtarde);
-        imgtarde.setOnClickListener(this);
-
-        imgnoche = findViewById(R.id.imgnoche);
-        imgnoche.setOnClickListener(this);
-
+        imgtraduccionsaludos = findViewById(R.id.imgtraduccionsaludos);
+        imgtraduccionsaludos.setOnClickListener(this);
         imgsaludoss = findViewById(R.id.imgsaludoss);
         imgsaludoss.setOnClickListener(this);
+        imgsaludosoleado = findViewById(R.id.imgsaludosoleado);
+        imgsaludosoleado.setOnClickListener(this);
+        imgsaludofrio = findViewById(R.id.imgsaludofrio);
+        imgsaludofrio.setOnClickListener(this);
+        imgsaludotarde = findViewById(R.id.imgsaludotarde);
+        imgsaludotarde.setOnClickListener(this);
+        imgsaludonoche = findViewById(R.id.imgsaludonoche);
+        imgsaludonoche.setOnClickListener(this);
 
-
-
-        txcalido = findViewById(R.id.txcalido);
-        txfrio = findViewById(R.id.txfrio);
-        txtarde = findViewById(R.id.txtarde);
-        txnoche = findViewById(R.id.txnoche);
-        txtsaludo = findViewById(R.id.txtsaludo);
 
 
         // almacenar sonidos
 
-        pachito = MediaPlayer.create(this, R.raw.pachito);
-        pishinto = MediaPlayer.create(this, R.raw.pishinto);
-        mawan = MediaPlayer.create(this, R.raw.mawan);
-        yemkon = MediaPlayer.create(this, R.raw.yemkon);
-        saludosawf= MediaPlayer.create(this, R.raw.saludosawf);
+        buencalido = MediaPlayer.create(this, R.raw.pachito);
+        buenfrio = MediaPlayer.create(this, R.raw.pishinto);
+        buenatarde = MediaPlayer.create(this, R.raw.mawan);
+        buenanoche = MediaPlayer.create(this, R.raw.yemkon);
 
 
 
@@ -68,29 +59,24 @@ public class Saludosawf extends AppCompatActivity implements View.OnClickListene
     public void onClick(View view) {
         switch (view.getId()){
 
-            case R.id.imgcalido:
-                txcalido.setText("Clima Calido ");
-                pachito.start();
+            case R.id.imgsaludosoleado:
+                imgtraduccionsaludos.setImageResource(R.drawable.diaed);
+                buencalido.start();
                 break;
 
-            case R.id.imgfrio:
-                txfrio.setText("Clima Frio");
-                pishinto.start();
+            case R.id.imgsaludofrio:
+                imgtraduccionsaludos.setImageResource(R.drawable.lluviaed);
+                buenfrio.start();
                 break;
 
-            case R.id.imgtarde:
-                txtarde.setText("Buenas Tardes");
-                mawan.start();
+            case R.id.imgsaludotarde:
+                imgtraduccionsaludos.setImageResource(R.drawable.tardeed);
+                buenatarde.start();
                 break;
 
-            case R.id.imgnoche:
-                txnoche.setText("Buenas Noches");
-                yemkon.start();
-                break;
-
-            case R.id.imgsaludoss:
-                txtsaludo.setText("Saludos Y Clima");
-                saludosawf.start();
+            case R.id.imgsaludonoche:
+                imgtraduccionsaludos.setImageResource(R.drawable.nocheed);
+                buenanoche.start();
                 break;
 
 

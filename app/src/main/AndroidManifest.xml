@@ -144,21 +144,27 @@
             android:exported="true" />
         <activity
             android:name=".AlvaroW.Autoridadawf"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Autoridadcomunidadawf"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Convivenciaawf"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Saludosawf"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Espiritualidadawf"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.Cocinaawf"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".AlvaroW.JuegoAlvaroWilf"

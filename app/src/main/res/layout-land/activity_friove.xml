@@ -14,6 +14,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
         app:srcCompat="@drawable/titlerepollove" />
 
@@ -34,6 +35,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlerepollo"
         app:srcCompat="@drawable/titlepapacoloradave" />
 
@@ -86,6 +88,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha4"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlepapaamarilla"
         app:srcCompat="@drawable/titleullucosve" />
 
@@ -117,6 +120,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toEndOf="@+id/imgFlecha2"
+        android:visibility="invisible"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlealimentosfrios"
         app:srcCompat="@drawable/titlepapaamarillave" />
 
