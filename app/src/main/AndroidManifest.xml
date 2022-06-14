@@ -32,15 +32,15 @@
             android:exported="false" />
         <activity
             android:name=".willi_zaret.ManualesTelarwz"
-            android:screenOrientation="landscape"
+
             android:exported="false" />
         <activity
             android:name=".willi_zaret.Alfareriawz"
-            android:screenOrientation="landscape"
+
             android:exported="false" />
         <activity
             android:name=".willi_zaret.Manualeswz"
-            android:screenOrientation="landscape"
+
             android:exported="false" /> <!-- fin de cambios zaret -->
         <activity
 
@@ -106,13 +106,10 @@
             android:exported="false" />
         <activity
             android:name=".erikadaniel.Inicio"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity> <!-- willian y zaret -->
+
+        <!-- willian y zaret -->
         <!-- hasta aqui -->
         <activity
             android:name=".erikadaniel.Casaed"
@@ -139,7 +136,14 @@
             android:exported="false" />
         <activity
             android:name=".Menued"
-            android:exported="true" />
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
         <activity
             android:name=".erikadaniel.Bosqueed"
             android:exported="true" />
