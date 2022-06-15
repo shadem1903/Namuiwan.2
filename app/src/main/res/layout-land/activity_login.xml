@@ -9,6 +9,48 @@
     android:orientation="horizontal"
     tools:context=".BD.Login">
 
+    <EditText
+        android:id="@+id/nick"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/kidsboys"
+        android:gravity="center_horizontal"
+        android:hint="NICK"
+        android:maxLength="10"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581"
+        tools:ignore="MissingConstraints"></EditText>
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/kidsboys"
+        android:gravity="center_horizontal"
+        android:hint="EDAD"
+        android:inputType="number"
+        android:maxLength="2"
+        android:paddingLeft="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763"
+        tools:ignore="MissingConstraints"></EditText>
+
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="350dp"
@@ -20,10 +62,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/Username"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints">
 
     </TextView>
@@ -35,20 +77,18 @@
         android:fontFamily="@font/kidsboys"
         android:gravity="center_horizontal"
         android:hint="Nuevo Nombre"
+        android:maxLength="20"
         android:paddingLeft="28dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.438"
-        tools:ignore="MissingConstraints">
-    </EditText>
-
-
+        app:layout_constraintVertical_bias="0.387"
+        tools:ignore="MissingConstraints"></EditText>
 
     <ImageView
         android:id="@+id/imageView6"
@@ -84,10 +124,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintHorizontal_bias="0.029"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.331"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/volver" />
 
     <ImageButton
@@ -98,10 +138,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.773"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/registrarse" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,9 +14,9 @@ import com.example.namuiwan.R;
 
 public class Convivenciaawf extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView imgconsejos,bttntradu1,bttntradu2,bttntradu3,bttntradu4,imgsaludos;
+    ImageView imgconsejos,bttntradu1,bttntradu2,bttntradu3,bttntradu4;
     TextView txtdis,txtres,txtamor,txtleal,txtconsejos;
-    MediaPlayer isuawaminchip,isuamorop, isuaaship,isuaunip,saludosawf,consejosawf;
+    MediaPlayer isuawaminchip,isuamorop, isuaaship,isuaunip,consejosawf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,8 +43,7 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
         bttntradu4 = findViewById(R.id.bttntradu4);
         bttntradu4.setOnClickListener(this);
 
-        imgsaludos = findViewById(R.id.imgsaludos);
-        imgsaludos.setOnClickListener(this);
+
 
 
 
@@ -61,7 +60,7 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
         isuamorop = MediaPlayer.create(this, R.raw.isuamorop);
         isuaaship = MediaPlayer.create(this, R.raw.isuaaship);
         isuaunip = MediaPlayer.create(this, R.raw.isuaunip);
-        saludosawf  = MediaPlayer.create(this, R.raw.saludosawf);
+
         consejosawf = MediaPlayer.create(this, R.raw.consejosawf);
 
 
@@ -88,13 +87,6 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
             case R.id.bttntradu4:
                 txtres.setText("Responsabilidad, justicia y tolerancia");
                 isuaunip.start();
-                break;
-
-            case R.id.imgsaludos:
-                Toast.makeText(Convivenciaawf.this, "A seleccionado Saludos", Toast.LENGTH_SHORT).show();
-                Intent intent3 = new Intent(Convivenciaawf.this,Saludosawf.class);
-                startActivity(intent3);
-                saludosawf.start();
                 break;
 
 

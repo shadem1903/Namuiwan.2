@@ -4,156 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".yatulve.MenuHuerta"
-    android:background="@drawable/huertafondohzve">
-
-    <ImageView
-        android:id="@+id/imgVideo"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.237"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078"
-        app:srcCompat="@drawable/video1ve" />
-
-    <ImageView
-        android:id="@+id/imgVerduras"
-        android:layout_width="78dp"
-        android:layout_height="66dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597"
-        app:srcCompat="@drawable/verdurasve" />
-
-    <ImageView
-        android:id="@+id/imgNumeros"
-        android:layout_width="77dp"
-        android:layout_height="74dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.081"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877"
-        app:srcCompat="@drawable/numerosmenuve" />
-
-    <ImageView
-        android:id="@+id/imgFrutas"
-        android:layout_width="110dp"
-        android:layout_height="81dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgVideo"
-        app:layout_constraintVertical_bias="0.189"
-        app:srcCompat="@drawable/frutasve" />
-
-    <ImageView
-        android:id="@+id/imgHerramientas"
-        android:layout_width="78dp"
-        android:layout_height="67dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325"
-        app:srcCompat="@drawable/vegetalesve" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="58dp"
-        android:layout_height="42dp"
-        android:rotationY="180"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.188"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.33"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="65dp"
-        android:layout_height="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.794"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="58dp"
-        android:layout_height="44dp"
-        android:rotationY="180"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="56dp"
-        android:layout_height="43dp"
-        android:rotationY="180"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.840"
-        app:srcCompat="@drawable/flechave" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="63dp"
-        android:layout_height="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.795"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.767"
-        app:srcCompat="@drawable/flechave" />
+    android:background="@drawable/huertafondohzve"
+    tools:context=".yatulve.MenuHuerta">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="49dp"
-        android:layout_height="38dp"
-        android:rotation="142"
+        android:layout_width="117dp"
+        android:layout_height="224dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.18"
-        app:layout_constraintStart_toEndOf="@+id/imageView40"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.093"
-        app:srcCompat="@drawable/click3" />
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:layout_constraintVertical_bias="0.58"
+        app:srcCompat="@drawable/palosenaled" />
 
     <ImageView
-        android:id="@+id/imgAlimentos"
-        android:layout_width="107dp"
-        android:layout_height="92dp"
-        android:src="@drawable/clasificacionve"
+        android:id="@+id/imageView4"
+        android:layout_width="117dp"
+        android:layout_height="224dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.939"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgFrutas"
-        app:layout_constraintVertical_bias="0.416" />
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toEndOf="@+id/imgVerduras"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:layout_constraintVertical_bias="0.706"
+        app:srcCompat="@drawable/palosenaled" />
 
     <ImageView
         android:id="@+id/imageView40"
@@ -166,63 +42,78 @@
         app:srcCompat="@drawable/tittlemenuhuerta" />
 
     <ImageView
-        android:id="@+id/imageView41"
+        android:id="@+id/imgNumeros"
         android:layout_width="150dp"
         android:layout_height="67dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.858"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.506"
         app:srcCompat="@drawable/titlenumeros" />
 
     <ImageView
-        android:id="@+id/imageView42"
+        android:id="@+id/imgVerduras"
         android:layout_width="150dp"
         android:layout_height="67dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.595"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.242"
         app:srcCompat="@drawable/titlevegetales" />
 
     <ImageView
-        android:id="@+id/imageView43"
+        android:id="@+id/imgHerramientas"
         android:layout_width="150dp"
         android:layout_height="67dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/titleherramientas" />
 
+
     <ImageView
-        android:id="@+id/imageView44"
+        android:id="@+id/imgFrutas"
         android:layout_width="150dp"
         android:layout_height="67dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintHorizontal_bias="0.705"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@drawable/titlefrutas" />
 
     <ImageView
-        android:id="@+id/imageView45"
+        android:id="@+id/imgAlimentos"
         android:layout_width="150dp"
         android:layout_height="67dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintHorizontal_bias="0.705"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.797"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.348"
         app:srcCompat="@drawable/titlealimentos" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

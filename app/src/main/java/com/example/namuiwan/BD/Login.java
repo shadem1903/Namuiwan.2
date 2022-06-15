@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
@@ -16,7 +15,7 @@ import com.example.namuiwan.Menued;
 import com.example.namuiwan.R;
 
 public class Login extends AppCompatActivity {
-    EditText Username;
+    EditText Username,Edad,Nick;
     ImageButton NuevoUsuario,Volver;
     DBhelper DB;
 
@@ -30,12 +29,15 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String user = Username.getText().toString();
-                if(TextUtils.isEmpty(user)){
+                String nick = Nick.getText().toString();
+                String edad = Edad.getText().toString();
+
+                if(TextUtils.isEmpty(user) || TextUtils.isEmpty(nick)  || TextUtils.isEmpty(edad) ){
                     Toast.makeText(Login.this,"Todos los campos tienen que ser requerido",Toast.LENGTH_SHORT).show();
                 }
                 else {
                     if(DB.checkusername(user) == false){
-                        Boolean insert = DB.insertDats(user);
+                        Boolean insert = DB.insertDats(user,nick,edad);
                         if(insert == true){
                             Toast.makeText(Login.this, "Registro existoso", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(getApplicationContext(), Menued.class);
@@ -43,8 +45,6 @@ public class Login extends AppCompatActivity {
                         }else {
                             Toast.makeText(Login.this, "REGISTRO NO ENCONTRADO", Toast.LENGTH_SHORT).show();
                         }
-                    } else {
-                        Toast.makeText(Login.this, "El usuario ya existe ", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -59,6 +59,8 @@ public class Login extends AppCompatActivity {
     }
     public void referenciar(){
         Username = findViewById(R.id.Username);
+        Edad = findViewById(R.id.Edad);
+        Nick = findViewById(R.id.Nick);
         NuevoUsuario = findViewById(R.id.NuevoUsuario);
         Volver = findViewById(R.id.Volver);
         DB = new DBhelper(this);

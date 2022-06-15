@@ -14,8 +14,8 @@ import com.example.namuiwan.R;
 
 public class Cocinaawf extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView imgconv,imgauto,imgespi,imgjuego,imgFogon;
-    MediaPlayer fogon,autoridad,convivencia,espiritualidad;
+    ImageView imgconv,imgauto,imgespi,imgjuego,imgsaludos;
+    MediaPlayer fogon,autoridad,convivencia,espiritualidad, saludosawf;
     TextView texcocina;
 
 
@@ -36,20 +36,20 @@ public class Cocinaawf extends AppCompatActivity implements View.OnClickListener
         imgespi = findViewById(R.id.imgespi);
         imgespi.setOnClickListener(this);
 
-        imgFogon=findViewById(R.id.imgFogon);
-        imgFogon.setOnClickListener(this);
+        imgsaludos = findViewById(R.id.imgsaludos);
+        imgsaludos.setOnClickListener(this);
 
         imgjuego=findViewById(R.id.imgjuego);
         imgjuego.setOnClickListener(this);
 
 
-        texcocina = findViewById(R.id.texcocina);
 
 
         convivencia = MediaPlayer.create(this, R.raw.convivencia);
         autoridad = MediaPlayer.create(this, R.raw.autoridad);
         espiritualidad = MediaPlayer.create(this, R.raw.espiritualidad);
         fogon = MediaPlayer.create(this, R.raw.nakchakfogon);
+        saludosawf  = MediaPlayer.create(this, R.raw.saludosawf);
 
     }
 
@@ -58,11 +58,7 @@ public class Cocinaawf extends AppCompatActivity implements View.OnClickListener
 
         switch (view.getId()){
 
-            case R.id.imgFogon:
-                fogon.start();
-                break;
-
-            case R.id.imgconv:
+                case R.id.imgconv:
                 Toast.makeText(Cocinaawf.this, "A seleccionado convivencia ", Toast.LENGTH_SHORT).show();
                 Intent intent1 = new Intent(Cocinaawf.this, Convivenciaawf.class);
                 startActivity(intent1);
@@ -87,6 +83,13 @@ public class Cocinaawf extends AppCompatActivity implements View.OnClickListener
                 Toast.makeText(Cocinaawf.this, "A seleccionado Juegos", Toast.LENGTH_SHORT).show();
                 Intent intent4 = new Intent(Cocinaawf.this, JuegoAlvaroWilf.class);
                 startActivity(intent4);
+                break;
+
+            case R.id.imgsaludos:
+                Toast.makeText(Cocinaawf.this, "A seleccionado Saludos", Toast.LENGTH_SHORT).show();
+                Intent intent5 = new Intent(Cocinaawf.this, Saludosawf.class);
+                startActivity(intent5);
+                saludosawf.start();
                 break;
 
 

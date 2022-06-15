@@ -15,7 +15,7 @@ import com.example.namuiwan.Menued;
 import com.example.namuiwan.R;
 
 public class LoginIn extends AppCompatActivity {
-    EditText Name;
+    EditText Nick;
     Button Iniciar,Registro;
     DBhelper DB;
     @Override
@@ -27,12 +27,12 @@ public class LoginIn extends AppCompatActivity {
         Iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String user = Name.getText().toString();
-                if(TextUtils.isEmpty(user)){
+                String nick = Nick.getText().toString();
+                if(TextUtils.isEmpty(nick)){
                     Toast.makeText(LoginIn.this, "EL CAMPO ES REQUERIDO", Toast.LENGTH_SHORT).show();
                 } else{
-                    if(DB.checkusername(user) == true){
-                        Toast.makeText(LoginIn.this, "Bienvenido: "+user, Toast.LENGTH_SHORT).show();
+                    if(DB.checkusername(nick) == true){
+                        Toast.makeText(LoginIn.this, "Bienvenido: "+nick, Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(), Menued.class);
                         startActivity(intent);
                     } else {
@@ -50,7 +50,7 @@ public class LoginIn extends AppCompatActivity {
         });
     }
     public void referenciar(){
-        Name = findViewById(R.id.Name);
+        Nick = findViewById(R.id.Nick);
         Iniciar = findViewById(R.id.Iniciar);
         Registro = findViewById(R.id.Registro);
         DB = new DBhelper(this);

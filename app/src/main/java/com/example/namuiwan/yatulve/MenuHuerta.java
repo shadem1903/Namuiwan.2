@@ -22,8 +22,7 @@ public class MenuHuerta extends AppCompatActivity implements View.OnClickListene
         referenciar();
     }
     private void referenciar(){
-        imgVideo = findViewById(R.id.imgVideo);
-        imgVideo.setOnClickListener(this);
+
         imgHerramientas = findViewById(R.id.imgHerramientas);
         imgHerramientas.setOnClickListener(this);
         imgFrutas = findViewById(R.id.imgFrutas);
@@ -43,14 +42,6 @@ public class MenuHuerta extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.imgVideo:
-                Toast.makeText(MenuHuerta.this, "A seleccionado Video", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MenuHuerta.this,Huerta.class);
-                startActivity(intent);
-                video.start();
-
-                break;
-
             case R.id.imgHerramientas:
                 Toast.makeText(MenuHuerta.this, "A seleccionado Herramientas", Toast.LENGTH_SHORT).show();
                 Intent intent2 = new Intent(MenuHuerta.this,Herramientas.class);
