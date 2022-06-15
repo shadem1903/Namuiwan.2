@@ -97,6 +97,7 @@
             android:exported="false" />
         <activity
             android:name=".yatulve.MenuHuerta"
+        android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".Josue.rompeca.Home"
