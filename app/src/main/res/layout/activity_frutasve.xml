@@ -34,64 +34,81 @@
         android:id="@+id/imgUchuvas"
         android:layout_width="147dp"
         android:layout_height="264dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgFresas"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/uchuvave"
-        tools:layout_editor_absoluteX="0dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/titlefresas"
         android:layout_width="120dp"
         android:layout_height="69dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="40dp"
         android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imgMortino"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imgUchuvas"
         app:layout_constraintTop_toBottomOf="@+id/imgPregunta"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/titlefresas" />
 
     <ImageView
         android:id="@+id/imgFresas"
         android:layout_width="114dp"
         android:layout_height="215dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="172dp"
+        app:layout_constraintBottom_toTopOf="@+id/titlefresas"
         app:layout_constraintEnd_toEndOf="@+id/imageView22"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/imageView22"
-        app:layout_constraintTop_toBottomOf="@+id/imgPregunta"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/fresasve" />
 
     <ImageView
         android:id="@+id/imgMortino"
         android:layout_width="236dp"
         android:layout_height="192dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgUchuvas"
-        app:layout_constraintTop_toBottomOf="@+id/imgFresas"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.481"
         app:srcCompat="@drawable/arandanove" />
 
     <ImageView
         android:id="@+id/titleuchuvas"
         android:layout_width="150dp"
         android:layout_height="62dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginEnd="36dp"
         android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/imgUchuvas"
         app:layout_constraintEnd_toStartOf="@+id/imgFresas"
-        app:layout_constraintTop_toBottomOf="@+id/imgUchuvas"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591"
         app:srcCompat="@drawable/titleuchuvas" />
 
     <ImageView
         android:id="@+id/titlemora"
         android:layout_width="140dp"
         android:layout_height="52dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
         android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="@+id/imgMora"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imgMortino"
-        app:layout_constraintTop_toBottomOf="@+id/imgMora"
+        app:layout_constraintBottom_toTopOf="@+id/imgMora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toEndOf="@+id/imageView22"
         app:srcCompat="@drawable/titlemora" />
 
     <ImageView
@@ -99,10 +116,12 @@
         android:layout_width="127dp"
         android:layout_height="52dp"
         android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="@+id/imgFresas"
-        app:layout_constraintHorizontal_bias="0.522"
-        app:layout_constraintStart_toStartOf="@+id/imgFresas"
-        app:layout_constraintTop_toBottomOf="@+id/imgFresas"
+        app:layout_constraintBottom_toTopOf="@+id/imgMortino"
+        app:layout_constraintEnd_toStartOf="@+id/imgMora"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toEndOf="@+id/imgFresas"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.616"
         app:srcCompat="@drawable/titlemortino" />
 
     <ImageView
@@ -110,10 +129,13 @@
         android:layout_width="143dp"
         android:layout_height="263dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toEndOf="@+id/imgFresas"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/morave" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
