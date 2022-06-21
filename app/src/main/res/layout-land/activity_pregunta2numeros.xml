@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".yatulve.Numeros"
-    android:background="@drawable/fondonumeroshve">
-
+    tools:context=".yatulve.Pregunta2numeros"
+    android:background="@drawable/fondonumerosvve">
 
     <ImageView
         android:id="@+id/imgNumeros"
@@ -295,15 +295,15 @@
         app:srcCompat="@drawable/numerosmenuve" />
 
     <ImageView
-        android:id="@+id/imgPregunta"
-        android:layout_width="70dp"
-        android:layout_height="89dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.072"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/imgParlanteve"
+        android:layout_width="113dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgNumeros"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="@+id/imgNumeros"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/interrogacionve" />
+        app:srcCompat="@drawable/mensaje2conparlanteve" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

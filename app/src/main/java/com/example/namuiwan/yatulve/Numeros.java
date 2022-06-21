@@ -1,10 +1,11 @@
 package com.example.namuiwan.yatulve;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,9 +15,12 @@ public class Numeros extends AppCompatActivity implements View.OnClickListener {
 
     ImageView  imgUno, imgDos, imgTres, imgCuatro, imgCinco, imgSeis, imgSiete,
                imgOcho, imgNueve, imgDiez, imgOnce, imgDoce, imgTrece, imgCatorce, imgQuince, imgDiesciseis,
-               imgDiescisiete, imgDiesciocho, imgDiescinueve, imgVeinte;
+               imgDiescisiete, imgDiesciocho, imgDiescinueve, imgVeinte,imgPregunta;
     MediaPlayer serpiente, sonido, num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,
-                num12,num13,num14,num15,num16,num17,num18,num19,num20 ;
+                num12,num13,num14,num15,num16,num17,num18,num19,num20,pregunta1 ;
+    MediaPlayer sounds[] = new MediaPlayer[1];
+    MediaPlayer numero[] = new MediaPlayer[20];
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,28 @@ public class Numeros extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void referenciar() {
+        numero[1]=MediaPlayer.create(this, R.raw.unove);
+        numero[2]=MediaPlayer.create(this, R.raw.dosve);
+        numero[3]=MediaPlayer.create(this, R.raw.tresve);
+        numero[4]=MediaPlayer.create(this, R.raw.cuatrove);
+        numero[5]=MediaPlayer.create(this, R.raw.cincove);
+        numero[6]=MediaPlayer.create(this, R.raw.seisve);
+        numero[7]=MediaPlayer.create(this, R.raw.sieteve);
+        numero[8]=MediaPlayer.create(this, R.raw.ochove);
+        numero[9]=MediaPlayer.create(this, R.raw.nueveve);
+        numero[10]=MediaPlayer.create(this, R.raw.diezve);
+        numero[11]=MediaPlayer.create(this, R.raw.onceve);
+        numero[12]=MediaPlayer.create(this, R.raw.doceve);
+        numero[13]=MediaPlayer.create(this, R.raw.treceve);
+        numero[14]=MediaPlayer.create(this, R.raw.catorceve);
+        numero[15]=MediaPlayer.create(this, R.raw.quinceve);
+        numero[16]=MediaPlayer.create(this, R.raw.diescieisve);
+        numero[17]=MediaPlayer.create(this, R.raw.diescisieteve);
+        numero[18]=MediaPlayer.create(this, R.raw.diesciochove);
+        numero[19]=MediaPlayer.create(this, R.raw.diescinueveve);
+        numero[0]=MediaPlayer.create(this, R.raw.veinteve);
+
+
         imgUno = findViewById(R.id.imgUno);
         imgUno.setOnClickListener(this);
         imgDos = findViewById(R.id.imgDos);
@@ -66,9 +92,14 @@ public class Numeros extends AppCompatActivity implements View.OnClickListener {
         imgDiescinueve.setOnClickListener(this);
         imgVeinte = findViewById(R.id.imgVeinte);
         imgVeinte.setOnClickListener(this);
+        imgPregunta = findViewById(R.id.imgPregunta);
+        imgPregunta.setOnClickListener(this);
 
+        sounds[0]=MediaPlayer.create(this,R.raw.numerosve);
         sonido = MediaPlayer.create(this, R.raw.numerosve);
-        num1 = MediaPlayer.create(this, R.raw.unove);
+        pregunta1 = MediaPlayer.create(this, R.raw.pregunta1cualeseluno);
+
+        /* num1 = MediaPlayer.create(this, R.raw.unove);
         num2 = MediaPlayer.create(this, R.raw.dosve);
         num3 = MediaPlayer.create(this, R.raw.treceve);
         num4 = MediaPlayer.create(this, R.raw.cuatrove);
@@ -87,75 +118,83 @@ public class Numeros extends AppCompatActivity implements View.OnClickListener {
         num17 = MediaPlayer.create(this, R.raw.diescisieteve);
         num18 = MediaPlayer.create(this, R.raw.diesciochove);
         num19 = MediaPlayer.create(this, R.raw.diescinueveve);
-        num20 = MediaPlayer.create(this, R.raw.veinteve);
+        num20 = MediaPlayer.create(this, R.raw.veinteve);*/
         serpiente = MediaPlayer.create(this, R.raw.numerosve);
-
-
 
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.imgPregunta:
+                Toast.makeText(Numeros.this, "¿Cual es el 1...?", Toast.LENGTH_SHORT).show();
+                Intent intent1 = new Intent(Numeros.this, Pregunta1numeros.class);
+                startActivity(intent1);
+                pregunta1.start();
+                break;
             case R.id.imgUno:
-                num1.start();
+
+                numero[1].start();
+
                 break;
             case R.id.imgDos:
-                num2.start();
+
+                numero[2].start();
                 break;
             case R.id.imgTres:
-                num3.start();
+                numero[3].start();
+
                 break;
             case R.id.imgCuatro:
-                num4.start();
+                numero[4].start();
                 break;
             case R.id.imgCinco:
-                num5.start();
+                numero[5].start();
                 break;
             case R.id.imgSeis:
-                num6.start();
+                numero[6].start();
                 break;
             case R.id.imgSiete:
-                num7.start();
+                numero[7].start();
                 break;
             case R.id.imgOcho:
-                num8.start();
+                numero[8].start();
                 break;
             case R.id.imgNueve:
-                num9.start();
+                numero[9].start();
                 break;
             case R.id.imgDiez:
-                num10.start();
+                numero[10].start();
                 break;
             case R.id.imgOnce:
-                num11.start();
+                numero[11].start();
                 break;
             case R.id.imgDoce:
-                num12.start();
+                numero[12].start();
                 break;
             case R.id.imgTrece:
-                num13.start();
+                numero[13].start();
                 break;
             case R.id.imgCatorce:
-                num14.start();
+                numero[14].start();
                 break;
             case R.id.imgQuince:
-                num15.start();
+                numero[15].start();
                 break;
             case R.id.imgDiesciseis:
-                num16.start();
+                numero[16].start();
                 break;
             case R.id.imgDiescisiete:
-                num17.start();
+                numero[17].start();
                 break;
             case R.id.imgDiesciocho:
-                num18.start();
+                numero[18].start();
                 break;
             case R.id.imgDiescinueve:
-                num19.start();
+                numero[19].start();
                 break;
             case R.id.imgVeinte:
-                num20.start();
+                numero[0].start();
                 break;
         }
     }
