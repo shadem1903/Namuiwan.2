@@ -11,8 +11,7 @@ import com.example.namuiwan.R;
 
 public class Espiritualidadawf extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView imglaguna,imgmontana,imgpetro,imgojo;
-    TextView txojo,txlaguna,txmontana,txpetro;
+    ImageView imglaguna,imgmontana,imgpetroglifo,imgojoagua, imgtraduccionsitios;
     MediaPlayer ojoawf,lagunaawf,montanaawf,petroawf;
 
     @Override
@@ -24,22 +23,17 @@ public class Espiritualidadawf extends AppCompatActivity implements View.OnClick
 
     private void referenciar() {
 
-        imgojo = findViewById(R.id.imgojo);
-        imgojo.setOnClickListener(this);
-
+        imgojoagua = findViewById(R.id.imgojoagua);
+        imgojoagua.setOnClickListener(this);
         imglaguna = findViewById(R.id.imglaguna);
         imglaguna.setOnClickListener(this);
-
         imgmontana = findViewById(R.id.imgmontana);
         imgmontana.setOnClickListener(this);
+        imgpetroglifo = findViewById(R.id.imgpetroglifo);
+        imgpetroglifo.setOnClickListener(this);
+        imgtraduccionsitios = findViewById(R.id.imgtraduccionsitios);
+        imgtraduccionsitios.setOnClickListener(this);
 
-        imgpetro = findViewById(R.id.imgpetro);
-        imgpetro.setOnClickListener(this);
-
-        txojo= findViewById(R.id.txojo);
-        txlaguna= findViewById(R.id.txlaguna);
-        txmontana= findViewById(R.id.txmontana);
-        txpetro= findViewById(R.id.txpetro);
 
         // almacenar sonidos
         ojoawf = MediaPlayer.create(this, R.raw.ojoawf);
@@ -52,23 +46,23 @@ public class Espiritualidadawf extends AppCompatActivity implements View.OnClick
     public void onClick(View view) {
         switch (view.getId()){
 
-            case R.id.imgojo:
-                txojo.setText("Ojos de Agua");
+            case R.id.imgojoagua:
+                imgtraduccionsitios.setImageResource(R.drawable.ojodeaguaed);
                 ojoawf.start();
                 break;
 
             case R.id.imglaguna:
-                txlaguna.setText("Lagunas");
+                imgtraduccionsitios.setImageResource(R.drawable.lagunaed);
                 lagunaawf.start();
                 break;
 
             case R.id.imgmontana:
-                txmontana.setText("Montañas");
+                imgtraduccionsitios.setImageResource(R.drawable.montanaed);
                 montanaawf.start();
                 break;
 
-            case R.id.imgpetro:
-                txpetro.setText("petroglifos");
+            case R.id.imgpetroglifo:
+                imgtraduccionsitios.setImageResource(R.drawable.petroglifosed);
                 petroawf.start();
                 break;
 
