@@ -48,10 +48,12 @@
             android:exported="false" />
         <activity
             android:name=".willi_zaret.Alfareriawz"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".willi_zaret.Manualeswz"
-            android:exported="false" /> <!-- fin de cambios zaret -->
+            android:exported="false"
+            android:screenOrientation="landscape"/> <!-- fin de cambios zaret -->
         <activity
             android:name=".yatulve.Pregunta2frutas"
             android:exported="false" />
@@ -152,13 +154,10 @@
         </activity>
         <activity
             android:name=".erikadaniel.Bosqueed"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".AlvaroW.Autoridadawf"
-            android:exported="false"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".AlvaroW.Autoridadcomunidadawf"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity

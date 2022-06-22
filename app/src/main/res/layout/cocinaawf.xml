@@ -46,21 +46,6 @@
         app:srcCompat="@drawable/btnconvivenciaed" />
 
     <ImageView
-        android:id="@+id/imgjuego"
-        android:layout_width="261dp"
-        android:layout_height="102dp"
-        android:background="#0FFFFFFF"
-        android:backgroundTint="#08FFFFFF"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.953"
-        app:srcCompat="@drawable/juegoawf" />
-
-    <ImageView
         android:id="@+id/imgsaludos"
         android:layout_width="271dp"
         android:layout_height="113dp"

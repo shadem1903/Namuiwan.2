@@ -14,7 +14,7 @@ import com.example.namuiwan.R;
 
 public class Cocinaawf extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView imgconv,imgauto,imgespi,imgjuego,imgsaludos;
+    ImageView imgconv,imgauto,imgespi,imgsaludos;
     MediaPlayer fogon,autoridad,convivencia,espiritualidad, saludosawf;
     TextView texcocina;
 
@@ -39,8 +39,7 @@ public class Cocinaawf extends AppCompatActivity implements View.OnClickListener
         imgsaludos = findViewById(R.id.imgsaludos);
         imgsaludos.setOnClickListener(this);
 
-        imgjuego=findViewById(R.id.imgjuego);
-        imgjuego.setOnClickListener(this);
+
 
 
 
@@ -79,13 +78,7 @@ public class Cocinaawf extends AppCompatActivity implements View.OnClickListener
                 espiritualidad.start();
                 break;
 
-            case R.id.imgjuego:
-                Toast.makeText(Cocinaawf.this, "A seleccionado Juegos", Toast.LENGTH_SHORT).show();
-                Intent intent4 = new Intent(Cocinaawf.this, JuegoAlvaroWilf.class);
-                startActivity(intent4);
-                break;
-
-            case R.id.imgsaludos:
+                case R.id.imgsaludos:
                 Toast.makeText(Cocinaawf.this, "A seleccionado Saludos", Toast.LENGTH_SHORT).show();
                 Intent intent5 = new Intent(Cocinaawf.this, Saludosawf.class);
                 startActivity(intent5);
