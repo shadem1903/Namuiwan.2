@@ -49,18 +49,6 @@
         app:layout_constraintVertical_bias="0.334" />
 
     <Button
-        android:id="@+id/btnArrastrar"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:background="@drawable/arrastrarjo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.969"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
-
-    <Button
         android:id="@+id/btnHabilidades"
         android:layout_width="200dp"
         android:layout_height="100dp"
@@ -94,7 +82,7 @@
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815" />
+        app:layout_constraintVertical_bias="0.616" />
 
     <ImageView
         android:id="@+id/imageView2"

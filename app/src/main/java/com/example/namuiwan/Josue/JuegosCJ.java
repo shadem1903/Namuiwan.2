@@ -14,7 +14,7 @@ import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
 
 public class JuegosCJ extends AppCompatActivity {
-    Button btnPuzzle, btnMemorie, btnAdivina, btnHabilidades, btnArrastrar;
+    Button btnPuzzle, btnMemorie, btnAdivina, btnHabilidades;
 
 
     @Override
@@ -48,14 +48,7 @@ public class JuegosCJ extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
-        btnArrastrar = findViewById(R.id.btnArrastrar);
-        btnArrastrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), ArrastrarSoltar.class);
-                startActivity(intent);
-            }
-        });
+
 
     }
     private void iniciarjuego () {
