@@ -85,6 +85,7 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".yatulve.Trueque"
+            android:screenOrientation="landscape"
             android:exported="false" />
         <activity
             android:name=".yatulve.Numeros"
@@ -139,9 +140,6 @@
             android:exported="false" />
         <activity
             android:name=".erikadaniel.Domesticoed"
-            android:exported="false" />
-        <activity
-            android:name=".erikadaniel.Sitioed"
             android:exported="false" />
         <activity
             android:name=".Menued"
