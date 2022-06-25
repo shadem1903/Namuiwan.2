@@ -3,6 +3,7 @@ package com.example.namuiwan.BD;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -23,6 +24,13 @@ public class LoginIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_in);
         referenciar();
+        DBhelper dBhelper = new DBhelper(LoginIn.this);
+        SQLiteDatabase db = dBhelper.getWritableDatabase();
+        if(db != null){
+            Toast.makeText(LoginIn.this, "Base de datos creada", Toast.LENGTH_SHORT).show();
+        } else{
+            Toast.makeText(LoginIn.this, "ERROR AL CREAR BASE DE DATOS", Toast.LENGTH_SHORT).show();
+        }
 
         Iniciar.setOnClickListener(new View.OnClickListener() {
             @Override

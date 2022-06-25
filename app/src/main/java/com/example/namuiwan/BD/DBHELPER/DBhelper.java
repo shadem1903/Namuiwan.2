@@ -1,6 +1,5 @@
 package com.example.namuiwan.BD.DBHELPER;
 
-import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -16,7 +15,7 @@ public class DBhelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table users(username TEXT primary key, nick TEXT , edad TEXT)");
+        db.execSQL("create table users(username TEXT primary key,nick TEXT ,edad TEXT)");
     }
 
     @Override
