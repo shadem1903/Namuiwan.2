@@ -119,7 +119,7 @@ public class Memoria extends Activity {
         textoPuntuacion.setText("Puntuacion: " + puntuacion);
     }
 
-    private void cargarImagenes(){
+    private void cargarImagenes() {
         imagenes = new int[]{
                 R.drawable.gallinaed,
                 R.drawable.gatoed,

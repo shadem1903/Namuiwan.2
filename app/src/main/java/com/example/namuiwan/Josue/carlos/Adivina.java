@@ -98,8 +98,6 @@ public class Adivina extends AppCompatActivity {
             case "YE":
 
                 imagen.setImageResource(R.drawable.papaguatave);
-                imagen.setImageResource(R.drawable.gallinaedg);
-                gallina.start();
 
                 break;
 
@@ -124,7 +122,7 @@ public class Adivina extends AppCompatActivity {
                 break;
 
             case "YASKAP":
-                imagen.setImageResource(R.drawable.puertacarlos);
+                imagen.setImageResource(R.drawable.puertaed);
 
                 break;
 
