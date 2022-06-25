@@ -12,7 +12,7 @@ import com.example.namuiwan.R;
 
 public class Bosqueed extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView imgflores, imgflores1, imguchuva, imgrosa, imgsuculenta, imgaliso, imgchilco, imgsalvia, imgtraducciontierra/*imgbtnflores, imgbtnrosa, imgbtnsuculenta, imgbtnaliso, imgbtnchilco, imgbtnsalvia, imgbtnuchuva*/;
+    ImageView imgflores, imguchuva, imgrosa, imgsuculenta, imgaliso, imgchilco, imgsalvia, imgtraducciontierra/*imgbtnflores, imgbtnrosa, imgbtnsuculenta, imgbtnaliso, imgbtnchilco, imgbtnsalvia, imgbtnuchuva*/;
     MediaPlayer aliso,chilco,salvia, uchuva, rosa, suculenta,flores ;
     int valor=0;
     @Override
@@ -28,8 +28,6 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
 
         imgflores= findViewById(R.id.imgflores);
         imgflores.setOnClickListener(this);
-        imgflores1= findViewById(R.id.imgflores1);
-        imgflores1.setOnClickListener(this);
         imguchuva= findViewById(R.id.imguchuva);
         imguchuva.setOnClickListener(this);
         imgrosa= findViewById(R.id.imgrosa);
@@ -45,22 +43,7 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
         imgtraducciontierra= findViewById(R.id.imgtraducciontierra);
         imgtraducciontierra.setOnClickListener(this);
 
-       /* imgbtnflores= findViewById(R.id.imgbtnflores);
-        imgbtnflores.setOnClickListener(this);
-        imgbtnuchuva= findViewById(R.id.imgbtnuchuva);
-        imgbtnuchuva.setOnClickListener(this);
-        imgbtnrosa= findViewById(R.id.imgbtnrosa);
-        imgbtnrosa.setOnClickListener(this);
-        imgbtnsuculenta= findViewById(R.id.imgbtnsuculenta);
-        imgbtnsuculenta.setOnClickListener(this);
-        imgbtnaliso= findViewById(R.id.imgbtnaliso);
-        imgbtnaliso.setOnClickListener(this);
-        imgbtnchilco= findViewById(R.id.imgbtnchilco);
-        imgbtnchilco.setOnClickListener(this);
-        imgbtnsalvia= findViewById(R.id.imgbtnsalvia);
-        imgbtnsalvia.setOnClickListener(this);*/
-
-        //almacenar sonido en la variables
+             //almacenar sonido en la variables
 
         aliso= MediaPlayer.create(this,R.raw.alisoed);
         chilco= MediaPlayer.create(this,R.raw.chilcoed);
@@ -92,21 +75,7 @@ public class Bosqueed extends AppCompatActivity implements View.OnClickListener 
                 }
                 break;
 
-            case R.id.imgflores1:
-                switch (valor){
-                    case 1:
-                        imgflores1.setImageResource(R.drawable.floresed1g);
-                       // imgtraducciontierra.setImageResource(R.drawable.btnflores);
-                        valor = 0;
-                        break;
-                    case 0:
-                        imgflores1.setImageResource(R.drawable.floresed1);
-                        imgtraducciontierra.setImageResource(R.drawable.btnflores);
-                        flores.start();
-                        valor = 1;
-                        break;
-                }
-                break;
+
             case R.id.imguchuva:
                 switch (valor){
                     case 1:

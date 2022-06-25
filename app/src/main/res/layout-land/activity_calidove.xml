@@ -22,11 +22,11 @@
         android:id="@+id/imgArracacha"
         android:layout_width="112dp"
         android:layout_height="162dp"
-        android:layout_marginStart="96dp"
+        android:layout_marginStart="164dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlearracacha"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.022"
         app:srcCompat="@drawable/arracachave" />
 
     <ImageView
@@ -45,22 +45,22 @@
         android:id="@+id/imgMaiz"
         android:layout_width="96dp"
         android:layout_height="144dp"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgPapaGuata"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlemaiz"
-        app:layout_constraintVertical_bias="0.09"
+        app:layout_constraintVertical_bias="0.113"
         app:srcCompat="@drawable/maizve" />
 
     <ImageView
         android:id="@+id/imgPapaGuata"
         android:layout_width="117dp"
         android:layout_height="97dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgArracacha"
         app:layout_constraintTop_toBottomOf="@+id/imgtitlepapaguata"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.935"
         app:srcCompat="@drawable/papaguatave" />
 
     <ImageView
@@ -79,11 +79,11 @@
         android:id="@+id/imgOca"
         android:layout_width="121dp"
         android:layout_height="94dp"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgMaiz"
         app:layout_constraintTop_toBottomOf="@+id/imgtitleoca"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ocave" />
 
     <ImageView

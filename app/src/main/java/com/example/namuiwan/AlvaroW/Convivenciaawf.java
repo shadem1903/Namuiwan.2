@@ -14,9 +14,9 @@ import com.example.namuiwan.R;
 
 public class Convivenciaawf extends AppCompatActivity implements View.OnClickListener{
 
-    ImageView imgconsejos,bttntradu1,bttntradu2,bttntradu3,bttntradu4;
+    ImageView imgbtndiscreto, imgbtnintegridad, imgbtnlealtad, imgbtnresponsabilidad, imgtraduccionconvivencia, imgtraduccioncovivencia1;
     TextView txtdis,txtres,txtamor,txtleal,txtconsejos;
-    MediaPlayer isuawaminchip,isuamorop, isuaaship,isuaunip,consejosawf;
+    MediaPlayer isuawaminchip,isuamorop, isuaaship,isuaunip;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,31 +28,18 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
     }
     private void referenciar() {
 
-        imgconsejos = findViewById(R.id.imgconsejos);
-        imgconsejos.setOnClickListener(this);
-
-        bttntradu1 = findViewById(R.id.bttntradu1);
-        bttntradu1.setOnClickListener(this);
-
-        bttntradu2 = findViewById(R.id.bttntradu2);
-        bttntradu2.setOnClickListener(this);
-
-        bttntradu3 = findViewById(R.id.bttntradu3);
-        bttntradu3.setOnClickListener(this);
-
-        bttntradu4 = findViewById(R.id.bttntradu4);
-        bttntradu4.setOnClickListener(this);
-
-
-
-
-
-        txtdis = findViewById(R.id.txtdis);
-        txtres = findViewById(R.id.txtres);
-        txtamor = findViewById(R.id.txtamor);
-        txtleal = findViewById(R.id.txtleal);
-        txtconsejos = findViewById(R.id.txtconsejos);
-
+        imgbtndiscreto = findViewById(R.id.imgbtndiscreto);
+        imgbtndiscreto.setOnClickListener(this);
+        imgbtnintegridad = findViewById(R.id.imgbtnintegridad);
+        imgbtnintegridad.setOnClickListener(this);
+        imgbtnlealtad = findViewById(R.id.imgbtnlealtad);
+        imgbtnlealtad.setOnClickListener(this);
+        imgbtnresponsabilidad = findViewById(R.id.imgbtnresponsabilidad);
+        imgbtnresponsabilidad.setOnClickListener(this);
+        imgtraduccionconvivencia = findViewById(R.id.imgtraduccionconvivencia);
+        imgtraduccionconvivencia.setOnClickListener(this);
+        imgtraduccioncovivencia1 = findViewById(R.id.imgtraduccioncovivencia1);
+        imgtraduccioncovivencia1.setOnClickListener(this);
 
         // almacenar sonidos
 
@@ -61,7 +48,7 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
         isuaaship = MediaPlayer.create(this, R.raw.isuaaship);
         isuaunip = MediaPlayer.create(this, R.raw.isuaunip);
 
-        consejosawf = MediaPlayer.create(this, R.raw.consejosawf);
+
 
 
     }
@@ -69,29 +56,28 @@ public class Convivenciaawf extends AppCompatActivity implements View.OnClickLis
     public void onClick(View view) {
         switch (view.getId()){
 
-            case R.id.bttntradu1:
-                txtdis.setText("discreto y honesto");
+            case R.id.imgbtndiscreto:
+                imgtraduccionconvivencia.setImageResource(R.drawable.discretohonestoed);
+                imgtraduccioncovivencia1.setImageResource(R.drawable.btndiscretoed1);
                 isuawaminchip.start();
                 break;
 
-            case R.id.bttntradu2:
-                txtleal.setText("lealtad y respeto");
-                isuamorop.start();
-                break;
-
-            case R.id.bttntradu3:
-                txtamor.setText("Integridad, amor y amistad");
+            case R.id.imgbtnintegridad:
+                imgtraduccionconvivencia.setImageResource(R.drawable.integridadamistaded);
+                imgtraduccioncovivencia1.setImageResource(R.drawable.btnintegridaded1);
                 isuaaship.start();
                 break;
 
-            case R.id.bttntradu4:
-                txtres.setText("Responsabilidad, justicia y tolerancia");
-                isuaunip.start();
+            case R.id.imgbtnlealtad:
+                imgtraduccionconvivencia.setImageResource(R.drawable.lealtadrespetoed);
+                imgtraduccioncovivencia1.setImageResource(R.drawable.btnlealtad1);
+                isuamorop.start();
                 break;
 
-
-            case R.id.imgconsejos:
-                consejosawf.start();
+            case R.id.imgbtnresponsabilidad:
+                imgtraduccionconvivencia.setImageResource(R.drawable.responsabilidaded);
+                imgtraduccioncovivencia1.setImageResource(R.drawable.btnresponsabilidaded1);
+                isuaunip.start();
                 break;
 
 

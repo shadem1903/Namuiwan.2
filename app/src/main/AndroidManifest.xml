@@ -60,17 +60,10 @@
             android:exported="false" />
         <activity
             android:name=".BD.LoginIn"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".BD.Login"
             android:exported="false" />
-
         <activity
             android:name=".Josue.carlos.Adivina"
             android:exported="false" />
@@ -150,9 +143,13 @@
             android:exported="false" />
         <activity
             android:name=".Menued"
-            android:exported="true"/>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".erikadaniel.Bosqueed"
             android:exported="true" />

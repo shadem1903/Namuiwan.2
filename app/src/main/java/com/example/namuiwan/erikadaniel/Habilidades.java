@@ -1,16 +1,15 @@
 package com.example.namuiwan.erikadaniel;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Bundle;
 import com.example.namuiwan.R;
 
-public class Sitioed extends AppCompatActivity {
+public class Habilidades extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sitioed);
+        setContentView(R.layout.activity_habilidades);
     }
 }
