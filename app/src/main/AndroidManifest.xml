@@ -45,7 +45,8 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".willi_zaret.ManualesTelarwz"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".willi_zaret.Alfareriawz"
             android:exported="false"
@@ -62,7 +63,8 @@
             android:exported="false" />
         <activity
             android:name=".BD.LoginIn"
-            android:exported="false" />
+            android:exported="true"
+            />
         <activity
             android:name=".BD.Login"
             android:exported="false" />
@@ -71,10 +73,12 @@
             android:exported="false" />
         <activity
             android:name=".Josue.MenuAdivina"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Josue.JuegosCJ"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".yatulve.Frio"
             android:exported="false"
@@ -113,42 +117,51 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".Josue.rompeca.Home"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Josue.rompeca.PuzzleActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".erikadaniel.Inicio"
-            android:exported="true" /> <!-- willian y zaret -->
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+            <!-- willian y zaret -->
         <!-- hasta aqui -->
         <activity
             android:name=".erikadaniel.Casaed"
             android:exported="false"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".erikadaniel.Geometricaed"
             android:exported="false"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".erikadaniel.Orientacioned"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".erikadaniel.Cuerpoed"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".erikadaniel.Familiaed"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".erikadaniel.Domesticoed"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".Menued"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
         <activity
             android:name=".erikadaniel.Bosqueed"
@@ -177,7 +190,9 @@
         <activity
             android:name=".AlvaroW.JuegoAlvaroWilf"
             android:exported="false" />
-        <activity android:name=".Josue.carlos.Memoria" />
+        <activity
+            android:name=".Josue.carlos.Memoria"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
