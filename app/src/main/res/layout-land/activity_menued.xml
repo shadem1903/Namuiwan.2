@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menued"
-    android:background="@drawable/portadaedh">
+    android:background="@drawable/portadaedh"
+    tools:context=".Menued">
 
     <ImageView
         android:id="@+id/btncasa"
@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.231"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline30"
         app:layout_constraintVertical_bias="0.091"
         app:srcCompat="@drawable/casaedh" />
 
@@ -26,11 +26,11 @@
         android:layout_height="80dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.694"
+        app:layout_constraintEnd_toEndOf="@+id/btncocina"
+        app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btncasa"
-        app:layout_constraintVertical_bias="0.116"
+        app:layout_constraintVertical_bias="0.057"
         app:srcCompat="@drawable/huertaedh" />
 
     <ImageView
@@ -39,11 +39,11 @@
         android:layout_height="92dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintEnd_toStartOf="@+id/btnhuerta"
+        app:layout_constraintHorizontal_bias="0.422"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btncasa"
-        app:layout_constraintVertical_bias="0.44"
+        app:layout_constraintVertical_bias="0.409"
         app:srcCompat="@drawable/artesaniaedh" />
 
     <ImageView
@@ -52,11 +52,11 @@
         android:layout_height="98dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintEnd_toStartOf="@+id/guideline31"
+        app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.361"
+        app:layout_constraintTop_toTopOf="@+id/guideline30"
+        app:layout_constraintVertical_bias="0.362"
         app:srcCompat="@drawable/fuegoedh" />
 
     <ImageView
@@ -65,11 +65,25 @@
         android:layout_height="54dp"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline31"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toEndOf="@+id/btnartesania"
         app:layout_constraintTop_toBottomOf="@+id/btncasa"
-        app:layout_constraintVertical_bias="0.604"
+        app:layout_constraintVertical_bias="0.587"
         app:srcCompat="@drawable/juegoedh" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="7dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="715dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

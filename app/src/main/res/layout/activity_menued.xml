@@ -27,10 +27,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline22"
-        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintHorizontal_bias="0.771"
         app:layout_constraintStart_toStartOf="@+id/btncasa"
-        app:layout_constraintTop_toBottomOf="@+id/btncasa"
-        app:layout_constraintVertical_bias="0.296"
+        app:layout_constraintTop_toBottomOf="@+id/btncocina"
+        app:layout_constraintVertical_bias="0.043"
         app:srcCompat="@drawable/huertaved" />
 
     <ImageView
@@ -53,8 +53,8 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline22"
-        app:layout_constraintHorizontal_bias="0.803"
-        app:layout_constraintStart_toStartOf="@+id/btncasa"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toEndOf="@+id/btncasa"
         app:layout_constraintTop_toTopOf="@+id/guideline21"
         app:layout_constraintVertical_bias="0.289"
         app:srcCompat="@drawable/fuegoved" />

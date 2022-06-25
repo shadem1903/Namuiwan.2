@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondocasaed"
+    android:background="@drawable/fondofamilia"
     tools:context=".erikadaniel.Familiaed">
 
     <ImageView
@@ -13,11 +13,12 @@
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintHorizontal_bias="0.805"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionfamilia"
+        app:layout_constraintVertical_bias="0.373"
         app:srcCompat="@drawable/abuelaedg" />
+
 
     <ImageView
         android:id="@+id/imgabuelo"
@@ -27,8 +28,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionfamilia"
+        app:layout_constraintVertical_bias="0.373"
         app:srcCompat="@drawable/abueloedg" />
 
     <ImageView
@@ -37,10 +38,10 @@
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.758"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionfamilia"
+        app:layout_constraintVertical_bias="0.373"
         app:srcCompat="@drawable/mamaedg" />
 
     <ImageView
@@ -49,12 +50,11 @@
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.758"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionfamilia"
+        app:layout_constraintVertical_bias="0.373"
         app:srcCompat="@drawable/papaedg" />
-
 
     <ImageView
         android:id="@+id/imgnino"
@@ -62,10 +62,10 @@
         android:layout_height="134dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintHorizontal_bias="0.189"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionfamilia"
+        app:layout_constraintVertical_bias="0.563"
         app:srcCompat="@drawable/ninoedg" />
 
     <ImageView
@@ -74,10 +74,10 @@
         android:layout_height="134dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938"
+        app:layout_constraintTop_toBottomOf="@+id/imgtraduccionfamilia"
+        app:layout_constraintVertical_bias="0.563"
         app:srcCompat="@drawable/ninaedg" />
 
     <ImageView
@@ -86,11 +86,18 @@
         android:layout_height="118dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.088"
         app:srcCompat="@drawable/btnfamiliaed" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="7dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

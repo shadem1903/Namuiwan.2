@@ -12,7 +12,7 @@ import com.example.namuiwan.R;
 public class Geometricaed extends AppCompatActivity implements View.OnClickListener{
 
     ImageView imggrande, imgmediano, imgpequeno, imgcuadrado, imgrectangulo, imgtriangulo, imgcirculo, imgtraduccionorientacion/*, imgbtnmediano, imgbtnpequeno, imgbtncuadrado, imgbtncirculo, imgbtntriangulo, imgbtnrectangulo*/;
-    MediaPlayer circulo,recta,tria,grande,media,peque;
+    MediaPlayer circulo,rectangulo,triangulo,cuadrado,grande,media,peque;
     int valor=0;
 
     @Override
@@ -39,27 +39,16 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
         imgpequeno.setOnClickListener(this);
         imgtraduccionorientacion = findViewById(R.id.imgtraduccionorientacion);
         imgtraduccionorientacion.setOnClickListener(this);
-        /*
-        imgbtncuadrado = findViewById(R.id.imgbtncuadrado);
-        imgbtncuadrado.setOnClickListener(this);
-        imgbtnrectangulo = findViewById(R.id.imgbtnrectangulo);
-        imgbtnrectangulo.setOnClickListener(this);
-        imgbtntriangulo = findViewById(R.id.imgbtntriangulo);
-        imgbtntriangulo.setOnClickListener(this);
-        imgbtngrande = findViewById(R.id.imgbtngrande);
-        imgbtngrande.setOnClickListener(this);
-        imgbtnmediano = findViewById(R.id.imgbtnmediano);
-        imgbtnmediano.setOnClickListener(this);
-        imgbtnpequeno = findViewById(R.id.imgbtnpequeno);
-        imgbtnpequeno.setOnClickListener(this);*/
+
 
 
         //almacenar sonido en la variables
 
 
         circulo= MediaPlayer.create(this,R.raw.circuloed);
-        recta=MediaPlayer.create(this,R.raw.rectaed);
-        tria= MediaPlayer.create(this,R.raw.triaed);
+        rectangulo=MediaPlayer.create(this,R.raw.rectanguloed);
+        triangulo= MediaPlayer.create(this,R.raw.trianguloed);
+        cuadrado= MediaPlayer.create(this,R.raw.cuadradoed);
         grande= MediaPlayer.create(this,R.raw.grandeed);
         media=MediaPlayer.create(this,R.raw.mediaed);
         peque= MediaPlayer.create(this,R.raw.pequeed);
@@ -127,6 +116,7 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                         imgcuadrado.setImageResource(R.drawable.cuadradoed);
                         imgtraduccionorientacion.setImageResource(R.drawable.btncuadrado);
                         valor = 1;
+                        circulo.start();
                         break;
                 }
                 break;
@@ -141,7 +131,7 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                         imgrectangulo.setImageResource(R.drawable.rectanguloed);
                         imgtraduccionorientacion.setImageResource(R.drawable.btnrectanculo);
                         valor = 1;
-                        recta.start();
+                        rectangulo.start();
                         break;
                 }
                 break;
@@ -156,7 +146,7 @@ public class Geometricaed extends AppCompatActivity implements View.OnClickListe
                         imgtriangulo.setImageResource(R.drawable.trianguloed);
                         imgtraduccionorientacion.setImageResource(R.drawable.btntriangulo);
                         valor = 1;
-                        tria.start();
+                        triangulo.start();
                         break;
                 }
                 break;

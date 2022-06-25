@@ -7,11 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.namuiwan.Josue.ArrastrarFiguras.ArrastrarSoltar;
+
 import com.example.namuiwan.Josue.carlos.Adivina;
 import com.example.namuiwan.Josue.carlos.Memoria;
 import com.example.namuiwan.Josue.rompeca.Home;
 import com.example.namuiwan.R;
+import com.example.namuiwan.erikadaniel.Habilidades;
 
 public class JuegosCJ extends AppCompatActivity {
     Button btnPuzzle, btnMemorie, btnAdivina, btnHabilidades;
@@ -22,9 +23,8 @@ public class JuegosCJ extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_juegos_cj);
 
-        btnPuzzle = findViewById(R.id.btnPuzzle);
-        btnMemorie = findViewById(R.id.btnMemorie);
 
+        btnMemorie = findViewById(R.id.btnMemorie);
         btnMemorie.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +32,7 @@ public class JuegosCJ extends AppCompatActivity {
                 iniciarjuego();
             }
         });
-
+        btnPuzzle = findViewById(R.id.btnPuzzle);
         btnPuzzle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,6 +48,7 @@ public class JuegosCJ extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
+
 
 
     }
