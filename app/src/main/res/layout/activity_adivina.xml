@@ -25,10 +25,10 @@
 
         <ImageView
             android:id="@+id/imageView25"
-            android:layout_width="72dp"
-            android:layout_height="73dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="149dp"
+            android:layout_width="138dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="129dp"
             app:srcCompat="@drawable/arbolcarlos21" />
 
         <ImageView

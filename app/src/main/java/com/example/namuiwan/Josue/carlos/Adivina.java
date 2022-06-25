@@ -129,7 +129,6 @@ public class Adivina extends AppCompatActivity {
         }
     }
 
-
     public void letterPressed(View view){
         String letter=((TextView)view).getText().toString();
         char letterChar=letter.charAt(0);
@@ -149,9 +148,9 @@ public class Adivina extends AppCompatActivity {
             if(numCorr==numChars){
                 disableButtons();
                 AlertDialog.Builder builder=new AlertDialog.Builder(this);
-                builder.setTitle("KatƟkan purayan");
-                builder.setMessage("Tap kƟn!\n\nƟya pƟramik kƟn \n\n"+currWord);
-                builder.setPositiveButton("KatƟle ishekamik", new DialogInterface.OnClickListener() {
+                builder.setTitle("Ganaste");
+                builder.setMessage("Felicitaciones!\n\nLa respuesta es \n\n"+currWord);
+                builder.setPositiveButton("Jugar de nuevo", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Adivina.this.playGame();
@@ -173,7 +172,7 @@ public class Adivina extends AppCompatActivity {
             disableButtons();
             AlertDialog.Builder builder=new AlertDialog.Builder(this);
             builder.setTitle("Perdiste");
-            builder.setMessage("Tu no lograste \n\nadivinar la fruta!\n\nLa respuesta es \n\n"+currWord);
+            builder.setMessage("Tu no lograste \n\nadivinar la palabra!\n\nLa respuesta es \n\n"+currWord);
             builder.setPositiveButton("Jugar de nuevo", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
