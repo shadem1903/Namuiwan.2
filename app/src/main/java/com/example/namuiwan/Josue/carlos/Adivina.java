@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -20,6 +21,7 @@ import java.util.Random;
 
 public class Adivina extends AppCompatActivity {
     ImageView imagen;
+    MediaPlayer gallina;
 
     private String []fruit;
     private Random random;
@@ -53,6 +55,9 @@ public class Adivina extends AppCompatActivity {
         parts[5] = findViewById(R.id.legRight);
 
         playGame();
+    }
+    public void referenciar(){
+        gallina = MediaPlayer.create(this, R.raw.gallinaed);
     }
     private void playGame(){
         newWord=fruit[random.nextInt(fruit.length)];
@@ -93,6 +98,8 @@ public class Adivina extends AppCompatActivity {
             case "YE":
 
                 imagen.setImageResource(R.drawable.papaguatave);
+                imagen.setImageResource(R.drawable.gallinaedg);
+                gallina.start();
 
                 break;
 
@@ -117,7 +124,7 @@ public class Adivina extends AppCompatActivity {
                 break;
 
             case "YASKAP":
-                imagen.setImageResource(R.drawable.puertaed);
+                imagen.setImageResource(R.drawable.puertacarlos);
 
                 break;
 

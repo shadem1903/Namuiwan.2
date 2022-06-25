@@ -24,7 +24,8 @@ public class Memoria extends Activity {
     ImageButton[] tablero = new ImageButton[16];
     Button botonReiniciar, botonSalir;
     TextView textoPuntuacion;
-    MediaPlayer gallina;
+    MediaPlayer gallina,gato,caballo,vaca,perro,ovejo,conejo,cuy;
+
     int puntuacion;
     int aciertos;
 
@@ -47,9 +48,15 @@ public class Memoria extends Activity {
     }
 
     public void referenciar(){
-        gallina= MediaPlayer.create(this,R.raw.gallinaaa);
+        gallina = MediaPlayer.create(this, R.raw.gallinaed);
+        gato = MediaPlayer.create(this, R.raw.gatoed);
+        caballo = MediaPlayer.create(this, R.raw.caballoed);
+        vaca = MediaPlayer.create(this, R.raw.vacaed);
+        perro = MediaPlayer.create(this, R.raw.perroed);
+        ovejo = MediaPlayer.create(this, R.raw.ovejoed);
+        conejo = MediaPlayer.create(this, R.raw.conejoed);
+        cuy = MediaPlayer.create(this, R.raw.cuyed);
     }
-
 
     private void cargarTablero(){
         imb00 = findViewById(R.id.boton00);
@@ -125,6 +132,7 @@ public class Memoria extends Activity {
         };
         fondo = R.drawable.fondocarlos;
     }
+
 
     private ArrayList<Integer> barajar(int longitud){
         ArrayList<Integer> result = new ArrayList<Integer>();
@@ -212,6 +220,7 @@ public class Memoria extends Activity {
         }
 
     }
+    }
 
-}
+
 
