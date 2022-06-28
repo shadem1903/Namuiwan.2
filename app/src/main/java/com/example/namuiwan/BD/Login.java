@@ -16,7 +16,7 @@ import com.example.namuiwan.Menued;
 import com.example.namuiwan.R;
 
 public class Login extends AppCompatActivity {
-    EditText Username,Edad,Nick;
+    EditText Username,Edad,Nick2;
     ImageButton NuevoUsuario,Volver;
     DBhelper DB;
 
@@ -30,7 +30,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String user = Username.getText().toString();
-                String nick = Nick.getText().toString();
+                String nick = Nick2.getText().toString();
                 String edad = Edad.getText().toString();
 
                 if(TextUtils.isEmpty(user) || TextUtils.isEmpty(nick)  || TextUtils.isEmpty(edad) ){
@@ -61,7 +61,7 @@ public class Login extends AppCompatActivity {
     public void referenciar(){
         Username = findViewById(R.id.Username);
         Edad = findViewById(R.id.Edad);
-        Nick = findViewById(R.id.Nick);
+        Nick2 = findViewById(R.id.Nick2);
         NuevoUsuario = findViewById(R.id.NuevoUsuario);
         Volver = findViewById(R.id.Volver);
         DB = new DBhelper(this);

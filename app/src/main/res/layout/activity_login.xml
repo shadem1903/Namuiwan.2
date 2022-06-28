@@ -71,7 +71,7 @@
         tools:ignore="MissingConstraints"></EditText>
 
     <EditText
-        android:id="@+id/Nick"
+        android:id="@+id/Nick2"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:fontFamily="@font/kidsboys"

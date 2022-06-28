@@ -10,7 +10,7 @@
     tools:context=".BD.Login">
 
     <EditText
-        android:id="@+id/nick"
+        android:id="@+id/Nick2"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:fontFamily="@font/kidsboys"
