@@ -27,7 +27,7 @@ public class LoginIn extends AppCompatActivity {
         DBhelper dBhelper = new DBhelper(LoginIn.this);
         SQLiteDatabase db = dBhelper.getWritableDatabase();
         if(db != null){
-            Toast.makeText(LoginIn.this, "Base de datos creada", Toast.LENGTH_SHORT).show();
+            Toast.makeText(LoginIn.this, "", Toast.LENGTH_SHORT).show();
         } else{
             Toast.makeText(LoginIn.this, "ERROR AL CREAR BASE DE DATOS", Toast.LENGTH_SHORT).show();
         }
