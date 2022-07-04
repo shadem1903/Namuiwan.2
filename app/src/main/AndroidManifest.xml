@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.namuiwan">
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -12,20 +13,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".yatulve.Pregunta5numeros"
+            android:name=".yatulve.Resultado"
             android:exported="false" />
+        <activity
+            android:name=".yatulve.Pregunta5numeros"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".yatulve.Pregunta4numeros"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".yatulve.Pregunta3numeros"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".yatulve.Pregunta2numeros"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".yatulve.Pregunta1numeros"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
             android:name=".Josue.ArrastrarFiguras.ArrastrarSoltar"
             android:exported="false" />
@@ -61,9 +70,14 @@
             android:name=".yatulve.Pregunta1frutas"
             android:exported="false" />
         <activity
+            android:name=".yatulve.Habilidadesnew"
+            android:exported="false" />
+        <activity
+            android:name=".yatulve.Resultado"
+            android:exported="false" />
+        <activity
             android:name=".BD.LoginIn"
             android:exported="true" />
-
         <activity
             android:name=".BD.Login"
             android:exported="false" />
@@ -77,6 +91,10 @@
             android:name=".Josue.JuegosCJ"
             android:exported="false" />
         <activity
+            android:name=".yatulve.Trueque"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
             android:name=".yatulve.Frio"
             android:exported="false"
             android:screenOrientation="landscape" />
@@ -84,9 +102,6 @@
             android:name=".yatulve.Calido"
             android:exported="false"
             android:screenOrientation="landscape" />
-        <activity
-            android:name=".yatulve.Trueque"
-            android:exported="false" />
         <activity
             android:name=".yatulve.Numeros"
             android:exported="false"
@@ -119,13 +134,13 @@
             android:exported="false" />
         <activity
             android:name=".erikadaniel.Inicio"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity><!-- willian y zaret -->
+        </activity> <!-- willian y zaret -->
         <!-- hasta aqui -->
         <activity
             android:name=".erikadaniel.Casaed"
@@ -149,8 +164,7 @@
             android:exported="false" />
         <activity
             android:name=".Menued"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity
             android:name=".erikadaniel.Bosqueed"
             android:exported="true"
@@ -179,6 +193,7 @@
             android:name=".AlvaroW.JuegoAlvaroWilf"
             android:exported="false" />
         <activity android:name=".Josue.carlos.Memoria" />
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
@@ -189,6 +204,5 @@
                 android:resource="@xml/file_paths" />
         </provider>
     </application>
-
 
 </manifest>

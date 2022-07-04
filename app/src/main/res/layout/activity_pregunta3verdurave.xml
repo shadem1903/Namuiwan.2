@@ -7,6 +7,7 @@
     tools:context=".yatulve.Pregunta3verdura"
     android:background="@drawable/fondovegetalesvve">
 
+
     <ImageView
         android:id="@+id/imgCebolla"
         android:layout_width="120dp"
@@ -14,10 +15,39 @@
         android:src="@drawable/cebollave"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintHorizontal_bias="0.243"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView56"
-        app:layout_constraintVertical_bias="0.293" />
+        app:layout_constraintVertical_bias="0.591" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="74dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Puntos:"
+        android:textColor="#F30B0A0A"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView62"
+        app:layout_constraintEnd_toStartOf="@+id/imgParlanteve"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="0"
+        android:textColor="#F30E0E0E"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgParlanteve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
 
     <ImageView
         android:id="@+id/imgPimiento"
@@ -85,10 +115,10 @@
         android:layout_height="116dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintHorizontal_bias="0.691"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001"
+        app:layout_constraintVertical_bias="0.008"
         app:srcCompat="@drawable/titlevegetales" />
 
 

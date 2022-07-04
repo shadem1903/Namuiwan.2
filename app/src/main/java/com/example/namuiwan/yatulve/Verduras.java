@@ -64,56 +64,45 @@ public class Verduras extends AppCompatActivity implements View.OnClickListener{
                 break;
 
             case R.id.imgCebolla:
+                imgtitlezanahoria.setVisibility(View.INVISIBLE);
+                imgtitletomate.setVisibility(View.INVISIBLE);
+                imgtitlepimiento.setVisibility(View.INVISIBLE);
                 imgtitlecebolla.setVisibility(View.VISIBLE);
                 cebolla.start();
-                TimerTask esperar1 = new TimerTask() {
+
+                /*TimerTask esperar1 = new TimerTask() {
                     @Override
                     public void run() {
                         imgtitlecebolla.setVisibility(View.INVISIBLE);
                     }
                 };
                 Timer timer1 = new Timer();
-                timer1.schedule(esperar1,1400);
+                timer1.schedule(esperar1,1400);*/
 
                 break;
             case R.id.imgZanahoria:
+                imgtitletomate.setVisibility(View.INVISIBLE);
+                imgtitlepimiento.setVisibility(View.INVISIBLE);
+                imgtitlecebolla.setVisibility(View.INVISIBLE);
                 imgtitlezanahoria.setVisibility(View.VISIBLE);
                 zanahoria.start();
-                TimerTask esperar2 = new TimerTask() {
-                    @Override
-                    public void run() {
-                        imgtitlezanahoria.setVisibility(View.INVISIBLE);
-                    }
-                };
-                Timer timer2 = new Timer();
-                timer2.schedule(esperar2,1400);
+
 
                 break;
             case R.id.imgTomate:
+                imgtitlepimiento.setVisibility(View.INVISIBLE);
+                imgtitlecebolla.setVisibility(View.INVISIBLE);
+                imgtitlezanahoria.setVisibility(View.INVISIBLE);
                 imgtitletomate.setVisibility(View.VISIBLE);
                 tomate.start();
-                TimerTask esperar3 = new TimerTask() {
-                    @Override
-                    public void run() {
-                        imgtitletomate.setVisibility(View.INVISIBLE);
-                    }
-                };
-                Timer timer3 = new Timer();
-                timer3.schedule(esperar3,1400);
 
                 break;
             case R.id.imgPimiento:
+                imgtitlecebolla.setVisibility(View.INVISIBLE);
+                imgtitlezanahoria.setVisibility(View.INVISIBLE);
+                imgtitletomate.setVisibility(View.INVISIBLE);
                 imgtitlepimiento.setVisibility(View.VISIBLE);
                 pimiento.start();
-
-                TimerTask esperar4 = new TimerTask() {
-                    @Override
-                    public void run() {
-                        imgtitlepimiento.setVisibility(View.INVISIBLE);
-                    }
-                };
-                Timer timer4 = new Timer();
-                timer4.schedule(esperar4,1400);
 
                 break;
         }

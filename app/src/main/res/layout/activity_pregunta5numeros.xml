@@ -18,6 +18,29 @@
         app:srcCompat="@drawable/numerosve"
         android:contentDescription="TODO" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="87dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="92dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Puntos:"
+        android:textColor="#F3FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/txtPuntos"
+        android:layout_width="16dp"
+        android:layout_height="27dp"
+        android:fontFamily="sans-serif-black"
+        android:text="0"
+        android:textColor="#F3FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="96dp" />
+
     <ImageView
         android:id="@+id/imgCulebrita"
         android:layout_width="324dp"
@@ -258,15 +281,15 @@
         android:id="@+id/imageView49"
         android:layout_width="145dp"
         android:layout_height="119dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="TODO"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.939"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/solve"
-        tools:ignore="ImageContrastCheck"
-        android:contentDescription="TODO" />
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imgParlanteve"

@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.namuiwan.R;
@@ -18,11 +19,15 @@ public class Pregunta2vegefrio extends AppCompatActivity implements View.OnClick
 
     MediaPlayer correcto, incorrecto,ulluco,papacolorada,papaamarilla,repollo,pregunta2papacolorada;
     ImageView imgUlluco,imgPapaColorada,imgPapaAmarilla,imgRepollo,imgParlanteve;
+    TextView txtPuntos;
+    int puntos = Habilidadesnew.puntos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pregunta2vegefriove);
+        txtPuntos=findViewById(R.id.txtPuntos);
+        txtPuntos.setText(""+puntos);
         referenciar();
         Toast.makeText(Pregunta2vegefrio.this, "¿Cual es la papa colorada...?", Toast.LENGTH_SHORT).show();
     }
@@ -47,6 +52,8 @@ public class Pregunta2vegefrio extends AppCompatActivity implements View.OnClick
         repollo      = MediaPlayer.create(this,R.raw.tulurmon);
 
         pregunta2papacolorada = MediaPlayer.create(this,R.raw.pregunta2vegetcualespapacoloradave);
+
+        txtPuntos=findViewById(R.id.txtPuntos);
     }
 
     @Override
@@ -58,13 +65,15 @@ public class Pregunta2vegefrio extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.imgPapaColorada:
-
+                puntos = puntos + 2;
+                txtPuntos.setText(" "+puntos);
                 correcto.start();
+                Habilidadesnew.puntos = puntos;
                 TimerTask esperar1 = new TimerTask() {
                     @Override
                     public void run() {
 
-                        Intent intent1 = new Intent(Pregunta2vegefrio.this, Frio.class);
+                        Intent intent1 = new Intent(Pregunta2vegefrio.this, Pregunta3verdura.class);
                         startActivity(intent1);
 
                     }
@@ -74,7 +83,8 @@ public class Pregunta2vegefrio extends AppCompatActivity implements View.OnClick
 
                 break;
             case R.id.imgPapaAmarilla:
-
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar2 = new TimerTask() {
                     @Override
@@ -89,7 +99,8 @@ public class Pregunta2vegefrio extends AppCompatActivity implements View.OnClick
 
                 break;
             case R.id.imgUlluco:
-
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar3 = new TimerTask() {
                     @Override
@@ -104,7 +115,8 @@ public class Pregunta2vegefrio extends AppCompatActivity implements View.OnClick
 
                 break;
             case R.id.imgRepollo:
-
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar4 = new TimerTask() {
                     @Override

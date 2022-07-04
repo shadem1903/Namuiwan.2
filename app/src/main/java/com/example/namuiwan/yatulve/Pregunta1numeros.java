@@ -5,6 +5,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,8 +22,9 @@ public class Pregunta1numeros extends AppCompatActivity implements View.OnClickL
             imgDiescisiete, imgDiesciocho, imgDiescinueve, imgVeinte,imgParlanteve,imageView4;
     MediaPlayer correcto,incorrecto,serpiente, sonido, pregunta1, pregunta2,num1,num2,num3,num4,num5,
             num6,num7,num8,num9,num10,num11,num12,num13,num14,num15,num16,num17,num18,num19,num20;
+    TextView txtPuntos;
+    int  puntos= Habilidadesnew.puntos;
 
-    //MediaPlayer num[] = new MediaPlayer[25];
     
 
     @Override
@@ -103,9 +105,10 @@ public class Pregunta1numeros extends AppCompatActivity implements View.OnClickL
         imageView4=findViewById(R.id.imageView4);
         imageView4.setOnClickListener(this);
 
-
         pregunta1 = MediaPlayer.create(this, R.raw.pregunta1cualeseluno);
         pregunta2 = MediaPlayer.create(this, R.raw.pregunta2cualeselcuatro);
+
+        txtPuntos=findViewById(R.id.txtPuntos);
 
         //serpiente = MediaPlayer.create(this, R.raw.numerosve);
     }
@@ -119,84 +122,125 @@ public class Pregunta1numeros extends AppCompatActivity implements View.OnClickL
                 break;
             case R.id.imgUno:
                 Toast.makeText(Pregunta1numeros.this, "Cual es el 4", Toast.LENGTH_SHORT).show();
+                puntos = puntos + 2;
+                txtPuntos.setText(" "+puntos);
                 correcto.start();
+                Habilidadesnew.puntos = puntos;
                 Intent intent = new Intent(Pregunta1numeros.this, Pregunta2numeros.class);
                 startActivity(intent);
                 hacerSonarNumero(pregunta2);
                 break;
             case R.id.imgDos:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num2);
                 break;
             case R.id.imgTres:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num3);
                 break;
             case R.id.imgCuatro:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num4);
                 break;
             case R.id.imgCinco:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num5);
                 break;
             case R.id.imgSeis:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num6);
                 break;
             case R.id.imgSiete:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num7);
                 break;
             case R.id.imgOcho:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num8);
                 break;
             case R.id.imgNueve:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num9);
                 break;
             case R.id.imgDiez:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num10);
                 break;
             case R.id.imgOnce:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num11);
                 break;
             case R.id.imgDoce:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num12);
                 break;
             case R.id.imgTrece:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num13);
                 break;
             case R.id.imgCatorce:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num14);
                 break;
             case R.id.imgQuince:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num15);
                 break;
             case R.id.imgDiesciseis:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num16);
                 break;
             case R.id.imgDiescisiete:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num17);
                 break;
             case R.id.imgDiesciocho:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num18);
                 break;
             case R.id.imgDiescinueve:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num19);
                 break;
             case R.id.imgVeinte:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 hacerSonarNumero(num20);
                 break;

@@ -11,8 +11,9 @@ import android.widget.Button;
 import com.example.namuiwan.Josue.carlos.Adivina;
 import com.example.namuiwan.Josue.carlos.Memoria;
 import com.example.namuiwan.Josue.rompeca.Home;
+import com.example.namuiwan.yatulve.Habilidadesnew;
+import com.example.namuiwan.yatulve.Habilidadesve;
 import com.example.namuiwan.R;
-import com.example.namuiwan.erikadaniel.Habilidades;
 
 public class JuegosCJ extends AppCompatActivity {
     Button btnPuzzle, btnMemorie, btnAdivina, btnHabilidades;
@@ -32,10 +33,22 @@ public class JuegosCJ extends AppCompatActivity {
                 iniciarjuego();
             }
         });
+        btnHabilidades = findViewById(R.id.btnHabilidades);
+        btnHabilidades.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                /*Intent intent = new Intent(getApplicationContext(), Habilidadesnew.class);
+                startActivityForResult(intent,0);*/
+                System.out.println("iniciando habilidades");
+                iniciarHabilidades();
+            }
+        });
+
         btnPuzzle = findViewById(R.id.btnPuzzle);
         btnPuzzle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent intent = new Intent(getApplicationContext(), Home.class);
                 startActivityForResult(intent, 0);
             }
@@ -48,12 +61,13 @@ public class JuegosCJ extends AppCompatActivity {
                 startActivityForResult(intent, 0);
             }
         });
-
-
-
     }
     private void iniciarjuego () {
         Intent i = new Intent(this, Memoria.class);
         startActivity(i);
+    }
+    private void iniciarHabilidades(){
+        Intent i2 = new Intent(this, Habilidadesnew.class);
+        startActivity(i2);
     }
 }

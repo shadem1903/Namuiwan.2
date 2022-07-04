@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.namuiwan.R;
@@ -18,11 +19,15 @@ public class Pregunta3verdura extends AppCompatActivity implements View.OnClickL
 
     ImageView imgCebolla,imgZanahoria,imgTomate,imgPimiento, imgParlanteve;
     MediaPlayer cebolla,zanahoria,tomate,pimiento,pregunta3,incorrecto,correcto;
+    TextView txtPuntos;
+    int puntos = Habilidadesnew.puntos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pregunta3verdurave);
+        txtPuntos=findViewById(R.id.txtPuntos);
+        txtPuntos.setText(""+puntos);
         referenciar();
     }
 
@@ -47,6 +52,8 @@ public class Pregunta3verdura extends AppCompatActivity implements View.OnClickL
         tomate       = MediaPlayer.create(this,R.raw.gatoaa);
         pimiento      = MediaPlayer.create(this,R.raw.perroaa);
         pregunta3 = MediaPlayer.create(this,R.raw.pregunta1vegetcualeszanahoriave);
+
+        txtPuntos=findViewById(R.id.txtPuntos);
     }
 
     @Override
@@ -57,6 +64,8 @@ public class Pregunta3verdura extends AppCompatActivity implements View.OnClickL
                 pregunta3.start();
                 break;
             case R.id.imgCebolla:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar1 = new TimerTask() {
                     @Override
@@ -71,11 +80,14 @@ public class Pregunta3verdura extends AppCompatActivity implements View.OnClickL
                 break;
 
             case R.id.imgZanahoria:
+                puntos = puntos + 2;
+                txtPuntos.setText(" "+puntos);
                 correcto.start();
+                Habilidadesnew.puntos = puntos;
                 TimerTask esperar2 = new TimerTask() {
                     @Override
                     public void run() {
-                        Intent intent1 = new Intent(Pregunta3verdura.this, Verduras.class);
+                        Intent intent1 = new Intent(Pregunta3verdura.this, Resultado.class);
                         startActivity(intent1);
                         zanahoria.start();
 
@@ -86,6 +98,8 @@ public class Pregunta3verdura extends AppCompatActivity implements View.OnClickL
                 break;
 
             case R.id.imgTomate:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar3 = new TimerTask() {
                     @Override
@@ -100,6 +114,8 @@ public class Pregunta3verdura extends AppCompatActivity implements View.OnClickL
 
                 break;
             case R.id.imgPimiento:
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar4 = new TimerTask() {
                     @Override

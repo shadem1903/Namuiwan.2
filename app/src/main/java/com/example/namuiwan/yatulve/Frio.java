@@ -65,56 +65,43 @@ public class Frio extends AppCompatActivity implements View.OnClickListener {
                 break;
 
             case R.id.imgUlluco:
+                imgtitlepapacolorada.setVisibility(View.INVISIBLE);
+                imgtitlepapaamarilla.setVisibility(View.INVISIBLE);
+                imgtitlerepollo.setVisibility(View.INVISIBLE);
                 imgtitleullucos.setVisibility(View.VISIBLE);
                 ulluco.start();
-                TimerTask esperar1 = new TimerTask() {
+                /*TimerTask esperar1 = new TimerTask() {
                     @Override
                     public void run() {
                         imgtitleullucos.setVisibility(View.INVISIBLE);
                     }
                 };
                 Timer timer1 = new Timer();
-                timer1.schedule(esperar1,1400);
+                timer1.schedule(esperar1,1400);*/
 
                 break;
             case R.id.imgPapaColorada:
+                imgtitlepapaamarilla.setVisibility(View.INVISIBLE);
+                imgtitlerepollo.setVisibility(View.INVISIBLE);
+                imgtitleullucos.setVisibility(View.INVISIBLE);
                 imgtitlepapacolorada.setVisibility(View.VISIBLE);
                 papacolorada.start();
-                TimerTask esperar2 = new TimerTask() {
-                    @Override
-                    public void run() {
-                        imgtitlepapacolorada.setVisibility(View.INVISIBLE);
-                    }
-                };
-                Timer timer2 = new Timer();
-                timer2.schedule(esperar2,1400);
 
                 break;
             case R.id.imgPapaAmarilla:
+                imgtitlerepollo.setVisibility(View.INVISIBLE);
+                imgtitleullucos.setVisibility(View.INVISIBLE);
+                imgtitlepapacolorada.setVisibility(View.INVISIBLE);
                 imgtitlepapaamarilla.setVisibility(View.VISIBLE);
                 papaamarilla.start();
-                TimerTask esperar3 = new TimerTask() {
-                    @Override
-                    public void run() {
-                        imgtitlepapaamarilla.setVisibility(View.INVISIBLE);
-                    }
-                };
-                Timer timer3 = new Timer();
-                timer3.schedule(esperar3,1400);
 
                 break;
             case R.id.imgRepollo:
+                imgtitleullucos.setVisibility(View.INVISIBLE);
+                imgtitlepapacolorada.setVisibility(View.INVISIBLE);
+                imgtitlepapaamarilla.setVisibility(View.INVISIBLE);
                 imgtitlerepollo.setVisibility(View.VISIBLE);
                 repollo.start();
-
-                TimerTask esperar4 = new TimerTask() {
-                    @Override
-                    public void run() {
-                        imgtitlerepollo.setVisibility(View.INVISIBLE);
-                    }
-                };
-                Timer timer4 = new Timer();
-                timer4.schedule(esperar4,1400);
 
                 break;
         }

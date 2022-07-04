@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.namuiwan.R;
@@ -18,6 +19,8 @@ public class Pregunta1vegefrio extends AppCompatActivity implements View.OnClick
 
     MediaPlayer correcto, incorrecto,pregunta1repollo,ulluco,papacolorada,papaamarilla,repollo,pregunta2papacolorada;
     ImageView imgUlluco,imgPapaColorada,imgPapaAmarilla,imgRepollo,imgParlanteve;
+    TextView txtPuntos;
+    int puntos = Habilidadesnew.puntos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +51,8 @@ public class Pregunta1vegefrio extends AppCompatActivity implements View.OnClick
         pregunta1repollo = MediaPlayer.create(this,R.raw.pregunta1vegetcualesrepollo);
         pregunta2papacolorada = MediaPlayer.create(this,R.raw.pregunta2vegetcualespapacoloradave);
 
+        txtPuntos=findViewById(R.id.txtPuntos);
+
     }
 
     @Override
@@ -59,7 +64,8 @@ public class Pregunta1vegefrio extends AppCompatActivity implements View.OnClick
                 break;
 
             case R.id.imgPapaColorada:
-
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar1 = new TimerTask() {
                     @Override
@@ -74,7 +80,8 @@ public class Pregunta1vegefrio extends AppCompatActivity implements View.OnClick
 
                 break;
             case R.id.imgPapaAmarilla:
-
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar2 = new TimerTask() {
                     @Override
@@ -89,7 +96,8 @@ public class Pregunta1vegefrio extends AppCompatActivity implements View.OnClick
 
                 break;
             case R.id.imgUlluco:
-
+                puntos = puntos - 1;
+                txtPuntos.setText(" "+puntos);
                 incorrecto.start();
                 TimerTask esperar3 = new TimerTask() {
                     @Override
@@ -104,8 +112,10 @@ public class Pregunta1vegefrio extends AppCompatActivity implements View.OnClick
 
                 break;
             case R.id.imgRepollo:
-
+                puntos = puntos + 2;
+                txtPuntos.setText(" "+puntos);
                 correcto.start();
+                Habilidadesnew.puntos = puntos;
                 TimerTask esperar4 = new TimerTask() {
                     @Override
                     public void run() {
